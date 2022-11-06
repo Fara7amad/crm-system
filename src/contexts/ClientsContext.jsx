@@ -26,7 +26,10 @@ export function useUpdateClient() {
 }
 
 export default function ClientsProvider({ children }) {
-	const [clients, setClients] = useLocalStorage("clients", []);
+	const [clients, setClients] = useLocalStorage("clients", [
+		{ name: "Sajid", type: "lead" },
+		{ name: "Mohammad", type: "client" },
+	]);
 
 	const addClient = (client) => {
 		const exists = Boolean(clients.find((item) => item.id == client.id));

@@ -5,8 +5,6 @@ import ClientsContext from "@contexts/ClientsContext";
 function App() {
 	return (
 		<div className="d-flex vh-100">
-			{/* The header goes here (position) */}
-
 			{/* The side bar goes here */}
 
 			<div className="flex-grow-1">
