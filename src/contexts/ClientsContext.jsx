@@ -1,6 +1,8 @@
 import { createContext, useContext } from "react";
 import useLocalStorage from "@hooks/useLocalStorage";
 
+import clientsJson from "../data/data.json";
+
 const ClientContext = createContext();
 
 export function useClient() {
@@ -26,10 +28,7 @@ export function useUpdateClient() {
 }
 
 export default function ClientsProvider({ children }) {
-	const [clients, setClients] = useLocalStorage("clients", [
-		{ name: "Sajid", type: "lead" },
-		{ name: "Mohammad", type: "client" },
-	]);
+	const [clients, setClients] = useLocalStorage("clients", clientsJson);
 
 	const addClient = (client) => {
 		const exists = Boolean(clients.find((item) => item.id == client.id));
