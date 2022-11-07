@@ -1,4 +1,4 @@
 function ClientsFilters() {
-	return <div>Filterrrs</div>;
+	return <div></div>;
 }
 export default ClientsFilters;
