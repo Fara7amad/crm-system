@@ -5,8 +5,7 @@ import ReactPaginate from 'react-paginate'
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// ? install react-paginate
-// ? npm install react-paginate
+
 
 export default function TablePagination(props) {
   const { data } = props;
@@ -26,6 +25,11 @@ export default function TablePagination(props) {
     setItemOffset(newOffset)
   }
 
+  const deleteFunction = (i) => {
+    let index = currentItems.indexOf(i)
+    console.log(index)
+  }
+
   const getData = () => {
     return currentItems.map((i) => {
       return (
@@ -38,7 +42,7 @@ export default function TablePagination(props) {
           <td className="tbody-values-type">{i.type}</td>
           <td className="tbody-values-email">{i.email}</td>
           <td className="tbody-values-button">
-            <Button variant="outline-danger" size="sm">Delete</Button>
+            <Button variant="outline-danger" onClick={deleteFunction} size="sm">Delete</Button>
           </td>
           <td className="tbody-values-edit">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="30" fill="currentColor" className="bi bi-three-dots-vertical" viewBox="0 0 16 16">
