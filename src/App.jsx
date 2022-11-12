@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Dashboard, Clients, Reports } from "@pages";
 import ClientsContext from "@contexts/ClientsContext";
-import ClientForm from "./components/ClientForm";
+import UpdateClient from "./components/client/UpdateClient";
 
 function App() {
 	return (
@@ -21,6 +21,7 @@ function App() {
 							<Route path="/reports" element={<Reports />} />
 						</Routes>
 					</ClientsContext>
+					<UpdateClient/>
 				</main>
 			</div>
 		</div>
