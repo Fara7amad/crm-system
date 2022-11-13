@@ -1,0 +1,61 @@
+#ddrop {
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+}
+
+.dropdown {
+  position: relative;
+  left: 10%;
+  top: 100px;
+}
+
+ul.dropdown-menu li input {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+
+  border-style: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-self: center;
+  border-color: rgb(44, 44, 44);
+  box-shadow: 1px 1px 1px 1px;
+}
+
+ul.dropdown-menu li {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+ul.dropdown-menu {
+  background: #eee;
+  border-radius: 10px;
+  border-color: black;
+  width: 250px;
+
+  box-shadow: 1px 1px;
+}
+.btn-submit {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+hr {
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px;
+  box-shadow: rgb(0, 0, 0);
+}
+select {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  border-color: rgb(44, 44, 44);
+  border-radius: 5px;
+}
+select .op:hover {
+  background-color: black;
+}
