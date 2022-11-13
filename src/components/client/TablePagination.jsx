@@ -37,7 +37,7 @@ export default function TablePagination(props) {
           <td className="tbody-values-company">{i.company}</td>
           <td className="tbody-values-date">{ (new Date(i.date).toDateString() == "Invalid Date") ?
                                                i.date : ((new Date(i.date).toDateString()).
-                                               slice(4, 15)).replace(' ', '-').replace(' ', '-') }</td>
+                                               slice(4, 15)) }</td>
           <td className="tbody-values-state">{i.state}</td>
           <td className="tbody-values-status">{i.status}</td>
           <td className="tbody-values-type">{i.type}</td>
