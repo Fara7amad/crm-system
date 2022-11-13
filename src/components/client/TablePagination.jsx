@@ -5,6 +5,8 @@ import ReactPaginate from 'react-paginate'
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import { createRoot } from "react-dom/client";
+
 // ? install react-paginate
 // ? npm install react-paginate
 
@@ -32,7 +34,7 @@ export default function TablePagination(props) {
         <tr>
           <td className="tbody-values-id">{currentItems.indexOf(i) + itemOffset + 1}</td>
           <td className="tbody-values-name">{`${i.firstName} ${i.lastName}`}</td>
-          <td className="tbody-values-date">{i.date}</td>
+          <td className="tbody-values-date">{(new Date(i.date).toDateString()=="Invalid Date")? i.date: ((new Date(i.date).toDateString()).slice(4,15)) }</td>
           <td className="tbody-values-country">{i.county}</td>
           <td className="tbody-values-company">{i.company}</td>
           <td className="tbody-values-type">{i.type}</td>

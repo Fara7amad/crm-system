@@ -13,7 +13,6 @@ function App() {
 
 				<main className="">
 					<ClientsContext>
-					
 						<Routes>
 							{/* pages go here as Routes */}
 							<Route path="/" element={<Dashboard />} />
