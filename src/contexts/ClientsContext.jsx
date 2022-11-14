@@ -1,7 +1,7 @@
 import { createContext, useContext } from "react";
 import useLocalStorage from "@hooks/useLocalStorage";
 import { jsonReviver } from "@utils/jsonReviver";
-
+import { v4 as uuid } from "uuid";
 import clientsJson from "../data/data.json";
 
 const ClientContext = createContext();
@@ -31,7 +31,10 @@ export function useUpdateClient() {
 export default function ClientsProvider({ children }) {
 	const [clients, setClients] = useLocalStorage(
 		"clients",
-		JSON.parse(JSON.stringify(clientsJson), jsonReviver)
+		JSON.parse(
+			JSON.stringify(clientsJson.map((ct) => ({ ...ct, id: uuid() }))),
+			jsonReviver
+		)
 	);
 
 	const addClient = (client) => {
