@@ -1,14 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import ReactPaginate from 'react-paginate'
 import Button from "react-bootstrap/Button";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Form from 'react-bootstrap/Form';
 
 import { createRoot } from "react-dom/client";
 
-// ? install react-paginate
-// ? npm install react-paginate
 
 export default function TablePagination(props) {
   const { data } = props;
@@ -30,27 +29,38 @@ export default function TablePagination(props) {
 
   const getData = () => {
     return currentItems.map((i) => {
+      //                                                                                                                 ! Sun Jun 14 2020
       return (
         <tr>
+          <td className="tbody-values-checkbox-select">
+            <Form.Check type="checkbox" className="checkbox-select" />
+          </td>
           <td className="tbody-values-id">{currentItems.indexOf(i) + itemOffset + 1}</td>
           <td className="tbody-values-name">{`${i.firstName} ${i.lastName}`}</td>
-          <td className="tbody-values-date">{(new Date(i.date).toDateString()=="Invalid Date")? i.date: ((new Date(i.date).toDateString()).slice(4,15)) }</td>
+          <td className="tbody-values-date">{i.date}</td>
           <td className="tbody-values-country">{i.county}</td>
           <td className="tbody-values-company">{i.company}</td>
+          <td className="tbody-values-date">{ (new Date(i.date).toDateString() == "Invalid Date") ?
+                                               i.date : ((new Date(i.date).toDateString()).
+                                               slice(4, 15)) }</td>
+          <td className="tbody-values-state">{i.state}</td>
+          <td className="tbody-values-status">{i.status}</td>
           <td className="tbody-values-type">{i.type}</td>
-          <td className="tbody-values-email">{i.email}</td>
           <td className="tbody-values-button">
-            <Button variant="outline-danger" size="sm">Delete</Button>
+            <Button variant="outline-danger" size="sm" className="delete-button">Delete</Button>
           </td>
           <td className="tbody-values-edit">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="30" fill="currentColor" className="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
-            </svg>
+            <Button variant="primary" size="sm" className="details-button">Details</Button>
           </td>
         </tr>
       );
     });
   };
+
+  const numberOfItemsInEachPage = () => {
+    return `Showing ${itemOffset + 1} to ${itemOffset + currentItems.length} of ${data.length} entries`
+    
+  }
 
   return (
     <>
@@ -69,6 +79,7 @@ export default function TablePagination(props) {
         nextLinkClassName="num-of-page"
         activeLinkClassName="active"
       />
+      <div className="small-header">{numberOfItemsInEachPage()}</div>
     </>
   );
 }

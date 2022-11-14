@@ -1,554 +1,807 @@
 :root {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .main-holder {
-    display: relative;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+  display: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .cont {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .data-shower {
-    position: relative;
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  margin-top: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
-    margin-top: 2rem;
-    font-size: 2.4rem;
+  margin-top: 3.6rem;
+  font-size: 2.4rem;
 }
 
 .button-holder {
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-content: end;
-    width: 100%;
-    height: 100%;
-    margin-top: -10rem;
-    padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+  margin-top: -10rem;
+  padding-top: 1.5rem;
 }
 
 .table {
-    background-color: #ffffff;
-    height: 100%;
-    font-size: 0.9rem;
-    color: rgb(21, 20, 20);
-    box-shadow: 1px 1px 3px 3px #cdd3d3;
-    margin-top: 6.25rem;
+  background-color: #ffffff;
+  height: 100%;
+  font-size: 0.9rem;
+  color: rgb(21, 20, 20);
+  box-shadow: 1px 1px 3px 3px #cdd3d3;
+  margin-top: 6.25rem;
 }
 
 .table-holder {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    overflow: auto;
-    margin: 3.25rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 3.25rem auto;
 }
 
 .table-buttons {
-    background-color: #8456cf;
-    border-color: #8456cf;
+  background-color: #8456cf;
+  border-color: #8456cf;
+  margin-top: 1.5rem;
 }
 
 .table-buttons:hover {
-    background-color: #632cba;
-    border-color: #632cba;
+  background-color: #632cba;
+  border-color: #632cba;
 }
 
 .table-buttons:active {
-    background-color: #632cba;
-    border-color: #632cba;
+  background-color: #632cba;
+  border-color: #632cba;
 }
 
 .table-buttons:focus {
-    background-color: #632cba;
-    border-color: #632cba;
+  background-color: #632cba;
+  border-color: #632cba;
+}
+
+.details-button {
+  background-color: #8456cf;
+  border-color: #8456cf;
+}
+
+.details-button:hover {
+  background-color: #632cba;
+  border-color: #632cba;
+}
+
+.details-button:active {
+  background-color: #632cba;
+  border-color: #632cba;
+}
+
+.details-button:focus {
+  background-color: #632cba;
+  border-color: #632cba;
+}
+
+.small-header {
+  margin-top: -1rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+  padding-bottom: 0.5rem;
 }
 
 
 /* align th with td to be like:
-    ID    Name          Date        Country       Company         Type        Email
-    1     John Doe      12/12/2012  USA           Google          Admin       mail@example.com
-  */
+  ID    Name          Date        Country       Company         Type        Email
+  1     John Doe      12/12/2012  USA           Google          Admin       mail@example.com
+*/
 
 thead {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 thead tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 thead tr th {
-    display: table-cell;
-    width: 100%;
-    table-layout: fixed;
+  display: table-cell;
+  width: 100%;
+  table-layout: fixed;
 }
 
 tbody {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
 }
 
 tbody tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 tbody tr td {
-    display: table-cell;
-    width: 100%;
-    table-layout: fixed;
+  display: table-cell;
+  width: 100%;
+  table-layout: fixed;
 }
 
 .pagination {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    gap: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 5px;
 }
 
 .pagination .num-of-page {
-    text-decoration: none;
-    color: #000;
-    padding: 8px 15px;
-    cursor: pointer;
-    border-radius: 3px;
-    font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
 }
 
 .pagination .num-of-page:hover {
-    background-color: #8456cf;
+  background-color: #8456cf;
 }
 
 .pagination .active {
-    background-color: #632cba;
+  background-color: #632cba;
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+  margin-top: -2.31rem;
 }
 
 @media screen and (min-width: 1400px) {
-    thead .thead-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+  .data-shower {
+    width: 1000px;
+  }
 
-    tbody .tbody-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+  .search-bar {
+    width: 50%;
+  }
 
-    thead .thead-values-name {
-        width: 100%;
-    }
+  .header {
+    margin-left: 235px;
+  }
 
-    tbody .tbody-values-name {
-        width: 100%;
-    }
+  thead .thead-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    thead .thead-values-date {
-        width: 80%;
-    }
+  tbody .tbody-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    tbody .tbody-values-date {
-        width: 80%;
-    }
+  thead .thead-values-company {
+    width: 120%;
+  }
 
-    thead .thead-values-country {
-        width: 80%;
-    }
+  tbody .tbody-values-company {
+    width: 120%;
+  }
 
-    tbody .tbody-values-country {
-        width: 80%;
-    }
+  thead .thead-values-date {
+    width: 70%;
+  }
 
-    tbody .tbody-values-company {
-        width: 100%;
-    }
+  tbody .tbody-values-date {
+    width: 70%;
+  }
 
-    thead .thead-values-company {
-        width: 100%;
-    }
+  thead .thead-values-state {
+    width: 60%;
+  }
 
-    thead .thead-values-type {
-        width: 60%;
-    }
+  tbody .tbody-values-state {
+    width: 60%;
+  }
 
-    tbody .tbody-values-type {
-        width: 60%;
-    }
+  thead .thead-values-status {
+    width: 105%;
+  }
 
-    tbody .tbody-values-email {
-        width: 130%;
-    }
+  tbody .tbody-values-status {
+    width: 105%;
+  }
 
-    thead .thead-values-email {
-        width: 130%;
-    }
+  thead .thead-values-button {
+    width: 50%;
+  }
 
-    tbody .tbody-values-button {
-        width: 30%;
-    }
+  tbody .tbody-values-button {
+    width: 50%;
+  }
 
-    thead .thead-values-button {
-        width: 30%;
-    }
+  thead .thead-values-edit {
+    width: 50%;
+  }
 
-    tbody .tbody-values-edit {
-        width: 50%;
-        padding-left: 50px;
-    }
+  tbody .tbody-values-edit {
+    width: 50%;
+  }
 
-    thead .thead-values-edit {
-        width: 50%;
-        padding-left: 50px;
-    }
+  thead .thead-values-checkbox-select {
+    width: 15%;
+  }
 
-    tbody tr:hover {
-        background-color: #f5f5f5;
-    }
+  tbody .tbody-values-checkbox-select {
+    width: 15%;
+  }
+
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
 }
 
-@media screen and (max-width: 1399.99px) and (min-width: 1278px) {
-    thead .thead-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+@media screen and (min-width: 1200px) and (max-width:1399.99px) {
+  .data-shower {
+    width: 1000px;
+  }
 
-    tbody .tbody-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+  .search-bar {
+    width: 50%;
+  }
 
-    thead .thead-values-name {
-        width: 100%;
-    }
+  .header {
+    margin-left: 145px;
+  }
 
-    tbody .tbody-values-name {
-        width: 100%;
-    }
+  thead .thead-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    thead .thead-values-date {
-        width: 80%;
-    }
+  tbody .tbody-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    tbody .tbody-values-date {
-        width: 80%;
-    }
+  thead .thead-values-company {
+    width: 120%;
+  }
 
-    thead .thead-values-country {
-        width: 80%;
-    }
+  tbody .tbody-values-company {
+    width: 120%;
+  }
 
-    tbody .tbody-values-country {
-        width: 80%;
-    }
+  thead .thead-values-date {
+    width: 70%;
+  }
 
-    tbody .tbody-values-company {
-        width: 100%;
-    }
+  tbody .tbody-values-date {
+    width: 70%;
+  }
 
-    thead .thead-values-company {
-        width: 100%;
-    }
+  thead .thead-values-state {
+    width: 60%;
+  }
 
-    thead .thead-values-type {
-        width: 60%;
-    }
+  tbody .tbody-values-state {
+    width: 60%;
+  }
 
-    tbody .tbody-values-type {
-        width: 60%;
-    }
+  thead .thead-values-status {
+    width: 105%;
+  }
 
-    tbody .tbody-values-email {
-        width: 160%;
-    }
+  tbody .tbody-values-status {
+    width: 105%;
+  }
 
-    thead .thead-values-email {
-        width: 160%;
-    }
+  thead .thead-values-button {
+    width: 50%;
+  }
 
-    tbody .tbody-values-button {
-        width: 80%;
-    }
+  tbody .tbody-values-button {
+    width: 50%;
+  }
 
-    thead .thead-values-button {
-        width: 80%;
-    }
+  thead .thead-values-edit {
+    width: 50%;
+  }
 
-    tbody .tbody-values-edit {
-        width: 30%;
-    }
+  tbody .tbody-values-edit {
+    width: 50%;
+  }
 
-    thead .thead-values-edit {
-        width: 30%;
-    }
+  thead .thead-values-checkbox-select {
+    width: 15%;
+  }
 
-    tbody tr:hover {
-        background-color: #f5f5f5;
-    }
+  tbody .tbody-values-checkbox-select {
+    width: 15%;
+  }
+
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
 }
 
-@media screen and (max-width: 1277.99px) and (min-width: 1200px) {
-    thead .thead-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+@media screen and (min-width: 990px) and (max-width:1199.99px) {
+  .data-shower {
+    width: 950px;
+  }
 
-    tbody .tbody-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+  .search-bar {
+    width: 50%;
+  }
 
-    thead .thead-values-name {
-        width: 100%;
-    }
+  .header {
+    margin-left: 53px;
+  }
 
-    tbody .tbody-values-name {
-        width: 100%;
-    }
+  thead .thead-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    thead .thead-values-date {
-        width: 80%;
-    }
+  tbody .tbody-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    tbody .tbody-values-date {
-        width: 80%;
-    }
+  thead .thead-values-company {
+    width: 120%;
+  }
 
-    thead .thead-values-country {
-        width: 80%;
-    }
+  tbody .tbody-values-company {
+    width: 120%;
+  }
 
-    tbody .tbody-values-country {
-        width: 80%;
-    }
+  thead .thead-values-date {
+    width: 70%;
+  }
 
-    tbody .tbody-values-company {
-        width: 100%;
-    }
+  tbody .tbody-values-date {
+    width: 70%;
+  }
 
-    thead .thead-values-company {
-        width: 100%;
-    }
+  thead .thead-values-state {
+    width: 60%;
+  }
 
-    thead .thead-values-type {
-        width: 60%;
-    }
+  tbody .tbody-values-state {
+    width: 60%;
+  }
 
-    tbody .tbody-values-type {
-        width: 60%;
-    }
+  thead .thead-values-status {
+    width: 105%;
+  }
 
-    tbody .tbody-values-email {
-        width: 180%;
-    }
+  tbody .tbody-values-status {
+    width: 105%;
+  }
 
-    thead .thead-values-email {
-        width: 180%;
-    }
+  thead .thead-values-button {
+    width: 50%;
+  }
 
-    tbody .tbody-values-button {
-        width: 80%;
-    }
+  tbody .tbody-values-button {
+    width: 50%;
+  }
 
-    thead .thead-values-button {
-        width: 80%;
-    }
+  thead .thead-values-edit {
+    width: 50%;
+  }
 
-    tbody .tbody-values-edit {
-        width: 30%;
-    }
+  tbody .tbody-values-edit {
+    width: 50%;
+  }
 
-    thead .thead-values-edit {
-        width: 30%;
-    }
+  thead .thead-values-checkbox-select {
+    width: 15%;
+  }
 
-    tbody tr:hover {
-        background-color: #f5f5f5;
-    }
+  tbody .tbody-values-checkbox-select {
+    width: 15%;
+  }
+
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
 }
 
-@media screen and (max-width: 1199.99px) and (min-width: 1100px) {
-    thead .thead-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+@media screen and (min-width: 800px) and (max-width:989.99px) {
+  .data-shower {
+    width: 100%;
+  }
 
-    tbody .tbody-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+  .search-bar {
+    width: 40%;
+  }
 
-    thead .thead-values-name {
-        width: 100%;
-    }
+  .header {
+    margin-left: 0;
+  }
+  .table-holder {
+    overflow: hidden;
+  }
 
-    tbody .tbody-values-name {
-        width: 100%;
-    }
+  thead .thead-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    thead .thead-values-date {
-        width: 80%;
-    }
+  tbody .tbody-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    tbody .tbody-values-date {
-        width: 80%;
-    }
+  thead .thead-values-company {
+    width: 120%;
+  }
 
-    thead .thead-values-country {
-        width: 80%;
-    }
+  tbody .tbody-values-company {
+    width: 120%;
+  }
 
-    tbody .tbody-values-country {
-        width: 80%;
-    }
+  thead .thead-values-date {
+    width: 70%;
+  }
 
-    tbody .tbody-values-company {
-        width: 100%;
-    }
+  tbody .tbody-values-date {
+    width: 70%;
+  }
 
-    thead .thead-values-company {
-        width: 100%;
-    }
+  thead .thead-values-state {
+    width: 60%;
+  }
 
-    thead .thead-values-type {
-        width: 60%;
-    }
+  tbody .tbody-values-state {
+    width: 60%;
+  }
 
-    tbody .tbody-values-type {
-        width: 60%;
-    }
+  thead .thead-values-status {
+    width: 105%;
+  }
 
-    tbody .tbody-values-email {
-        width: 195%;
-    }
+  tbody .tbody-values-status {
+    width: 105%;
+  }
 
-    thead .thead-values-email {
-        width: 195%;
-    }
+  thead .thead-values-button {
+    width: 60%;
+  }
 
-    tbody .tbody-values-button {
-        width: 80%;
-    }
+  tbody .tbody-values-button {
+    width: 60%;
+  }
 
-    thead .thead-values-button {
-        width: 80%;
-    }
+  thead .thead-values-edit {
+    width: 50%;
+  }
 
-    tbody .tbody-values-edit {
-        width: 30%;
-    }
+  tbody .tbody-values-edit {
+    width: 50%;
+  }
 
-    thead .thead-values-edit {
-        width: 30%;
-    }
+  thead .thead-values-checkbox-select {
+    width: 15%;
+  }
 
-    tbody tr:hover {
-        background-color: #f5f5f5;
-    }
+  tbody .tbody-values-checkbox-select {
+    width: 15%;
+  }
+
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
 }
 
-@media screen and (max-width: 1099.99px) and (min-width: 991px) {
-    thead .thead-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+@media screen and (min-width: 770px) and (max-width:799.99px) {
+  .data-shower {
+    width: 130%;
+  }
 
-    tbody .tbody-values-id {
-        width: 35%;
-        padding-left: 1%;
-    }
+  .search-bar {
+    width: 40%;
+  }
 
-    thead .thead-values-name {
-        width: 100%;
-    }
+  .header {
+    margin-left: 0;
+  }
 
-    tbody .tbody-values-name {
-        width: 100%;
-    }
+  .table-holder {
+    overflow: hidden;
+  }
 
-    thead .thead-values-date {
-        width: 80%;
-    }
+  thead .thead-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    tbody .tbody-values-date {
-        width: 80%;
-    }
+  tbody .tbody-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
 
-    thead .thead-values-country {
-        width: 80%;
-    }
+  thead .thead-values-company {
+    width: 120%;
+  }
 
-    tbody .tbody-values-country {
-        width: 80%;
-    }
+  tbody .tbody-values-company {
+    width: 120%;
+  }
 
-    tbody .tbody-values-company {
-        width: 100%;
-    }
+  thead .thead-values-date {
+    width: 70%;
+  }
 
-    thead .thead-values-company {
-        width: 100%;
-    }
+  tbody .tbody-values-date {
+    width: 70%;
+  }
 
-    thead .thead-values-type {
-        width: 80%;
-    }
+  thead .thead-values-state {
+    width: 60%;
+  }
 
-    tbody .tbody-values-type {
-        width: 80%;
-    }
+  tbody .tbody-values-state {
+    width: 60%;
+  }
 
-    tbody .tbody-values-email {
-        width: 240%;
-    }
+  thead .thead-values-status {
+    width: 105%;
+  }
 
-    thead .thead-values-email {
-        width: 240%;
-    }
+  tbody .tbody-values-status {
+    width: 105%;
+  }
 
-    tbody .tbody-values-button {
-        width: 80%;
-    }
+  thead .thead-values-button {
+    width: 60%;
+  }
 
-    thead .thead-values-button {
-        width: 80%;
-    }
+  tbody .tbody-values-button {
+    width: 60%;
+  }
 
-    tbody .tbody-values-edit {
-        width: 40%;
-    }
+  thead .thead-values-edit {
+    width: 50%;
+  }
 
-    thead .thead-values-edit {
-        width: 40%;
-    }
+  tbody .tbody-values-edit {
+    width: 50%;
+  }
 
-    tbody tr:hover {
-        background-color: #f5f5f5;
-    }
+  thead .thead-values-checkbox-select {
+    width: 15%;
+  }
+
+  tbody .tbody-values-checkbox-select {
+    width: 15%;
+  }
+
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width:769.99px) {
+  .data-shower {
+    width: 100%;
+  }
+
+  .pagination {
+    font-size: 0.9rem;
+  }
+
+  .table-holder {
+    width: 600px;
+    overflow: hidden;
+  }
+
+  .search-bar {
+    width: 38%;
+    margin-left: -3.6rem;
+  }
+
+  .header {
+    margin-left: 0;
+  }
+
+  thead .thead-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
+
+  tbody .tbody-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
+
+  thead .thead-values-company {
+    width: 130%;
+  }
+
+  tbody .tbody-values-company {
+    width: 130%;
+  }
+
+  thead .thead-values-date {
+    width: 70%;
+  }
+
+  tbody .tbody-values-date {
+    width: 70%;
+  }
+
+  thead .thead-values-state {
+    width: 60%;
+  }
+
+  tbody .tbody-values-state {
+    width: 60%;
+  }
+
+  thead .thead-values-status {
+    width: 105%;
+  }
+
+  tbody .tbody-values-status {
+    width: 105%;
+  }
+
+  thead .thead-values-button {
+    width: 65%;
+  }
+
+  tbody .tbody-values-button {
+    width: 65%;
+  }
+
+  thead .thead-values-edit {
+    width: 0%;
+  }
+
+  tbody .tbody-values-edit {
+    width: 0%;
+  }
+
+  thead .thead-values-checkbox-select {
+    width: 20%;
+  }
+
+  tbody .tbody-values-checkbox-select {
+    width: 20%;
+  }
+
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width:699.99px) {
+  .data-shower {
+    width: 130%;
+  }
+
+  .pagination {
+    font-size: 0.9rem;
+  }
+
+  .table-holder {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .search-bar {
+    width: 35%;
+    margin-left: -3.6rem;
+  }
+
+  .header {
+    margin-left: 0;
+  }
+
+  thead .thead-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
+
+  tbody .tbody-values-id {
+    width: 40%;
+    padding-left: 1.4%;
+  }
+
+  thead .thead-values-company {
+    width: 130%;
+  }
+
+  tbody .tbody-values-company {
+    width: 130%;
+  }
+
+  thead .thead-values-date {
+    width: 70%;
+  }
+
+  tbody .tbody-values-date {
+    width: 70%;
+  }
+
+  thead .thead-values-state {
+    width: 60%;
+  }
+
+  tbody .tbody-values-state {
+    width: 60%;
+  }
+
+  thead .thead-values-status {
+    width: 105%;
+  }
+
+  tbody .tbody-values-status {
+    width: 105%;
+  }
+
+  thead .thead-values-button {
+    width: 80%;
+  }
+
+  tbody .tbody-values-button {
+    width: 80%;
+  }
+
+  thead .thead-values-edit {
+    width: 0%;
+  }
+
+  tbody .tbody-values-edit {
+    width: 0%;
+  }
+
+  thead .thead-values-checkbox-select {
+    width: 20%;
+  }
+
+  tbody .tbody-values-checkbox-select {
+    width: 20%;
+  }
+
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
 }
