@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useClient } from "@contexts/ClientsContext";
 import "./client/FormClientFilter.css";
-
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 const defaultFilters = { state: "", type: "" };
 
 const FormFilterDrop = ({ filteredList, setFilterList }) => {
@@ -20,10 +21,7 @@ const FormFilterDrop = ({ filteredList, setFilterList }) => {
   };
 
   const onClickAll = () => {
-    console.log("true");
     setFilterList(clients);
-    console.log(clients);
-    console.log(filteredList, "FilerList");
   };
 
   const onSubmit = (event) => {
@@ -38,7 +36,7 @@ const FormFilterDrop = ({ filteredList, setFilterList }) => {
       filtered = [
         ...filtered.filter((client) => client.state == filters.state),
       ];
-    console.log(filtered);
+
     setFilterList(filtered);
 
     // alert(JSON.stringify(form, null, 4));
@@ -47,68 +45,36 @@ const FormFilterDrop = ({ filteredList, setFilterList }) => {
   return (
     <div className="dropdown">
       {" "}
-      <form onSubmit={onSubmit}>
-        <button
-          id="ddrop"
-          className="btn dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Filter
-        </button>
-
-        <ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <li>
-            <input
-              type="text"
-              placeholder="Type"
-              value={filters.type}
-              onChange={onChangeType}
-            />
-          </li>
-          <hr />
-          <li>
-            <input
-              type="text"
-              placeholder="Stats"
-              value={filters.state}
-              onChange={onChangeState}
-            />
-          </li>
-
-          <hr />
-          <li>
-            {/* <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-            />
-            <label
-              class="form-check-label"
-              htmlFor="flexCheckDefault"
-              onChange={onClickAll}
-            >
-              Default checkbox
-            </label> */}
-            <button className="All" type="button" onClick={onClickAll}>
-              All Clients
-            </button>
-          </li>
-
-          <hr />
-          <li>
-            <button type="submit" className="btn-submit">
-              Submit
-            </button>
-          </li>
-        </ul>
+      <form>
+        <Form.Label htmlFor="inputPassword5">Type</Form.Label>
+        <Form.Control
+          onChange={onChangeType}
+          type="text"
+          id="inputPassword5"
+          aria-describedby="passwordHelpBlock"
+        />
+        <Form.Label htmlFor="inputPassword5">State</Form.Label>
+        <Form.Control
+          onChange={onChangeState}
+          type="text"
+          id="inputPassword5"
+          aria-describedby="passwordHelpBlock"
+        />
+        <br />
+        <div className="divBtn">
+          <Button type="submit" onClick={onSubmit} className="btn-submit">
+            Submit
+          </Button>{" "}
+          <Button
+            type="button"
+            onClick={onClickAll}
+            className="btn-all"
+            variant="outline-danger"
+          >
+            Reset
+          </Button>
+        </div>
       </form>
-      <hr />
-      <h2>
-        {filters.type}|{filters.state}
-      </h2>
       <div>
         <ul>
           {filteredList.map((client) => (

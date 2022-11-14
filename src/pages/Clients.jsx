@@ -6,12 +6,8 @@ import FormFilterDrop from "../components/FormFilterDrop";
 
 function Clients() {
   const clients = useClient();
-  const [obj_Filter, setObj_Filter] = useState({});
-  const [filteredList, setFilteredList] = useState(clients);
 
-  const getData = (obj) => {
-    setObj_Filter(obj);
-  };
+  const [filteredList, setFilteredList] = useState(clients);
 
   const getDataFilterList = (filterL) => {
     setFilteredList(filterL);
