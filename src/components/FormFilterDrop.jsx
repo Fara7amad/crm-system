@@ -92,7 +92,7 @@ const FormFilterDrop = ({ filteredList, setFilterList }) => {
             >
               Default checkbox
             </label> */}
-            <button className="All" onClick={onClickAll}>
+            <button className="All" type="button" onClick={onClickAll}>
               All Clients
             </button>
           </li>
