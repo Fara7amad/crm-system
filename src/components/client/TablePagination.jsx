@@ -26,20 +26,18 @@ export default function TablePagination(props) {
   }
 
   const getData = () => {
-    return currentItems.map((i) => {
+    return currentItems.map((client, index) => {
       return (
-        <tr>
+        <tr key={client.id}>
           <td className="tbody-values-checkbox-select">
             <Form.Check type="checkbox" className="checkbox-select" />
           </td>
-          <td className="tbody-values-id">{currentItems.indexOf(i) + itemOffset + 1}</td>
-          <td className="tbody-values-company">{i.company}</td>
-          <td className="tbody-values-date">{ (new Date(i.date).toDateString() == "Invalid Date") ?
-                                               i.date : ((new Date(i.date).toDateString()).
-                                               slice(4, 15)) }</td>
-          <td className="tbody-values-state">{i.state}</td>
-          <td className="tbody-values-status">{i.status}</td>
-          <td className="tbody-values-type">{i.type}</td>
+          <td className="tbody-values-id">{index + 1}</td>
+          <td className="tbody-values-company">{client.company}</td>
+          <td className="tbody-values-date">{ client.date.toLocaleString().slice(0, 9) }</td>
+          <td className="tbody-values-state">{client.state}</td>
+          <td className="tbody-values-status">{client.status}</td>
+          <td className="tbody-values-type">{client.type}</td>
           <td className="tbody-values-button">
             <Button variant="outline-danger" size="sm" className="delete-button">Delete</Button>
           </td>
