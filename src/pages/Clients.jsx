@@ -1,11 +1,25 @@
+import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
 import DataTable from "@components/client/DataTable";
 
-function Clients() {
-	const clients = useClient();
+import ClientFilters from "../components/client/clientFilter/FiltersForm";
 
-	return <div>
-		<DataTable data={clients}/>
-	</div>;
+function Clients() {
+  const clients = useClient();
+  const [filteredList, setFilteredList] = useState(clients);
+
+  const getDataFilterList = (filterL) => {
+    setFilteredList(filterL);
+  };
+
+  return (
+    <div>
+      <ClientFilters
+        setFilterList={getDataFilterList}
+        filteredList={filteredList}
+      />
+      <DataTable data={filteredList} />
+    </div>
+  );
 }
 export default Clients;

@@ -1,0 +1,12 @@
+.btn-submit {
+  background-color: #8456cf !important;
+  border-color: #8456cf !important;
+}
+.btn-submit:hover {
+  background-color: #632cba !important;
+  border-color: #632cba !important;
+}
+.divBtn {
+  position: relative;
+  left: 10px;
+}
