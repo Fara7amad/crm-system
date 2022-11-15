@@ -82,6 +82,26 @@
   border-color: #632cba !important;
 }
 
+.form-button {
+  background-color: #8456cf !important;
+  border-color: #8456cf !important;
+}
+
+.form-button:hover {
+  background-color: #632cba !important;
+  border-color: #632cba !important;
+}
+
+.form-button:active {
+  background-color: #632cba !important;
+  border-color: #632cba !important;
+}
+
+.form-button:focus {
+  background-color: #632cba !important;
+  border-color: #632cba !important;
+}
+
 .details-button {
   background-color: #8456cf !important;
   border-color: #8456cf !important;
