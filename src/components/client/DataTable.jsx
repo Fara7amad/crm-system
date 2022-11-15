@@ -1,10 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./DataTable.css";
 import Table from "react-bootstrap/Table";
-import Button from "react-bootstrap/Button";
-import Dropdown from 'react-bootstrap/Dropdown';
 import TablePagination from "./TablePagination";
 import Form from 'react-bootstrap/Form';
+import ClientAdd from './ClientAdd'
 
 // ? install React Pagination using
 // ? npm i react-paginate
@@ -36,7 +35,7 @@ const DataTable = (props) => {
           <div className="header-client">
           </div>
           <div className="button-holder">
-            <Button variant="primary" className="table-buttons">+Add New</Button>
+            <ClientAdd/>
           </div>
           <Form.Control
             type="text"
