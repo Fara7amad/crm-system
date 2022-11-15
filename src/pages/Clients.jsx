@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ClientsFilters from "../components/client/ClientsFilters";
-import FormFilterDrop from "../components/FormFilterDrop";
+
+import ClientFilters from "../components/client/clientFilter/FiltersForm";
 
 function Clients() {
   const clients = useClient();
@@ -14,12 +13,11 @@ function Clients() {
   };
 
   return (
-    <div className="Filter">
-      <FormFilterDrop
+    <div>
+      <ClientFilters
         setFilterList={getDataFilterList}
         filteredList={filteredList}
       />
-      <p></p>
     </div>
   );
 }
