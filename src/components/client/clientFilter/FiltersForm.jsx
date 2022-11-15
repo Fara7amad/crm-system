@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { useClient } from "@contexts/ClientsContext";
-import "./client/FormClientFilter.css";
+import "./FormClientFilter.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+
 const defaultFilters = { state: "", type: "" };
 
 const FormFilterDrop = ({ filteredList, setFilterList }) => {
@@ -75,16 +76,6 @@ const FormFilterDrop = ({ filteredList, setFilterList }) => {
           </Button>
         </div>
       </form>
-      <div>
-        <ul>
-          {filteredList.map((client) => (
-            <li>
-              {client.firstName} | {client.type} |{client.state}|
-              {client.company}
-            </li>
-          ))}
-        </ul>
-      </div>
     </div>
   );
 };
