@@ -32,7 +32,7 @@ export default function TablePagination(props) {
           <td className="tbody-values-checkbox-select">
             <Form.Check type="checkbox" className="checkbox-select" />
           </td>
-          <td className="tbody-values-id">{index + 1}</td>
+          <td className="tbody-values-id">{index + 1 + itemOffset}</td>
           <td className="tbody-values-company">{client.company}</td>
           <td className="tbody-values-date">{ client.date.toLocaleString().slice(0, 9) }</td>
           <td className="tbody-values-state">{client.state}</td>
