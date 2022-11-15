@@ -30,7 +30,7 @@ const DataTable = (props) => {
 
   return (
     <div className="main-holder container">
-      <h1 className="header">Clients</h1>
+      <h1 className="header-h1">Clients</h1>
       <div className="cont">
         <div className="container data-shower">
           <div className="header-client">
