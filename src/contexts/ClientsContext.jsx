@@ -41,7 +41,7 @@ export default function ClientsProvider({ children }) {
 		const exists = Boolean(clients.find((item) => item.id == client.id));
 		if (exists) return alert("Client already exists");
 
-		setClients([...clients, client]);
+		setClients([...clients, { ...client, id: uuid() }]);
 	};
 	const deleteClient = (id) => {
 		setClients((prv) => prv.filter((client) => client.id != id));
