@@ -3,15 +3,16 @@ import { useClient } from "@contexts/ClientsContext";
 import "./FormClientFilter.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import Dropdown from "react-bootstrap/Dropdown";
 
 const defaultFilters = { state: "", type: "" };
 
-const FormFilterDrop = ({ filteredList, setFilterList }) => {
+const FiltersForm = ({ filteredList, setFilterList }) => {
   const [filters, setFilters] = useState(defaultFilters);
   const clients = useClient();
   const onChangeState = (e) => {
-    setFilters((currentState) => {
-      return { ...currentState, state: e.target.value };
+    setFilters((prev) => {
+      return { ...prev, state: e.target.value };
     });
   };
 
@@ -23,6 +24,7 @@ const FormFilterDrop = ({ filteredList, setFilterList }) => {
 
   const onClickAll = () => {
     setFilterList(clients);
+    setFilters(defaultFilters);
   };
 
   const onSubmit = (event) => {
@@ -39,45 +41,57 @@ const FormFilterDrop = ({ filteredList, setFilterList }) => {
       ];
 
     setFilterList(filtered);
-
-    // alert(JSON.stringify(form, null, 4));
   };
 
   return (
-    <div className="dropdown">
+    <div>
       {" "}
-      <form>
-        <Form.Label htmlFor="inputPassword5">Type</Form.Label>
-        <Form.Control
-          onChange={onChangeType}
-          type="text"
-          id="inputPassword5"
-          aria-describedby="passwordHelpBlock"
-        />
-        <Form.Label htmlFor="inputPassword5">State</Form.Label>
-        <Form.Control
-          onChange={onChangeState}
-          type="text"
-          id="inputPassword5"
-          aria-describedby="passwordHelpBlock"
-        />
-        <br />
-        <div className="divBtn">
-          <Button type="submit" onClick={onSubmit} className="btn-submit">
-            Submit
-          </Button>{" "}
-          <Button
-            type="button"
-            onClick={onClickAll}
-            className="btn-all"
-            variant="outline-danger"
-          >
-            Reset
-          </Button>
-        </div>
-      </form>
+      <Dropdown className="d-inline mx-2">
+        <Dropdown.Toggle
+          variant="primary"
+          className="table-buttons"
+          id="dropdown-basic"
+        >
+          Filter
+        </Dropdown.Toggle>
+        <Dropdown.Menu className="form">
+          <form onSubmit={onSubmit}>
+            <Form.Label htmlFor="type">Type</Form.Label>
+            <Form.Control
+              value={filters.type}
+              onChange={onChangeType}
+              type="text"
+              id="type"
+              aria-describedby="passwordHelpBlock"
+            />
+            <br />
+            <Form.Label htmlFor="state">State</Form.Label>
+            <Form.Control
+              value={filters.state}
+              onChange={onChangeState}
+              type="text"
+              id="state"
+              aria-describedby="passwordHelpBlock"
+            />
+            <br />
+            <div className="divBtn">
+              <Button type="submit" className="btn-submit">
+                Submit
+              </Button>{" "}
+              <Button
+                type="button"
+                onClick={onClickAll}
+                className="btn-all"
+                variant="outline-danger"
+              >
+                Reset
+              </Button>
+            </div>
+          </form>
+        </Dropdown.Menu>
+      </Dropdown>
     </div>
   );
 };
 
-export default FormFilterDrop;
+export default FiltersForm;
