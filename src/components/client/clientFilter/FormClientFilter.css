@@ -10,3 +10,12 @@
   position: relative;
   left: 10px;
 }
+
+.form form {
+  width: 240px !important;
+}
+.form form {
+  padding: 13px;
+
+  margin: auto;
+}

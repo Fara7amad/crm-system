@@ -1,3 +1,4 @@
+import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { Dashboard, Clients, Reports } from "@pages";
 import ClientsContext from "@contexts/ClientsContext";
@@ -5,15 +6,13 @@ import Sidebar from "./components/client/Sidebar";
 
 function App() {
 	return (
-		<div className="d-flex vh-100">
-			{/* The side bar goes here */
-			<Sidebar/>
-			}
+		<div className="d-flex vh-100 overflow-hidden">
+			<Sidebar />
 
 			<div className="flex-grow-1">
 				{/* The header goes here (position) */}
 
-				<main className="">
+				<main className="page-layout">
 					<ClientsContext>
 						<Routes>
 							{/* pages go here as Routes */}
