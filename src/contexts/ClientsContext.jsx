@@ -4,10 +4,10 @@ import { jsonReviver } from "@utils/jsonReviver";
 import { v4 as uuid } from "uuid";
 import clientsJson from "../data/data.json";
 
-const ClientContext = createContext();
+const ClientsContext = createContext();
 
 export function useClient() {
-	return useContext(ClientContext);
+	return useContext(ClientsContext);
 }
 
 const AddClientContext = createContext();
@@ -55,7 +55,7 @@ export default function ClientsProvider({ children }) {
 	};
 
 	return (
-		<ClientContext.Provider value={clients}>
+		<ClientsContext.Provider value={clients}>
 			<AddClientContext.Provider value={addClient}>
 				<DeleteClientContext.Provider value={deleteClient}>
 					<UpdateClientContext.Provider value={updateClient}>
@@ -63,6 +63,6 @@ export default function ClientsProvider({ children }) {
 					</UpdateClientContext.Provider>
 				</DeleteClientContext.Provider>
 			</AddClientContext.Provider>
-		</ClientContext.Provider>
+		</ClientsContext.Provider>
 	);
 }
