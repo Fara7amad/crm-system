@@ -1,0 +1,16 @@
+.option-label {
+	min-width: 200px;
+}
+
+.option {
+	height: 100%;
+	transition: all 250ms;
+}
+
+.option.selected {
+	background-color: #f7f7f7;
+}
+
+.option:hover {
+	background-color: #f7f7f7;
+}

@@ -1,4 +1,21 @@
+.cursor-default {
+	cursor: default;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+
 .page-layout {
 	height: 100vh;
 	overflow: auto;
+}
+
+.select-menu-card {
+	min-width: 300px !important;
+}
+
+@media (width >= 700px) {
+	.select-menu-card {
+		min-width: 350px !important;
+	}
 }
