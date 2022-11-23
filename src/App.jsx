@@ -4,6 +4,7 @@ import { Dashboard, Clients, Reports } from "@pages";
 import ClientsContext from "@contexts/ClientsContext";
 import Sidebar from "./components/client/Sidebar";
 import { Container } from "react-bootstrap";
+import NavigationBar from "./components/DashboardPage/NavigationBar";
 
 function App() {
 	return (
@@ -11,7 +12,7 @@ function App() {
 			<Sidebar />
 
 			<div className="flex-grow-1">
-				{/* The header goes here (position) */}
+				<NavigationBar/>
 
 				<main className="page-layout">
 					<Container>
