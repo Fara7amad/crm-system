@@ -2,6 +2,12 @@
 function BullingStor()
 {
 
+    {/*
+    let dataBullingNew= [];
+    const set_data=(arr)=>{
+        data2 = arr ;}  
+     */}
+
     {/* ليست وهمية */}
     const dataBulling = [
         {
