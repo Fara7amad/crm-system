@@ -1,8 +1,10 @@
+import DashboardPage from "../components/DashboardPage/DashboardPage";
+
 function Dashboard() {
 	return (
-		<div>
-			<h1>Dashboard</h1>
-		</div>
+		<>
+			<DashboardPage/>
+		</>
 	);
 }
 export default Dashboard;
