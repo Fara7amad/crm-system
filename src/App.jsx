@@ -15,7 +15,7 @@ function App() {
 				<NavigationBar/>
 
 				<main className="page-layout">
-					<Container>
+					<Container fluid>
 						<ClientsContext>
 							<Routes>
 								{/* pages go here as Routes */}
