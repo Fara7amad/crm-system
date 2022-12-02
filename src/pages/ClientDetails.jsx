@@ -4,7 +4,8 @@ import "../components/Detailscss.css";
 import Button from "react-bootstrap/Button";
 import { Link, useParams } from "react-router-dom";
 import Update from '@components/ui/Update'
-import Comments from "@components/ui/comments/Comments";
+import Comments from "@components/ui/comments/Comments"
+import Attachment from "@components/ui/Attachment/Attachment"
 
 const ClientDetails = () => {
   const { id } = useParams();
@@ -21,7 +22,7 @@ const ClientDetails = () => {
           </Button>
         </Col>
         <Col xs={12} md={6} lg={4} className="h-100">
-          {/* Put here ur component attachments */}
+          <Attachment />
         </Col>
         <Col xs={12} md={4} lg={4} className="h-100">
           <Update/>
