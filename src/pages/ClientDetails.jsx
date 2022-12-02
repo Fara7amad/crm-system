@@ -1,10 +1,10 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../components/Detailscss.css";
-
 import Button from "react-bootstrap/Button";
 import { Link, useParams } from "react-router-dom";
 import Update from '@components/ui/Update'
+import Comments from "@components/ui/comments/Comments";
 
 const ClientDetails = () => {
   const { id } = useParams();
@@ -25,7 +25,7 @@ const ClientDetails = () => {
         </Col>
         <Col xs={12} md={4} lg={4} className="h-100">
           <Update/>
-          {/* Put here ur component comments */}
+          <Comments/>
         </Col>
       </Row>
     </div>
