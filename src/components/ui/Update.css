@@ -1,0 +1,31 @@
+:root {
+    font-size: 12px;
+}
+
+.card {
+    border-left: 4px solid lime !important;
+    box-shadow:  1px 1px 3px 3px #cdd3d3;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.head {
+    font-size: 1.6rem;
+}
+
+.body {
+    font-size: 1.2rem;
+}
+
+.updates-holder {
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+    overflow-y: scroll;
+}
