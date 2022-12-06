@@ -5,24 +5,49 @@ import "./Attachment.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
+import { useRef } from "react";
 import { useState } from "react";
+import MagicSelect from "@components/ui/MagicSelect";
+import useLocalStorage from "@hooks/useLocalStorage";
+import {
+  faSpinner,
+  faFileAlt,
+  faTrash,
+} from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
 
 const Attachment = () => {
   const [title, setTitle] = useState("");
   const [attachments, setAttachments] = useState([]);
 
   const addAttachment = (e) => {
-    if (title) {
-      setAttachments((ls) => [...ls, title]);
-      setTitle("");
-    }
+    if (!title) return;
+    setAttachments((ls) => [...ls, title]);
+    const ref = useRef(null);
+    setTitle("");
   };
+
+  const deleteFile = (e) => {
+    let newArrayAttachments = attachments.filter(function (element) {
+      return element != e;
+    });
+    setAttachments(newArrayAttachments);
+  };
+
+  const current = new Date();
+  const date = `${current.getDate()}/${
+    current.getMonth() + 1
+  }/${current.getFullYear()}`;
+  console.log(date);
+
+  const [statuses, setStatuses] = useLocalStorage("client-statuses", []);
 
   return (
     <>
       <div>
-        <h2>Attchment</h2>
+        <h2>Attachment</h2>
         <div className="file-card">
+          <MagicSelect options={statuses} setList={setStatuses} />
           <InputGroup className="mb-2">
             <Form.Control
               placeholder="Title"
@@ -53,13 +78,23 @@ const Attachment = () => {
           <p className="main"> Add Attachment </p>
           <p className="info"> PDF , JPG , PNG</p>
         </div>
-      </div>
 
-      {attachments.map((a) => (
-        <div>
-          <li>{a}</li>
+        <div className="items">
+          {attachments.map((a) => (
+            <li className="list-item" key={a}>
+              <FontAwesomeIcon icon={faFileAlt} />
+              <p>{a}</p>
+              <div className="actions">
+                <FontAwesomeIcon
+                  icon={faTrash}
+                  name={a}
+                  onClick={() => deleteFile(a)}
+                />
+              </div>
+            </li>
+          ))}
         </div>
-      ))}
+      </div>
     </>
   );
 };
