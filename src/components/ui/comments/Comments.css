@@ -1,0 +1,63 @@
+
+.comment-text{
+    margin: 12px 0;
+  
+}
+.input-box{
+    
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 500px;
+}
+.submit-button{
+    height: 40px;
+    width: 70px;
+    background-color: #8456cf;
+    border-color: #8456cf;
+    color: white;
+    font-size: 1.05rem;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    display: flex;
+}
+.submit-button:hover{
+    background-color: #632cba;
+    border-color: #632cba;
+  }
+
+
+.new-comment{
+    
+    
+    margin-top: 20px;
+    color: gray;
+    font-weight: 500;
+    margin-left: 200px;
+    
+}
+.plus-comment{
+    margin:0px -40px;
+    
+}
+.plus{
+    font-size: 20px;
+    cursor: pointer;
+}
+.crd{
+    height:200px !important;
+    overflow:auto;
+border-radius: 20px !important;
+background-color: rgb(255, 255, 255) !important;
+width: 500px !important;
+
+}
+.prof{
+    color: #6733b9;
+}
+.user{
+    color: #6733b9;
+    font-weight: 600;
+}
+
