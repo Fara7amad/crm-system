@@ -1,20 +1,22 @@
 .file-card {
-  background-color: #edf2f3f7;
+  /* background-color: #edf2f3f7; */
+  background-color: #eee;
   /* border: 3px dashed #cbd5e0; */
-  border: 3px dashed #c9abe7;
+  border: 1px solid #c9c3d0;
   padding: 1em;
   min-width: 200px;
-  min-height: 200px;
-  max-width: 300px;
-  max-height: 350px;
+  min-height: 300px;
+  max-width: 400px;
+  max-height: 600px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 1px 1px 8px 3px rgba(41, 39, 39, 0.1);
 
-  border-radius: 10px;
-  border-width: 2px;
+  /* border-radius: 10px;
+  border-width: 2px; */
 }
 
 .file-inputs {
@@ -72,14 +74,11 @@ i {
 
 .main {
   font-weight: bold;
-  margin-bottom: 0.4em;
-}
-
-.info {
-  font-size: 0.8rem;
+  margin-top: 2em;
 }
 
 li {
+  width: 100%;
   list-style: none;
   margin: 1.2em 0;
   background-color: #c9abe7;
@@ -110,11 +109,17 @@ li .actions {
   cursor: pointer;
 }
 .items {
-  max-width: 300px;
+  max-width: 400px;
+  min-width: 200px;
   max-height: 200px;
   overflow-y: auto;
   background: #eee;
   border-radius: 6px;
   position: relative;
   margin: auto;
+}
+
+.p-title {
+  font-weight: bold;
+  word-break: break-all;
 }

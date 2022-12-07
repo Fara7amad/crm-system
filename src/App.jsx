@@ -11,7 +11,7 @@ function App() {
     <div className="d-flex vh-100 overflow-hidden">
       <Sidebar />
       <div className="flex-grow-1">
-        <NavigationBar/>
+        <NavigationBar />
 
         <main className="page-layout">
           <Container fluid>

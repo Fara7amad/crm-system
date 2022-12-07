@@ -9,45 +9,58 @@ import { useRef } from "react";
 import { useState } from "react";
 import MagicSelect from "@components/ui/MagicSelect";
 import useLocalStorage from "@hooks/useLocalStorage";
+import { formatDate } from "@utils/helpers";
+
 import {
   faSpinner,
   faFileAlt,
   faTrash,
 } from "@fortawesome/free-solid-svg-icons";
-import { useEffect } from "react";
 
 const Attachment = () => {
+  //-------------------------------------------------------------------
+
   const [title, setTitle] = useState("");
-  const [attachments, setAttachments] = useState([]);
+  let attchObjects = [{ title: "", date: new Date(), status: "" }];
+  const [atts, setAtts] = useState([]);
 
-  const addAttachment = (e) => {
-    if (!title) return;
-    setAttachments((ls) => [...ls, title]);
-    const ref = useRef(null);
-    setTitle("");
+  const [statuses, setStatuses] = useLocalStorage(
+    "attchment-statuses", //key in local storage
+    [
+      "Rejected",
+      "Accepted",
+      "Negotiation",
+      "Pending",
+      "Sent",
+      "Not Sent",
+      "Approved",
+    ] //
+  );
+
+  const [status, setStatus] = useState(statuses[0]);
+  console.log(status);
+  const addAtt = () => {
+    const id = new Date().getTime().toString();
+    if (title.trim()) {
+      setAtts((prev) => [...prev, { title, date: new Date(), status, id }]);
+    }
   };
 
-  const deleteFile = (e) => {
-    let newArrayAttachments = attachments.filter(function (element) {
-      return element != e;
+  const deleteFile = (id) => {
+    // delete attachment
+    let newArrayAttachments = atts.filter(function (element) {
+      return element.id != id;
     });
-    setAttachments(newArrayAttachments);
+
+    setAtts(newArrayAttachments);
   };
 
-  const current = new Date();
-  const date = `${current.getDate()}/${
-    current.getMonth() + 1
-  }/${current.getFullYear()}`;
-  console.log(date);
-
-  const [statuses, setStatuses] = useLocalStorage("client-statuses", []);
-
+  //------------------------------------------------------------------------
   return (
     <>
       <div>
         <h2>Attachment</h2>
         <div className="file-card">
-          <MagicSelect options={statuses} setList={setStatuses} />
           <InputGroup className="mb-2">
             <Form.Control
               placeholder="Title"
@@ -59,7 +72,7 @@ const Attachment = () => {
             <Button
               variant="outline-secondary"
               id="button-addon2"
-              onClick={addAttachment}
+              onClick={addAtt}
             >
               Add
             </Button>
@@ -75,20 +88,32 @@ const Attachment = () => {
             </button>
           </div>
 
-          <p className="main"> Add Attachment </p>
-          <p className="info"> PDF , JPG , PNG</p>
+          <MagicSelect
+            options={statuses}
+            setList={setStatuses}
+            selected={status}
+            setSelected={setStatus}
+          />
+
+          <h1 className="main">Add Attachment</h1>
+
+          <h4 className="info"> PDF , JPG , PNG</h4>
         </div>
 
         <div className="items">
-          {attachments.map((a) => (
-            <li className="list-item" key={a}>
-              <FontAwesomeIcon icon={faFileAlt} />
-              <p>{a}</p>
+          {atts.map((a) => (
+            <li className="list-item" key={a.id}>
+              <FontAwesomeIcon icon={faFileAlt} className="icon" size="xs" />
+              <p className="p-title">{a.title}</p>
+              <p>{formatDate(a.date)}</p>
+              <p>{a.status}</p>
               <div className="actions">
                 <FontAwesomeIcon
                   icon={faTrash}
                   name={a}
-                  onClick={() => deleteFile(a)}
+                  onClick={() => deleteFile(a.id)}
+                  className="icon"
+                  size="xs"
                 />
               </div>
             </li>

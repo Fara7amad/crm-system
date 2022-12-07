@@ -5,7 +5,7 @@ import TablePagination from "./TablePagination";
 import Form from "react-bootstrap/Form";
 import ClientAdd from "./ClientAdd";
 import FiltersForm from "./clientFilter/FiltersForm";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useClient } from "@contexts/ClientsContext";
 
 // ? install React Pagination using
@@ -16,6 +16,10 @@ import { useClient } from "@contexts/ClientsContext";
 const DataTable = (props) => {
 	const clients = useClient();
 	const [filteredList, setFilteredList] = useState(clients);
+
+	useEffect(() => {
+		setFilteredList(clients);
+	}, [clients]);
 
 	const getDataFilterList = (filterL) => {
 		setFilteredList(filterL);
