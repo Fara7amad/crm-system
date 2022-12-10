@@ -1,3 +1,4 @@
+import { faEdit, faRefresh, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import {
@@ -81,14 +82,14 @@ const ListOption = ({ option, setList, onSelect, selected }) => {
 					<Stack direction="horizontal">
 						<ButtonGroup>
 							<Button size="sm" variant="outline-danger" onClick={handleDelete}>
-								<FontAwesomeIcon icon="trash" />
+								<FontAwesomeIcon icon={faTrash} />
 							</Button>
 							<Button
 								size="sm"
 								variant="outline-info"
 								onClick={(_) => setEditView(true)}
 							>
-								<FontAwesomeIcon icon="edit" />
+								<FontAwesomeIcon icon={faEdit} />
 							</Button>
 						</ButtonGroup>
 					</Stack>
@@ -137,8 +138,7 @@ const AddOptionForm = ({ setList }) => {
 	);
 };
 
-function MagicSelect({ options, setList, initial = "" }) {
-	const [selected, setSelected] = useState(initial);
+function MagicSelect({ options, setList, selected, setSelected }) {
 	const [show, setShow] = useState(false);
 
 	const handleSelect = (value) => {
@@ -186,7 +186,7 @@ function MagicSelect({ options, setList, initial = "" }) {
 						</div>
 
 						<Button variant="outline-primary" size="sm" onClick={handleReset}>
-							<FontAwesomeIcon icon="refresh" />
+							<FontAwesomeIcon icon={faRefresh} />
 						</Button>
 					</InputGroup>
 				)}

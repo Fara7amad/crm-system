@@ -12,7 +12,7 @@ function App() {
       <Sidebar />
       <div className="flex-grow-1">
         <NavigationBar/>
-
+        
         <main className="page-layout">
           <Container fluid>
             <ClientsContext>
