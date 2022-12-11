@@ -34,7 +34,9 @@ export default function TablePagination(props) {
             <Form.Check type="checkbox" className="checkbox-select" />
           </td>
           <td className="tbody-values-id">{index + 1 + itemOffset}</td>
-          <td className="tbody-values-company">{client.company}</td>
+          <td className="tbody-values-company" title="To view more, click on 'Details'">{
+            client.company
+          }</td>
           <td className="tbody-values-date">
             {/* {client.date.toLocaleString().slice(0, 9)} */}
             {formatDate(client.date)}
@@ -42,7 +44,7 @@ export default function TablePagination(props) {
           <td className="tbody-values-state">{client.state}</td>
           <td className="tbody-values-status">{client.status}</td>
           <td className="tbody-values-type">{client.type}</td>
-          <td className="tbody-values-button">
+          <td className="tbody-values-delete-button">
             <Button
               variant="outline-danger"
               size="sm"
@@ -51,7 +53,7 @@ export default function TablePagination(props) {
               Delete
             </Button>
           </td>
-          <td className="tbody-values-edit">
+          <td className="tbody-values-details-button">
             <Button
               variant="primary"
               size="sm"
@@ -80,7 +82,8 @@ export default function TablePagination(props) {
         breakLabel="..."
         nextLabel=">"
         onPageChange={handlePageClick}
-        pageRangeDisplayed={3}
+        marginPagesDisplayed={2}
+        pageRangeDisplayed={2}
         pageCount={pageCount}
         previousLabel="<"
         renderOnZeroPageCount={null}
@@ -90,7 +93,7 @@ export default function TablePagination(props) {
         nextLinkClassName="num-of-page"
         activeLinkClassName="active"
       />
-      <div className="small-header">{numberOfItemsInEachPage()}</div>
+      <div className="number-of-items">{numberOfItemsInEachPage()}</div>
     </>
   );
 }
