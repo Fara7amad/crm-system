@@ -22,26 +22,19 @@ const DataTable = (props) => {
     setFilteredList(clients);
   }, [clients]);
 
-  const clientsData = useClient();
-  const [value, setValue] = useState("");
-  const [data, setData] = useState(clientsData);
-  const [tableFilter, setTableFilter] = useState([]);
-  const Company = ["company"];
+  const [search, setSearch] = useState("");
 
   const searchData = (e) => {
     if (e.target.value.trim() != "") {
-      setValue(e.target.value);
-      const filterTabel = data.filter((user) =>
-        Company.some((k) =>
-          String(user[k]).toLowerCase().includes(e.target.value.toLowerCase())
+      setFilteredList(
+        clients.filter((user) =>
+          user.company
+            .toLowerCase()
+            .includes(e.target.value.trim().toLowerCase())
         )
       );
-      setTableFilter([...filterTabel]);
-      setFilteredList([...filterTabel]);
-    } else {
-      setValue(e.target.value);
-      setData([...data]);
     }
+    setSearch(e.target.value);
   };
   //----------------------------------------------------------------
 
@@ -83,7 +76,7 @@ const DataTable = (props) => {
             id="search-bar"
             placeholder="Search"
             className="search-bar"
-            value={value}
+            value={search}
             onChange={searchData}
           />
 

@@ -72,7 +72,7 @@ export default function TablePagination(props) {
       itemOffset + currentItems.length
     } of ${data.length} entries`;
   };
-
+  
   return (
     <>
       {getData()}
