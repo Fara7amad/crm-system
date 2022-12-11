@@ -10,6 +10,9 @@ const defaultFilters = { state: "", type: "" };
 const FiltersForm = ({ filteredList, setFilterList }) => {
   const [filters, setFilters] = useState(defaultFilters);
   const clients = useClient();
+
+  const allStateClients = [...new Set(clients.map((client) => client.state))];
+
   const onChangeState = (e) => {
     setFilters((prev) => {
       return { ...prev, state: e.target.value };
@@ -57,22 +60,20 @@ const FiltersForm = ({ filteredList, setFilterList }) => {
         <Dropdown.Menu className="form">
           <form onSubmit={onSubmit}>
             <Form.Label htmlFor="type">Type</Form.Label>
-            <Form.Control
-              value={filters.type}
-              onChange={onChangeType}
-              type="text"
-              id="type"
-              aria-describedby="passwordHelpBlock"
-            />
+            <Form.Select value={filters.type} onChange={onChangeType}>
+              <option>Customer</option>
+              <option>Lead</option>
+            </Form.Select>
+
             <br />
+
             <Form.Label htmlFor="state">State</Form.Label>
-            <Form.Control
-              value={filters.state}
-              onChange={onChangeState}
-              type="text"
-              id="state"
-              aria-describedby="passwordHelpBlock"
-            />
+            <Form.Select value={filters.state} onChange={onChangeState}>
+              {allStateClients.map((state) => {
+                return <option>{state}</option>;
+              })}
+            </Form.Select>
+
             <br />
             <div className="divBtn">
               <Button type="submit" className="btn-submit">

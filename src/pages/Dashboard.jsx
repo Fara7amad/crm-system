@@ -3,7 +3,7 @@ import DashboardPage from "../components/DashboardPage/DashboardPage";
 function Dashboard() {
 	return (
 		<>
-			<DashboardPage/>
+			<DashboardPage />
 		</>
 	);
 }
