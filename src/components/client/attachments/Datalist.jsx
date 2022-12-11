@@ -1,19 +1,26 @@
 
+let id ;
+export const get_index=(i)=>{
+    id = i;
+}
+let DataList =[];
+
 function Datalist(status , title , date){
 
-    let counter = 0;
+    
     if(status == "Accepted"|| status == "Approved" )
     {
         let dataList = [
             {
-                "Status": status,
-                "Title": title,
-                "Date": date, 
+            "Id":id,
+            "Status": status,
+            "Title": title,
+            "Date": date, 
             }
         ]
-        console.log(title , status , date   );
-        console.log(dataList[counter]);
-        counter++;
+        DataList.push(dataList);
+        console.log(DataList);
+        
     }
     return(
         <div>

@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { formatDate } from "@utils/helpers";
 import { Link } from "react-router-dom";
+import { get_index } from "./attachments/Datalist";
 
 export default function TablePagination(props) {
   const { data } = props;
@@ -58,6 +59,10 @@ export default function TablePagination(props) {
               className="details-button"
               as={Link}
               to={`/details/${client.id}`}
+              
+              onClick ={ ()=>{
+                get_index(index)
+              }}
             >
               Details
             </Button>
