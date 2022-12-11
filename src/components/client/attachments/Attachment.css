@@ -1,7 +1,12 @@
-.file-card {
-  /* background-color: #edf2f3f7; */
-  background-color: #eee;
   /* border: 3px dashed #cbd5e0; */
+  /* background-color: #edf2f3f7; */
+
+  /* border-radius: 10px;
+  border-width: 2px; */
+/* 
+.file-card {
+  background-color: #eee;
+
   border: 1px solid #c9c3d0;
   padding: 1em;
   min-width: 200px;
@@ -15,8 +20,6 @@
   flex-direction: column;
   box-shadow: 1px 1px 8px 3px rgba(41, 39, 39, 0.1);
 
-  /* border-radius: 10px;
-  border-width: 2px; */
 }
 
 .file-inputs {
@@ -122,4 +125,4 @@ li .actions {
 .p-title {
   font-weight: bold;
   word-break: break-all;
-}
+} */
