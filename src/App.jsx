@@ -1,8 +1,7 @@
 import "./App.css";
-import "rsuite-table/dist/css/rsuite-table.css";
 import NavigationBar from "@components/NavigationBar/NavigationBar";
 import { Route, Routes } from "react-router-dom";
-// import { Dashboard, Clients, Reports, ClientDetails } from "@pages";
+import { Reports } from "@pages";
 import ClientsContext from "@contexts/ClientsContext";
 import Sidebar from "@components/SideBar/Sidebar";
 import { Container } from "react-bootstrap";
@@ -10,7 +9,7 @@ import React, { Suspense } from "react";
 
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Clients = React.lazy(() => import("./pages/Clients"));
-const Reports = React.lazy(() => import("./pages/Reports"));
+// const Reports = React.lazy(() => import("./pages/Reports"));
 const ClientDetails = React.lazy(() => import("./pages/ClientDetails"));
 
 function App() {
@@ -49,14 +48,7 @@ function App() {
 										</Suspense>
 									}
 								/>
-								<Route
-									path="/reports"
-									element={
-										<Suspense>
-											<Reports />
-										</Suspense>
-									}
-								/>
+								<Route path="/reports" element={<Reports />} />
 								<Route
 									path="/details/:id"
 									element={

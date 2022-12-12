@@ -1,9 +1,12 @@
+import "rsuite-table/dist/css/rsuite-table.css";
+
 import { useState, useEffect } from "react";
 import { useClient } from "@contexts/ClientsContext";
 import { Table, Column, HeaderCell, Cell } from "rsuite-table";
 
 import { formatDate } from "@utils/helpers";
 import ReactPaginate from "react-paginate";
+import ReportFiltering from "@components/reports/ReportFiltering";
 
 function Reports() {
 	const clients = useClient();
@@ -32,7 +35,12 @@ function Reports() {
 	};
 
 	return (
-		<div>
+		<div className="p-3">
+			<ReportFiltering
+				setFilteredList={setFilteredList}
+				filteredList={filteredList}
+			/>
+
 			<Table
 				data={currentItems}
 				sortType={sortType}
@@ -49,20 +57,28 @@ function Reports() {
 						}
 					/>
 				</Column>
-				<Column sortable width={180} flexGrow={1}>
+				<Column sortable flexGrow={1} minWidth={250}>
 					<HeaderCell>Company</HeaderCell>
 					<Cell dataKey="company" />
 				</Column>
-				<Column sortable flexGrow={1}>
+				<Column sortable flexGrow={1} minWidth={200}>
+					<HeaderCell>First Name</HeaderCell>
+					<Cell dataKey="firstName" />
+				</Column>
+				<Column sortable flexGrow={1} minWidth={200}>
+					<HeaderCell>Last Name</HeaderCell>
+					<Cell dataKey="lastName" />
+				</Column>
+				<Column sortable>
 					<HeaderCell>Date Added</HeaderCell>
 					<Cell dataKey="date" renderCell={(data) => formatDate(data)} />
 				</Column>
-				<Column flexGrow={1}>
+				<Column>
 					<HeaderCell>Type</HeaderCell>
 					<Cell dataKey="type" />
 				</Column>
-				<Column flexGrow={1}>
-					<HeaderCell flexGrow={1}>Status</HeaderCell>
+				<Column>
+					<HeaderCell>Status</HeaderCell>
 					<Cell dataKey="status" />
 				</Column>
 			</Table>
