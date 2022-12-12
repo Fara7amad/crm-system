@@ -44,7 +44,13 @@ const ReportFiltering = () => {
             onChange={searchData}
           />
           <br />
-          <Stack direction="horizontal" gap={3}></Stack>
+          <Stack direction="horizontal" gap={3}>
+            <Form.Select>
+              {" "}
+              <option>Client</option>
+              <option>Lead</option>
+            </Form.Select>
+          </Stack>
         </Stack>{" "}
       </form>
     </>

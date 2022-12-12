@@ -5,28 +5,7 @@ import ClientsContext from "@contexts/ClientsContext";
 import Sidebar from "./components/client/Sidebar";
 import { Container } from "react-bootstrap";
 import NavigationBar from "./components/DashboardPage/NavigationBar";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  PointElement,
-  ArcElement,
-} from "chart.js";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  ArcElement
-);
+import "rsuite-table/dist/css/rsuite-table.css";
 
 function App() {
   return (
