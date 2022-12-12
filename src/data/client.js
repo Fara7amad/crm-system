@@ -1,1 +1,7 @@
-export const DEFAULT_CLIENT_STATUSES = ["paid", "refused", "pending"];
+export const DEFAULT_CLIENT_STATUSES = [
+	"hot-lead",
+	"interested",
+	"not-interested",
+	"not-contacted",
+	"contacted",
+];

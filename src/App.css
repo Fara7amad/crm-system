@@ -14,7 +14,8 @@
 	min-width: 300px !important;
 }
 
-.page-item {
+.rs-table {
+	font-size: 14px;
 }
 
 @media (width >= 700px) {
