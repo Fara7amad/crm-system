@@ -1,11 +1,11 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../components/Detailscss.css";
+import "@components/Detailscss.css";
 import Button from "react-bootstrap/Button";
 import { Link, useParams } from "react-router-dom";
-import Update from '@components/ui/Update'
-import Comments from "@components/ui/comments/Comments"
-import Attachment from "@components/ui/Attachment/Attachment"
+import Update from '@components/Update/Update'
+import Comments from "@components/comments/Comments"
+import Attachment from "@components/Attachment/Attachment"
 
 const ClientDetails = () => {
   const { id } = useParams();
