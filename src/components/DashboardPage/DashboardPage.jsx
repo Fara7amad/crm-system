@@ -3,18 +3,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faSackDollar } from "@fortawesome/free-solid-svg-icons";
 import { faUsers } from "@fortawesome/free-solid-svg-icons";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer , Legend ,  BarChart, Bar } from 'recharts';
-import React from 'react';
+import { faCircleDot } from "@fortawesome/free-solid-svg-icons";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer , Legend ,  BarChart, Bar , PieChart, Pie, Sector, Cell } from 'recharts';
+import React , { useState } from 'react';
+import Calendar from 'react-calendar';
+
+
+
 
 
 const DashboardPage = () => {
   
-  
+  const [value, onChange] = useState(new Date());
 
   let Total_customers = 500;
   let Total_project  = 183;
   let Ernings = 13840;
- 
 
   const data = [
     { month: "Jan", project: 10 },
@@ -30,9 +34,6 @@ const DashboardPage = () => {
     { month: "Nov", project: 110 },
     { month: "Dec", project: 120 },
   ];
-
-
-
 
   const data2 = [
     {
@@ -65,17 +66,24 @@ const DashboardPage = () => {
       expenses: 2700,
     },
   ];
-  
-  
+  const data3 = [
+    { name: 'Customer', value: 30 },
+    { name: 'Lead', value: 30 }
+  ];
+  const COLORS = ['#632cba', '#8884d8'];
   return (
     <>
       <div className="container con1">
         
         <div className="row">
          
+
+
+
+
           <div className="col-3">
             
-            <div className="card card-customers">
+            <div className="card card-customers cardth3">
             <i> <FontAwesomeIcon icon={faUser} className="iconn"/> <b>Total customers  {Total_customers} </b> </i> 
             </div>
 
@@ -84,7 +92,7 @@ const DashboardPage = () => {
          
           <div className="col-3">
         
-            <div className="card card-projects">
+            <div className="card card-projects cardth3">
             <i> <FontAwesomeIcon icon={faUsers} className="iconn" /> <b>Total projects  {Total_project} </b> </i> 
             </div>
 
@@ -93,29 +101,54 @@ const DashboardPage = () => {
          
           <div className="col-3">
           
-            <div className="card card-Ernings">
+            <div className="card card-Ernings cardth3">
             <i> <FontAwesomeIcon icon={faSackDollar} className="iconn" /> <b>Ernings {Ernings} </b>  </i> 
             </div>
 
           </div>
 
+
+
+
+
+
+
+
+
+
           <div className="col-3">
       
-            <div className="card card-last-login position-absolute top-1 end-0  ">
-            <b>since your Last log in : </b> <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className="card card-last-login cardtw2 position-absolute top-1 end-0  ">
+            <b>since your Last log in :</b>
+            <Calendar onChange={onChange} value={value} /> 
             </div>
 
           </div>
 
-
           <div className="col-3">
-      
-            <div className="card card-last-login  position-absolute bottom-0 end-0 ">
-            <b></b> <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className="card card-last-login cardtw2 position-absolute bottom-0 end-0 "> 
+
+            <i className="customer-lead"><FontAwesomeIcon icon={faCircleDot} className="icon-customer" /> Customer </i>
+            <i className="lead-customer"><FontAwesomeIcon icon={faCircleDot} className="icon-lead" /> Lead </i>
+
+            <PieChart width={800} height={300}>
+            <Pie data={data3} cx={180} cy={150} innerRadius={60} outerRadius={100} fill="#8884d8" paddingAngle={1} dataKey="value" label >
+            {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />))}
+            </Pie>
+            </PieChart>
             </div>
+
           </div>
         
+
+
+
+
+
+
         </div>
+
       </div>
     
 
@@ -152,10 +185,7 @@ const DashboardPage = () => {
         </LineChart>
         </ResponsiveContainer>
       </div>
-
-   
-
-
+ 
     </div>
     </>
   );

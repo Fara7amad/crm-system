@@ -1,5 +1,8 @@
 import './NavigationBar.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faBell } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function NavigationBar() {
     return (
@@ -8,7 +11,7 @@ export default function NavigationBar() {
         
         <div className="exsit-notification">
           <button type="button" className="icon-button">
-            <i className="material-icons bi-bell "> <FontAwesomeIcon icon="fa-regular fa-bell" /> </i>
+            <i className="material-icons bi-bell "> <FontAwesomeIcon icon={faBell} /> </i>
             <span className="icon-button__badge"></span>
           </button>
 
@@ -26,7 +29,7 @@ export default function NavigationBar() {
           ></input>
           <a className="search-btn" href="#">
             {" "}
-            <i className="fas fa-search"> <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /> </i>
+            <i className="fas fa-search"> <FontAwesomeIcon icon={faSearch} /> </i>
           </a>
         </div>
       </div>
