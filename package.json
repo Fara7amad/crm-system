@@ -30,6 +30,7 @@
     "react-dom": "^18.2.0",
     "react-paginate": "^8.1.4",
     "react-router-dom": "^6.4.3",
+    "rsuite-table": "^5.8.1",
     "sass": "^1.56.0",
     "uuid": "^9.0.0"
   },

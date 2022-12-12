@@ -14,6 +14,9 @@
 	min-width: 300px !important;
 }
 
+.page-item {
+}
+
 @media (width >= 700px) {
 	.select-menu-card {
 		min-width: 350px !important;

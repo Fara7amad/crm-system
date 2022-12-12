@@ -1,10 +1,4 @@
-import DataTable from "@components/client/DataTable";
-
 function Clients() {
-	return (
-		<div>
-			<DataTable />
-		</div>
-	);
+	return <div></div>;
 }
 export default Clients;
