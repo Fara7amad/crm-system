@@ -1,4 +1,4 @@
-import DataTable from "@components/client/DataTable";
+import DataTable from "@components/client/DataTable/DataTable";
 
 function Clients() {
 	return (

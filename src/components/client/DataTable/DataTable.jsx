@@ -1,11 +1,10 @@
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "./DataTable.css";
 import Table from "react-bootstrap/Table";
 import TablePagination from "./TablePagination";
 import Form from "react-bootstrap/Form";
-import ClientAdd from "./ClientAdd";
-import FiltersForm from "./clientFilter/FiltersForm";
-import { useState, useEffect } from "react";
+import ClientAdd from "@components/client/AddClientForm/ClientAdd";
+import FiltersForm from "@components/client/clientFilter/FiltersForm";
+import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
 
 // ? install React Pagination using
@@ -14,26 +13,8 @@ import { useClient } from "@contexts/ClientsContext";
 // ? npm i react-bootstrap bootstrap
 
 const DataTable = (props) => {
-	//---------------------------Searching-------------------------------------
 	const clients = useClient();
 	const [filteredList, setFilteredList] = useState(clients);
-
-	useEffect(() => {
-		setFilteredList(clients);
-	}, [clients]);
-
-	const [search, setSearch] = useState("");
-
-	const searchData = (e) => {
-		setFilteredList(
-			clients.filter((user) =>
-				user.company.toLowerCase().includes(e.target.value.trim().toLowerCase())
-			)
-		);
-
-		setSearch(e.target.value);
-	};
-	//----------------------------------------------------------------
 
 	const getDataFilterList = (filterL) => {
 		setFilteredList(filterL);
@@ -48,15 +29,14 @@ const DataTable = (props) => {
 				<th className="thead-values-state">State</th>
 				<th className="thead-values-status">Status</th>
 				<th className="thead-values-type">Type</th>
-				<th className="thead-values-button">Delete</th>
-				<th className="thead-values-edit">Details</th>
+				<th className="thead-values-delete-button"></th>
+				<th className="thead-values-details-button"></th>
 			</tr>
 		);
 	};
 
 	return (
 		<div className="main-holder container">
-			<h1 className="header-h1">Clients</h1>
 			<div className="cont">
 				<div className="container data-shower">
 					<div className="header-client"></div>
@@ -67,17 +47,13 @@ const DataTable = (props) => {
 						/>
 						<ClientAdd />
 					</div>
-
 					<Form.Control
 						type="text"
 						id="search-bar"
 						placeholder="Search"
 						className="search-bar"
-						value={search}
-						onChange={searchData}
 					/>
-
-					<Table responsive="sm" className="table-holder">
+					<Table responsive="sm" className="table-holder" bordered hover>
 						<thead>{setTh()}</thead>
 						<tbody>
 							<TablePagination data={filteredList} />
