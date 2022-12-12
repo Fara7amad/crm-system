@@ -12,6 +12,8 @@ import useLocalStorage from "@hooks/useLocalStorage";
 import { formatDate } from "@utils/helpers";
 
 import Datalist from './Datalist'
+import {get_delete} from './Datalist'
+import {delete_list} from './Datalist'
 
 
 import {
@@ -19,6 +21,7 @@ import {
   faFileAlt,
   faTrash,
 } from "@fortawesome/free-solid-svg-icons";
+
 
 const Attachment = () => {
   //-------------------------------------------------------------------
@@ -41,7 +44,7 @@ const Attachment = () => {
   );
 
   const [status, setStatus] = useState(statuses[0]);
-  console.log(status);
+ 
   const addAtt = () => {
     const id = new Date().getTime().toString();
     if (title.trim()) {
@@ -77,7 +80,7 @@ const Attachment = () => {
               id="button-addon2"
               onClick= {  () =>{
                 addAtt()
-                Datalist(status,title , new Date())
+                Datalist(status,title, new Date())
               }}
 
             >
@@ -118,7 +121,11 @@ const Attachment = () => {
                 <FontAwesomeIcon
                   icon={faTrash}
                   name={a}
-                  onClick={() => deleteFile(a.id)}
+                  onClick={() =>{
+                    deleteFile(a.id)
+                    get_delete(a.title)
+                    delete_list()
+                  }}
                   className="icon"
                   size="xs"
                 />
