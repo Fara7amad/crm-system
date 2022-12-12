@@ -16,7 +16,7 @@ const DashboardPage = () => {
   
   const [value, onChange] = useState(new Date());
 
-  let Total_customers = 500;
+  let Total_customers = JSON.parse(localStorage.getItem("clients")).length;
   let Total_project  = 183;
   let Ernings = 13840;
 
@@ -67,7 +67,7 @@ const DashboardPage = () => {
     },
   ];
   const data3 = [
-    { name: 'Customer', value: 30 },
+    { name: 'Customer', value: 70 },
     { name: 'Lead', value: 30 }
   ];
   const COLORS = ['#632cba', '#8884d8'];
