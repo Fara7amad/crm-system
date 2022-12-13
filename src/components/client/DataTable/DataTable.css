@@ -131,14 +131,14 @@ tbody tr {
 	table-layout: fixed;
 }
 
-/* .pagination {
+.pagination {
 	list-style: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 3px;
 	padding-bottom: 16px;
-} */
+}
 
 .pagination .num-of-page {
 	text-decoration: none;

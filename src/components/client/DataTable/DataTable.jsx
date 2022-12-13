@@ -2,7 +2,6 @@ import "./DataTable.css";
 import Table from "react-bootstrap/Table";
 import TablePagination from "./TablePagination";
 import Form from "react-bootstrap/Form";
-import ClientAdd from "@components/client/AddClientForm/ClientAdd";
 import FiltersForm from "@components/client/clientFilter/FiltersForm";
 import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
@@ -45,7 +44,6 @@ const DataTable = (props) => {
 							setFilterList={getDataFilterList}
 							filteredList={filteredList}
 						/>
-						<ClientAdd />
 					</div>
 					<Form.Control
 						type="text"

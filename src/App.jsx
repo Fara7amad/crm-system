@@ -1,16 +1,11 @@
 import "./App.css";
+import React from "react";
 import NavigationBar from "@components/NavigationBar/NavigationBar";
 import { Route, Routes } from "react-router-dom";
-import { Reports } from "@pages";
+import { Reports, Dashboard, Clients, ClientDetails } from "@pages";
 import ClientsContext from "@contexts/ClientsContext";
 import Sidebar from "@components/SideBar/Sidebar";
 import { Container } from "react-bootstrap";
-import React, { Suspense } from "react";
-
-const Dashboard = React.lazy(() => import("./pages/Dashboard"));
-const Clients = React.lazy(() => import("./pages/Clients"));
-// const Reports = React.lazy(() => import("./pages/Reports"));
-const ClientDetails = React.lazy(() => import("./pages/ClientDetails"));
 
 function App() {
 	return (
@@ -24,39 +19,11 @@ function App() {
 						<ClientsContext>
 							<Routes>
 								{/* pages go here as Routes */}
-								<Route
-									path="/"
-									element={
-										<Suspense>
-											<Dashboard />
-										</Suspense>
-									}
-								/>
-								<Route
-									path="/dashboard"
-									element={
-										<Suspense>
-											<Dashboard />
-										</Suspense>
-									}
-								/>
-								<Route
-									path="/clients"
-									element={
-										<Suspense>
-											<Clients />
-										</Suspense>
-									}
-								/>
+								<Route path="/" element={<Dashboard />} />
+								<Route path="/dashboard" element={<Dashboard />} />
+								<Route path="/clients" element={<Clients />} />
 								<Route path="/reports" element={<Reports />} />
-								<Route
-									path="/details/:id"
-									element={
-										<Suspense>
-											<ClientDetails />
-										</Suspense>
-									}
-								/>
+								<Route path="/details/:id" element={<ClientDetails />} />
 							</Routes>
 						</ClientsContext>
 					</Container>
