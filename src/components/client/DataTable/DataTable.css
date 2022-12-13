@@ -27,6 +27,10 @@
 	margin-top: 87.5px;
 }
 
+.table .page-item {
+	padding: 0;
+}
+
 .table-holder {
 	display: flex;
 	flex-direction: column;
@@ -130,35 +134,6 @@ tbody tr {
 	width: 100%;
 	table-layout: fixed;
 }
-
-.pagination {
-	list-style: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 3px;
-	padding-bottom: 16px;
-}
-
-.pagination .num-of-page {
-	text-decoration: none;
-	color: #000;
-	padding: 8px 15px;
-	cursor: pointer;
-	border-radius: 3px;
-	font-weight: 400;
-}
-
-.pagination .num-of-page:hover {
-	background-color: #8456cf;
-	color: white;
-}
-
-.pagination .active {
-	background-color: #632cba !important;
-	color: white;
-}
-
 .search-bar {
 	display: flex;
 	flex-direction: row;
@@ -228,10 +203,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -32.34px;
-	}
-	.pagination {
-		font-size: 15px;
-		gap: 6px;
 	}
 	.number-of-items {
 		font-size: 16px;
@@ -303,10 +274,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -28.34px;
-	}
-	.pagination {
-		font-size: 14.6px;
-		gap: 6px;
 	}
 	.number-of-items {
 		font-size: 15px;
@@ -390,10 +357,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -28.34px;
-	}
-	.pagination {
-		font-size: 13px;
-		gap: 0.5px;
 	}
 	.number-of-items {
 		font-size: 14px;
@@ -486,10 +449,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -28.34px;
-	}
-	.pagination {
-		font-size: 13px;
-		gap: 0.5px;
 	}
 	.number-of-items {
 		font-size: 13px;
@@ -593,10 +552,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -28.34px;
-	}
-	.pagination {
-		font-size: 13px;
-		gap: 0.5px;
 	}
 	.number-of-items {
 		font-size: 13px;

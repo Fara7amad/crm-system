@@ -1,52 +1,39 @@
 import "./Sidebar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import {
+	faChartSimple,
+	faHouse,
+	faSackDollar,
+	faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 // functions
 const menuItem = [
 	{
 		path: "/",
 		name: "Dashboard",
-		icon: <FontAwesomeIcon icon="house" />,
+		icon: <FontAwesomeIcon icon={faHouse} size="lg" />,
 	},
 	{
 		path: "/clients",
 		name: "Clients",
-		icon: <FontAwesomeIcon icon="users" />,
+		icon: <FontAwesomeIcon icon={faUsers} size="lg" />,
 	},
 	{
 		path: "/reports",
 		name: "Analytics",
-		icon: <FontAwesomeIcon icon="chart-simple" />,
+		icon: <FontAwesomeIcon icon={faChartSimple} size="lg" />,
 	},
 	{
 		path: "/billings",
 		name: "Billings",
-		icon: <FontAwesomeIcon icon="sack-dollar" />,
-	},
-	{
-		path: "/settings",
-		name: "Settings",
-		icon: <FontAwesomeIcon icon="gear" />,
-		subNav: [
-			{
-				path: "/notifications",
-				name: "Notifications",
-				icon: <FontAwesomeIcon icon="bell" />,
-			},
-			{
-				path: "/privacy",
-				name: "Privacy",
-				icon: <FontAwesomeIcon icon="lock" />,
-			},
-		],
+		icon: <FontAwesomeIcon icon={faSackDollar} size="lg" />,
 	},
 ];
-const Sidebar = ({ children }) => {
-	const [isOpen, setIsOpen] = useState(true);
-	const toggle = () => setIsOpen(!isOpen);
+
+const Sidebar = ({ isOpen }) => {
 	const ShowAnimation = {
 		hidden: {
 			width: 0,
@@ -66,27 +53,24 @@ const Sidebar = ({ children }) => {
 
 	return (
 		<div className="main-container">
-			<motion.div animate={{ width: isOpen ? "" : "55px" }} className="sidebar">
+			<motion.div
+				animate={{ width: isOpen ? "" : "60px" }}
+				className={`sidebar ${
+					isOpen ? "justify-content-between" : "justify-content-center"
+				}`}
+			>
 				<div className="top-section">
 					{isOpen && (
-						<motion.h1
+						<motion.h4
 							variants={ShowAnimation}
 							initial="hidden"
 							animate="show"
 							exit="hidden"
 							className="header"
 						>
-							CrmSystem
-						</motion.h1>
+							CRMSYSTEM
+						</motion.h4>
 					)}
-
-					<div className="toggle">
-						{isOpen === false ? (
-							<FontAwesomeIcon icon="bars" onClick={toggle} />
-						) : (
-							<FontAwesomeIcon icon="xmark" onClick={toggle} />
-						)}
-					</div>
 				</div>
 
 				<section className="routes">
@@ -97,7 +81,8 @@ const Sidebar = ({ children }) => {
 							className="link"
 							activeClassName="active"
 						>
-							<div className="icon">{item.icon}</div>
+							{item.icon}
+
 							<AnimatePresence>
 								{isOpen && (
 									<motion.div
@@ -113,20 +98,17 @@ const Sidebar = ({ children }) => {
 							</AnimatePresence>
 						</NavLink>
 					))}
-
-					{isOpen && (
-						<div className="status">
-							<a href="#">
-								{" "}
-								<FontAwesomeIcon icon="circle-user" className="prf" />
-							</a>
-							<p className="profile">Logged in as : CRM USER</p>
-						</div>
-					)}
 				</section>
-			</motion.div>
 
-			<main>{children}</main>
+				{isOpen && (
+					<div className="status">
+						<a href="#">
+							<FontAwesomeIcon icon="circle-user" className="prf" />
+						</a>
+						<p className="profile">Logged in as : CRM USER</p>
+					</div>
+				)}
+			</motion.div>
 		</div>
 	);
 };
