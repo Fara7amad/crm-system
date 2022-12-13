@@ -1,10 +1,6 @@
-import DashboardPage from "@components/DashboardPage/DashboardPage";
+// import DashboardPage from "@components/DashboardPage/DashboardPage";
 
 function Dashboard() {
-	return (
-		<>
-			<DashboardPage />
-		</>
-	);
+  return <>{/* <DashboardPage /> */}</>;
 }
 export default Dashboard;
