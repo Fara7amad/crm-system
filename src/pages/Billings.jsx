@@ -1,10 +1,10 @@
-import BilingsTable from "@components/billing/BilingsTable";
+import BillingsTable from "@components/billing/BillingsTable";
 
 function Billings() {
-  return (
-    <div>
-      <BilingsTable />
-    </div>
-  );
+	return (
+		<div>
+			<BillingsTable />
+		</div>
+	);
 }
 export default Billings;

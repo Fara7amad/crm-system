@@ -11,7 +11,7 @@ const ClientDetails = () => {
 	const { id } = useParams();
 
 	return (
-		<div className="p-2 h-100">
+		<div className="p-2">
 			<Button id="button-done" size="sm" as={Link} to="/clients">
 				Done
 			</Button>
@@ -19,16 +19,14 @@ const ClientDetails = () => {
 			<Row>
 				<Col xs={12} md={6} lg={4}>
 					<p>Client info</p>
-					<Button className="" size="sm">
-						Edit
-					</Button>
+					<Button size="sm">Edit</Button>
 				</Col>
 
-				<Col xs={12} md={6} lg={4} className="h-100">
+				<Col xs={12} md={6} lg={4}>
 					<Attachment />
 				</Col>
 
-				<Col xs={12} md={4} lg={4} className="h-100">
+				<Col xs={12} md={4} lg={4}>
 					<Comments />
 				</Col>
 			</Row>

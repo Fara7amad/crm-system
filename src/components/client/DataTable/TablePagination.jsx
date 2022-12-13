@@ -1,30 +1,18 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
 import ReactPaginate from "react-paginate";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { formatDate } from "@utils/helpers";
 import { Link } from "react-router-dom";
+import usePagination from "@hooks/usePagination";
 
 export default function TablePagination(props) {
 	const { data } = props;
-	const [currentItems, setCurrentItems] = useState([]);
-	const [pageCount, setPageCount] = useState(0);
-	const [itemOffset, setItemOffset] = useState(0);
-	const itemsPerPage = 20;
 
-	useEffect(() => {
-		const endOffset = itemOffset + itemsPerPage;
-		setCurrentItems(data.slice(itemOffset, endOffset));
-		setPageCount(Math.ceil(data.length / itemsPerPage));
-	}, [itemOffset, itemsPerPage, data]);
-
-	const handlePageClick = (e) => {
-		const newOffset = (e.selected * itemsPerPage) % data.length;
-		setItemOffset(newOffset);
-	};
+	const { handlePageClick, currentItems, pageCount, offset } = usePagination(
+		data,
+		20
+	);
 
 	const getData = () => {
 		return currentItems.map((client, index) => {
@@ -33,7 +21,7 @@ export default function TablePagination(props) {
 					<td className="tbody-values-checkbox-select">
 						<Form.Check type="checkbox" className="checkbox-select" />
 					</td>
-					<td className="tbody-values-id">{index + 1 + itemOffset}</td>
+					<td className="tbody-values-id">{index + 1 + offset}</td>
 					<td
 						className="tbody-values-company"
 						title="To view more, click on 'Details'"
@@ -73,9 +61,9 @@ export default function TablePagination(props) {
 	};
 
 	const numberOfItemsInEachPage = () => {
-		return `Showing ${itemOffset + 1} to ${
-			itemOffset + currentItems.length
-		} of ${data.length} entries`;
+		return `Showing ${offset + 1} to ${offset + currentItems.length} of ${
+			data.length
+		} entries`;
 	};
 
 	return (

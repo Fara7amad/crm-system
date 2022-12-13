@@ -4,6 +4,7 @@ import { jsonReviver } from "@utils/jsonReviver";
 import { v4 as uuid } from "uuid";
 
 import clientsJson from "../data/data.json";
+import { DEFAULT_CLIENT_STATUSES } from "../data/client";
 
 const ClientsContext = createContext();
 
@@ -33,7 +34,16 @@ export default function ClientsProvider({ children }) {
 	const [clients, setClients] = useLocalStorage(
 		"clients",
 		JSON.parse(
-			JSON.stringify(clientsJson.map((ct) => ({ ...ct, id: uuid() }))),
+			JSON.stringify(
+				clientsJson.map((ct) => ({
+					...ct,
+					id: uuid(),
+					status:
+						DEFAULT_CLIENT_STATUSES[
+							Math.floor(Math.random() * DEFAULT_CLIENT_STATUSES.length)
+						],
+				}))
+			),
 			jsonReviver
 		)
 	);

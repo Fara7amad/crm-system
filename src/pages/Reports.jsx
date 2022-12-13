@@ -1,8 +1,9 @@
 import "rsuite-table/dist/css/rsuite-table.css";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
 import { Table, Column, HeaderCell, Cell } from "rsuite-table";
+import usePagination from "@hooks/usePagination";
 
 import { formatDate } from "@utils/helpers";
 import ReactPaginate from "react-paginate";
@@ -13,8 +14,10 @@ function Reports() {
 	const [filteredList, setFilteredList] = useState(clients);
 	const [sortType, setSortType] = useState("asc");
 
-	const { handlePageClick, currentItems, pageCount } =
-		usePagination(filteredList);
+	const { handlePageClick, currentItems, pageCount } = usePagination(
+		filteredList,
+		20
+	);
 
 	const handleSortColumn = (key, sortType) => {
 		if (key != "date")
@@ -35,7 +38,7 @@ function Reports() {
 	};
 
 	return (
-		<div className="p-3">
+		<div>
 			<ReportFiltering
 				setFilteredList={setFilteredList}
 				filteredList={filteredList}
@@ -45,7 +48,7 @@ function Reports() {
 				data={currentItems}
 				sortType={sortType}
 				onSortColumn={handleSortColumn}
-				height={500}
+				height={660}
 				virtualized
 			>
 				<Column>
@@ -77,9 +80,13 @@ function Reports() {
 					<HeaderCell>Type</HeaderCell>
 					<Cell dataKey="type" />
 				</Column>
-				<Column>
+				<Column width={150}>
 					<HeaderCell>Status</HeaderCell>
-					<Cell dataKey="status" />
+					<Cell
+						className="text-capitalize"
+						dataKey="status"
+						renderCell={(status) => status.split("-").join(" ")}
+					/>
 				</Column>
 			</Table>
 
@@ -103,31 +110,6 @@ function Reports() {
 			</div>
 		</div>
 	);
-}
-
-const itemsPerPage = 20;
-
-function usePagination(data) {
-	const [currentItems, setCurrentItems] = useState([]);
-	const [pageCount, setPageCount] = useState(0);
-	const [itemOffset, setItemOffset] = useState(0);
-
-	useEffect(() => {
-		const endOffset = itemOffset + itemsPerPage;
-		setCurrentItems(data.slice(itemOffset, endOffset));
-		setPageCount(Math.ceil(data.length / itemsPerPage));
-	}, [itemOffset, itemsPerPage, data]);
-
-	const handlePageClick = (e) => {
-		const newOffset = (e.selected * itemsPerPage) % data.length;
-		setItemOffset(newOffset);
-	};
-
-	return {
-		handlePageClick,
-		currentItems,
-		pageCount,
-	};
 }
 
 export default Reports;

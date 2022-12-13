@@ -13,19 +13,21 @@ import Notification from "./Notification";
 
 export default function NavigationBar({ toggleSidebar }) {
 	const location = useLocation().pathname;
+
 	const getCurrentTitle = () => {
 		switch (location) {
 			case "/":
-			default:
-				return "Dashboard";
 			case "/clients":
 				return "Clients";
 			case "/reports":
 				return "Reports";
 			case "/billings":
 				return "Billings";
+			default:
+				return "Dashboard";
 		}
 	};
+
 	return (
 		<Navbar expand="lg" variant="light" bg="light">
 			<Container>
