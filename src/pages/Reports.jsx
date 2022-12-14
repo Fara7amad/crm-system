@@ -14,9 +14,9 @@ function Reports() {
 	const [filteredList, setFilteredList] = useState(clients);
 	const [sortType, setSortType] = useState("asc");
 
-	const { handlePageClick, currentItems, pageCount } = usePagination(
+	const { handlePageClick, currentItems, pageCount, classes } = usePagination(
 		filteredList,
-		20
+		15
 	);
 
 	const handleSortColumn = (key, sortType) => {
@@ -48,7 +48,9 @@ function Reports() {
 				data={currentItems}
 				sortType={sortType}
 				onSortColumn={handleSortColumn}
-				height={660}
+				// height={660}
+				expandedRowKeys={["id", "company"]}
+				autoHeight
 				virtualized
 			>
 				<Column>
@@ -60,27 +62,27 @@ function Reports() {
 						}
 					/>
 				</Column>
-				<Column sortable flexGrow={1} minWidth={250}>
+				<Column sortable flexGrow={1} minWidth={200}>
 					<HeaderCell>Company</HeaderCell>
 					<Cell dataKey="company" />
 				</Column>
-				<Column sortable flexGrow={1} minWidth={200}>
+				<Column sortable width={200}>
 					<HeaderCell>First Name</HeaderCell>
 					<Cell dataKey="firstName" />
 				</Column>
-				<Column sortable flexGrow={1} minWidth={200}>
+				<Column sortable width={200}>
 					<HeaderCell>Last Name</HeaderCell>
 					<Cell dataKey="lastName" />
 				</Column>
-				<Column sortable>
+				<Column sortable width={140}>
 					<HeaderCell>Date Added</HeaderCell>
 					<Cell dataKey="date" renderCell={(data) => formatDate(data)} />
 				</Column>
-				<Column>
+				<Column flexGrow={1} minWidth={100}>
 					<HeaderCell>Type</HeaderCell>
 					<Cell dataKey="type" />
 				</Column>
-				<Column width={150}>
+				<Column flexGrow={1} minWidth={130}>
 					<HeaderCell>Status</HeaderCell>
 					<Cell
 						className="text-capitalize"
@@ -95,17 +97,7 @@ function Reports() {
 					onPageChange={handlePageClick}
 					pageRangeDisplayed={5}
 					pageCount={pageCount}
-					renderOnZeroPageCount={null}
-					pageClassName="page-item"
-					pageLinkClassName="page-link"
-					previousClassName="page-item"
-					previousLinkClassName="page-link"
-					nextClassName="page-item"
-					nextLinkClassName="page-link"
-					breakClassName="page-item"
-					breakLinkClassName="page-link"
-					containerClassName="pagination justify-content-center"
-					activeClassName="active"
+					{...classes}
 				/>
 			</div>
 		</div>

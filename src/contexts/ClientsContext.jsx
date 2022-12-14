@@ -38,10 +38,6 @@ export default function ClientsProvider({ children }) {
 				clientsJson.map((ct) => ({
 					...ct,
 					id: uuid(),
-					status:
-						DEFAULT_CLIENT_STATUSES[
-							Math.floor(Math.random() * DEFAULT_CLIENT_STATUSES.length)
-						],
 				}))
 			),
 			jsonReviver

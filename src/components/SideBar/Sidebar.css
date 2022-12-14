@@ -1,5 +1,6 @@
 .main-container {
 	display: flex;
+	height: 100vh;
 }
 
 .sidebar {
@@ -10,7 +11,6 @@
 	width: 200px;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
 }
 .header {
 	font-size: 25px;

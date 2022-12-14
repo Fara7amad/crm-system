@@ -16,9 +16,9 @@ const DataTable = () => {
 	const clients = useClient();
 	const [filteredList, setFilteredList] = useState(clients);
 
-	const { handlePageClick, currentItems, pageCount } = usePagination(
+	const { handlePageClick, currentItems, pageCount, classes } = usePagination(
 		filteredList,
-		20
+		25
 	);
 
 	const getDataFilterList = (filterL) => {
@@ -40,7 +40,7 @@ const DataTable = () => {
 				</div>
 			</Stack>
 
-			<Table data={currentItems} height={500} virtualized>
+			<Table data={currentItems} autoHeight /* height={500}  */ virtualized>
 				<Column>
 					<HeaderCell>ID</HeaderCell>
 					<Cell
@@ -50,20 +50,20 @@ const DataTable = () => {
 						}
 					/>
 				</Column>
-				<Column flexGrow={1} minWidth={250}>
+				<Column flexGrow={1} minWidth={200}>
 					<HeaderCell>Company</HeaderCell>
 					<Cell dataKey="company" />
 				</Column>
-				<Column>
+				<Column width={120}>
 					<HeaderCell>Date Added</HeaderCell>
 					<Cell dataKey="date" renderCell={(data) => formatDate(data)} />
 				</Column>
-				<Column>
+				<Column width={100}>
 					<HeaderCell>State</HeaderCell>
 					<Cell dataKey="state" />
 				</Column>
 
-				<Column width={150}>
+				<Column flexGrow={1} minWidth={130}>
 					<HeaderCell>Status</HeaderCell>
 					<Cell
 						dataKey="status"
@@ -72,7 +72,7 @@ const DataTable = () => {
 					/>
 				</Column>
 
-				<Column>
+				<Column flexGrow={1} minWidth={100}>
 					<HeaderCell>Type</HeaderCell>
 					<Cell dataKey="type" />
 				</Column>
@@ -105,17 +105,7 @@ const DataTable = () => {
 				onPageChange={handlePageClick}
 				pageRangeDisplayed={5}
 				pageCount={pageCount}
-				renderOnZeroPageCount={null}
-				pageClassName="page-item"
-				pageLinkClassName="page-link"
-				previousClassName="page-item"
-				previousLinkClassName="page-link"
-				nextClassName="page-item"
-				nextLinkClassName="page-link"
-				breakClassName="page-item"
-				breakLinkClassName="page-link"
-				containerClassName="pagination justify-content-center mt-2"
-				activeClassName="active"
+				{...classes}
 			/>
 		</div>
 	);

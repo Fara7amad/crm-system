@@ -13,13 +13,13 @@ function App() {
 	const toggleSidebar = () => setShowSidebar((open) => !open);
 
 	return (
-		<div className="d-flex vh-100 overflow-hidden">
+		<div className="d-flex">
 			<Sidebar isOpen={showSidebar} />
 
-			<div className="flex-grow-1">
+			<div className="flex-grow-1 page-layout">
 				<NavigationBar toggleSidebar={toggleSidebar} />
 
-				<main className="page-layout py-3">
+				<main className="py-3">
 					<Container fluid>
 						<ClientsContext>
 							<Routes>
