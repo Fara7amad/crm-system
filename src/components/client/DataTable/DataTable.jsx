@@ -1,68 +1,124 @@
 import "./DataTable.css";
-import Table from "react-bootstrap/Table";
-import TablePagination from "./TablePagination";
 import Form from "react-bootstrap/Form";
 import FiltersForm from "@components/client/clientFilter/FiltersForm";
 import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
 import ClientForm from "../ClientForm";
+import { Cell, HeaderCell, Table, Column } from "rsuite-table";
+import usePagination from "@hooks/usePagination";
+import ReactPaginate from "react-paginate";
+import { formatDate } from "@utils/helpers";
+import Button from "react-bootstrap/Button";
+import Stack from "react-bootstrap/Stack";
+import { Link } from "react-router-dom";
 
-// ? install React Pagination using
-// ? npm i react-paginate
-// ? install React Bootstrap using
-// ? npm i react-bootstrap bootstrap
+const DataTable = () => {
+	const clients = useClient();
+	const [filteredList, setFilteredList] = useState(clients);
 
-const DataTable = (props) => {
-  const clients = useClient();
-  const [filteredList, setFilteredList] = useState(clients);
+	const { handlePageClick, currentItems, pageCount } = usePagination(
+		filteredList,
+		20
+	);
 
-  const getDataFilterList = (filterL) => {
-    setFilteredList(filterL);
-  };
-  const setTh = () => {
-    return (
-      <tr>
-        <th className="thead-values-checkbox-select"></th>
-        <th className="thead-values-id">ID</th>
-        <th className="thead-values-company">Company</th>
-        <th className="thead-values-date">Date Added</th>
-        <th className="thead-values-state">State</th>
-        <th className="thead-values-status">Status</th>
-        <th className="thead-values-type">Type</th>
-        <th className="thead-values-delete-button"></th>
-        <th className="thead-values-details-button"></th>
-      </tr>
-    );
-  };
+	const getDataFilterList = (filterL) => {
+		setFilteredList(filterL);
+	};
 
-  return (
-    <div className="main-holder container">
-      <div className="cont">
-        <div className="container data-shower">
-          <div className="header-client"></div>
-          <div className="button-holder">
-            <FiltersForm
-              setFilterList={getDataFilterList}
-              filteredList={filteredList}
-            />
-            <ClientForm />
-          </div>
-          <Form.Control
-            type="text"
-            id="search-bar"
-            placeholder="Search"
-            className="search-bar"
-          />
-          <Table responsive="sm" className="table-holder" bordered hover>
-            <thead>{setTh()}</thead>
-            <tbody>
-              <TablePagination data={filteredList} />
-            </tbody>
-          </Table>
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<div>
+			<Stack gap={2} direction="horizontal" className="mb-3">
+				<Form.Control type="text" placeholder="Search" />
+
+				<div className="button-holder">
+					<FiltersForm
+						setFilterList={getDataFilterList}
+						filteredList={filteredList}
+					/>
+
+					<ClientForm />
+				</div>
+			</Stack>
+
+			<Table data={currentItems} height={500} virtualized>
+				<Column>
+					<HeaderCell>ID</HeaderCell>
+					<Cell
+						dataKey="id"
+						renderCell={(id) =>
+							filteredList.findIndex((client) => client.id === id) + 1
+						}
+					/>
+				</Column>
+				<Column flexGrow={1} minWidth={250}>
+					<HeaderCell>Company</HeaderCell>
+					<Cell dataKey="company" />
+				</Column>
+				<Column>
+					<HeaderCell>Date Added</HeaderCell>
+					<Cell dataKey="date" renderCell={(data) => formatDate(data)} />
+				</Column>
+				<Column>
+					<HeaderCell>State</HeaderCell>
+					<Cell dataKey="state" />
+				</Column>
+
+				<Column width={150}>
+					<HeaderCell>Status</HeaderCell>
+					<Cell
+						dataKey="status"
+						className="text-capitalize"
+						renderCell={(status) => status.split("-").join(" ")}
+					/>
+				</Column>
+
+				<Column>
+					<HeaderCell>Type</HeaderCell>
+					<Cell dataKey="type" />
+				</Column>
+
+				<Column width={200}>
+					<HeaderCell>Actions</HeaderCell>
+					<Cell>
+						{(client) => (
+							<div>
+								<Button
+									variant="primary"
+									size="sm"
+									className="details-button me-2"
+									as={Link}
+									to={`/details/${client.id}`}
+								>
+									Details
+								</Button>
+
+								<Button variant="danger" size="sm">
+									Delete
+								</Button>
+							</div>
+						)}
+					</Cell>
+				</Column>
+			</Table>
+
+			<ReactPaginate
+				onPageChange={handlePageClick}
+				pageRangeDisplayed={5}
+				pageCount={pageCount}
+				renderOnZeroPageCount={null}
+				pageClassName="page-item"
+				pageLinkClassName="page-link"
+				previousClassName="page-item"
+				previousLinkClassName="page-link"
+				nextClassName="page-item"
+				nextLinkClassName="page-link"
+				breakClassName="page-item"
+				breakLinkClassName="page-link"
+				containerClassName="pagination justify-content-center mt-2"
+				activeClassName="active"
+			/>
+		</div>
+	);
 };
 
 export default DataTable;

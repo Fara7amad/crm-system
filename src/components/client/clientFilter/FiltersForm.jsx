@@ -4,95 +4,93 @@ import "./FormClientFilter.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Dropdown from "react-bootstrap/Dropdown";
+import { Stack } from "react-bootstrap";
 
 const defaultFilters = { state: "", type: "" };
 
 const FiltersForm = ({ filteredList, setFilterList }) => {
-  const [filters, setFilters] = useState(defaultFilters);
-  const clients = useClient();
+	const [filters, setFilters] = useState(defaultFilters);
+	const clients = useClient();
 
-  const allStateClients = [...new Set(clients.map((client) => client.state))];
+	const allStateClients = [...new Set(clients.map((client) => client.state))];
 
-  const onChangeState = (e) => {
-    setFilters((prev) => {
-      return { ...prev, state: e.target.value };
-    });
-  };
+	const onChangeState = (e) => {
+		setFilters((prev) => {
+			return { ...prev, state: e.target.value };
+		});
+	};
 
-  const onChangeType = (e) => {
-    setFilters((prev) => {
-      return { ...prev, type: e.target.value };
-    });
-  };
+	const onChangeType = (e) => {
+		setFilters((prev) => {
+			return { ...prev, type: e.target.value };
+		});
+	};
 
-  const onClickAll = () => {
-    setFilterList(clients);
-    setFilters(defaultFilters);
-  };
+	const onClickAll = () => {
+		setFilterList(clients);
+		setFilters(defaultFilters);
+	};
 
-  const onSubmit = (event) => {
-    event.preventDefault();
+	const onSubmit = (event) => {
+		event.preventDefault();
 
-    let filtered = [...clients];
+		let filtered = [...clients];
 
-    if (filters.type)
-      filtered = [...filtered.filter((client) => client.type == filters.type)];
+		if (filters.type)
+			filtered = [...filtered.filter((client) => client.type == filters.type)];
 
-    if (filters.state)
-      filtered = [
-        ...filtered.filter((client) => client.state == filters.state),
-      ];
+		if (filters.state)
+			filtered = [
+				...filtered.filter((client) => client.state == filters.state),
+			];
 
-    setFilterList(filtered);
-  };
+		setFilterList(filtered);
+	};
 
-  return (
-    <div>
-      {" "}
-      <Dropdown className="d-inline mx-2">
-        <Dropdown.Toggle
-          variant="primary"
-          className="table-buttons"
-          id="dropdown-basic"
-        >
-          Filter
-        </Dropdown.Toggle>
-        <Dropdown.Menu className="form">
-          <form onSubmit={onSubmit}>
-            <Form.Label htmlFor="type">Type</Form.Label>
-            <Form.Select value={filters.type} onChange={onChangeType}>
-              <option>Customer</option>
-              <option>Lead</option>
-            </Form.Select>
+	return (
+		<div>
+			<Dropdown>
+				<Dropdown.Toggle variant="primary">Filter</Dropdown.Toggle>
 
-            <br />
+				<Dropdown.Menu className="form">
+					<form onSubmit={onSubmit}>
+						<Form.Label htmlFor="type">Type</Form.Label>
+						<Form.Select value={filters.type} onChange={onChangeType}>
+							<option value="">Type</option>
+							<option value="Customer">Customer</option>
+							<option value="Lead">Lead</option>
+						</Form.Select>
 
-            <Form.Label htmlFor="state">State</Form.Label>
-            <Form.Select value={filters.state} onChange={onChangeState}>
-              {allStateClients.map((state) => {
-                return <option>{state}</option>;
-              })}
-            </Form.Select>
+						<br />
 
-            <br />
-            <div className="divBtn">
-              <Button type="submit" className="btn-submit">
-                Submit
-              </Button>{" "}
-              <Button
-                type="button"
-                onClick={onClickAll}
-                className="btn-all"
-                variant="outline-danger"
-              >
-                Reset
-              </Button>
-            </div>
-          </form>
-        </Dropdown.Menu>
-      </Dropdown>
-    </div>
-  );
+						<Form.Label htmlFor="state">State</Form.Label>
+						<Form.Select value={filters.state} onChange={onChangeState}>
+							<option value="">State</option>
+							{allStateClients.map((state) => {
+								return <option>{state}</option>;
+							})}
+						</Form.Select>
+
+						<br />
+
+						<Stack direction="horizontal" gap={1}>
+							<Button type="submit" className="btn-submit">
+								Submit
+							</Button>
+
+							<Button
+								type="button"
+								onClick={onClickAll}
+								variant="outline-danger"
+							>
+								Reset
+							</Button>
+						</Stack>
+					</form>
+				</Dropdown.Menu>
+			</Dropdown>
+		</div>
+	);
 };
 
 export default FiltersForm;

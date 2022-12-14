@@ -5,27 +5,19 @@ import "./Attachment.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-import { useRef } from "react";
 import { useState } from "react";
 import MagicSelect from "@components/ui/MagicSelect";
 import useLocalStorage from "@hooks/useLocalStorage";
 import { formatDate } from "@utils/helpers";
 
-import {
-	faSpinner,
-	faFileAlt,
-	faTrash,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt, faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const Attachment = () => {
-	//-------------------------------------------------------------------
-
 	const [title, setTitle] = useState("");
-	let attchObjects = [{ title: "", date: new Date(), status: "" }];
 	const [atts, setAtts] = useState([]);
 
 	const [statuses, setStatuses] = useLocalStorage(
-		"attchment-statuses", //key in local storage
+		"attachment-statuses", //key in local storage
 		[
 			"Rejected",
 			"Accepted",
@@ -38,7 +30,7 @@ const Attachment = () => {
 	);
 
 	const [status, setStatus] = useState(statuses[0]);
-	console.log(status);
+
 	const addAtt = () => {
 		const id = new Date().getTime().toString();
 		if (title.trim()) {
@@ -55,7 +47,6 @@ const Attachment = () => {
 		setAtts(newArrayAttachments);
 	};
 
-	//------------------------------------------------------------------------
 	return (
 		<>
 			<div>
@@ -101,17 +92,20 @@ const Attachment = () => {
 				</div>
 
 				<div className="items">
-					{atts.map((a) => (
-						<li className="list-item" key={a.id}>
+					{atts.map((attachment) => (
+						<li className="attachment list-item" key={attachment.id}>
 							<FontAwesomeIcon icon={faFileAlt} className="icon" size="xs" />
-							<p className="p-title">{a.title}</p>
-							<p>{formatDate(a.date)}</p>
-							<p>{a.status}</p>
+
+							<p className="attachment-title attachment-p">
+								{attachment.title}
+							</p>
+							<p className="attachment-p">{formatDate(attachment.date)}</p>
+							<p className="attachment-p">{attachment.status}</p>
+
 							<div className="actions">
 								<FontAwesomeIcon
 									icon={faTrash}
-									name={a}
-									onClick={() => deleteFile(a.id)}
+									onClick={() => deleteFile(attachment.id)}
 									className="icon"
 									size="xs"
 								/>

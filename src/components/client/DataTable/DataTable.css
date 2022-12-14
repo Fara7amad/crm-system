@@ -1,4 +1,4 @@
-.data-shower {
+/* .data-shower {
 	margin-top: 100px;
 	height: auto;
 	display: flex;
@@ -6,35 +6,16 @@
 	align-items: center;
 	justify-content: center;
 	padding-bottom: 100px;
-}
+} */
 
 .button-holder {
 	display: flex;
-	flex-direction: row;
-	align-items: end;
-	justify-content: end;
-	width: 100%;
-	height: 100%;
-	margin-top: -100px;
-	padding-top: 21px;
+	align-items: center;
+	gap: 5px;
 }
 
-.table {
-	background-color: #ffffff;
-	height: 100%;
-	color: rgb(21, 20, 20);
-	box-shadow: 1px 1px 3px 3px #cdd3d3;
-	margin-top: 87.5px;
-}
-
-.table-holder {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	height: auto;
-	overflow-x: auto;
-	margin: 45.5px auto;
+.button-holder > button {
+	min-width: 130px;
 }
 
 .table-buttons {
@@ -107,7 +88,7 @@
 	justify-content: end;
 	padding-bottom: 10px;
 }
-
+/* 
 thead {
 	display: table;
 	width: 100%;
@@ -129,43 +110,9 @@ tbody tr {
 	display: table;
 	width: 100%;
 	table-layout: fixed;
-}
+} */
 
-.pagination {
-	list-style: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 3px;
-	padding-bottom: 16px;
-}
-
-.pagination .num-of-page {
-	text-decoration: none;
-	color: #000;
-	padding: 8px 15px;
-	cursor: pointer;
-	border-radius: 3px;
-	font-weight: 400;
-}
-
-.pagination .num-of-page:hover {
-	background-color: #8456cf;
-	color: white;
-}
-
-.pagination .active {
-	background-color: #632cba !important;
-	color: white;
-}
-
-.search-bar {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
+/* 
 @media all and (min-width: 1200px) {
 	.thead-values-checkbox-select {
 		width: 4%;
@@ -228,10 +175,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -32.34px;
-	}
-	.pagination {
-		font-size: 15px;
-		gap: 6px;
 	}
 	.number-of-items {
 		font-size: 16px;
@@ -303,10 +246,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -28.34px;
-	}
-	.pagination {
-		font-size: 14.6px;
-		gap: 6px;
 	}
 	.number-of-items {
 		font-size: 15px;
@@ -390,10 +329,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -28.34px;
-	}
-	.pagination {
-		font-size: 13px;
-		gap: 0.5px;
 	}
 	.number-of-items {
 		font-size: 14px;
@@ -486,10 +421,6 @@ tbody tr {
 	.search-bar {
 		max-width: 40%;
 		margin-top: -28.34px;
-	}
-	.pagination {
-		font-size: 13px;
-		gap: 0.5px;
 	}
 	.number-of-items {
 		font-size: 13px;
@@ -594,14 +525,10 @@ tbody tr {
 		max-width: 40%;
 		margin-top: -28.34px;
 	}
-	.pagination {
-		font-size: 13px;
-		gap: 0.5px;
-	}
 	.number-of-items {
 		font-size: 13px;
 	}
 	.table {
 		font-size: 11px;
 	}
-}
+} */
