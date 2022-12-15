@@ -1,11 +1,17 @@
 import "./App.css";
-import { useState } from "react";
+import React, { Suspense, useState } from "react";
 import NavigationBar from "@components/navigation-bar/NavigationBar";
 import { Route, Routes } from "react-router-dom";
-import { Reports, Dashboard, Clients, ClientDetails, Billings } from "@pages";
+// import { Reports, Dashboard, Clients, ClientDetails, Billings } from "@pages";
 import ClientsContext from "@contexts/ClientsContext";
 import Sidebar from "@components/sidebar/Sidebar";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+
+const Dashboard = React.lazy(() => import("./pages/Dashboard"));
+const Clients = React.lazy(() => import("./pages/Clients"));
+const Reports = React.lazy(() => import("./pages/Reports"));
+const ClientDetails = React.lazy(() => import("./pages/ClientDetails"));
+const Billings = React.lazy(() => import("./pages/Billings"));
 
 function App() {
 	const [showSidebar, setShowSidebar] = useState(true);
@@ -24,12 +30,54 @@ function App() {
 						<ClientsContext>
 							<Routes>
 								{/* pages go here as Routes */}
-								<Route path="/" element={<Dashboard />} />
-								<Route path="/dashboard" element={<Dashboard />} />
-								<Route path="/clients" element={<Clients />} />
-								<Route path="/reports" element={<Reports />} />
-								<Route path="/billings" element={<Billings />} />
-								<Route path="/details/:id" element={<ClientDetails />} />
+								<Route
+									path="/"
+									element={
+										<Suspense>
+											<Dashboard />
+										</Suspense>
+									}
+								/>
+								<Route
+									path="/dashboard"
+									element={
+										<Suspense>
+											<Dashboard />
+										</Suspense>
+									}
+								/>
+								<Route
+									path="/clients"
+									element={
+										<Suspense>
+											<Clients />
+										</Suspense>
+									}
+								/>
+								<Route
+									path="/reports"
+									element={
+										<Suspense>
+											<Reports />
+										</Suspense>
+									}
+								/>
+								<Route
+									path="/billings"
+									element={
+										<Suspense>
+											<Billings />
+										</Suspense>
+									}
+								/>
+								<Route
+									path="/details/:id"
+									element={
+										<Suspense>
+											<ClientDetails />
+										</Suspense>
+									}
+								/>
 							</Routes>
 						</ClientsContext>
 					</Container>

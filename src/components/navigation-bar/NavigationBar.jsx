@@ -30,7 +30,7 @@ export default function NavigationBar({ toggleSidebar }) {
 
 	return (
 		<Navbar expand="lg" variant="light" bg="light">
-			<Container>
+			<Container fluid>
 				<FontAwesomeIcon
 					size="2x"
 					icon={faBars}
