@@ -7,6 +7,9 @@ import ClientsContext from "@contexts/ClientsContext";
 import Sidebar from "@components/sidebar/Sidebar";
 import Container from "react-bootstrap/Container";
 
+// styles for the table package
+import "rsuite-table/dist/css/rsuite-table.css";
+
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Clients = React.lazy(() => import("./pages/Clients"));
 const Reports = React.lazy(() => import("./pages/Reports"));

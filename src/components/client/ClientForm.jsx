@@ -69,14 +69,7 @@ function ClientForm() {
 				+ Add Client
 			</Button>
 
-			<Modal
-				show={show}
-				onHide={handleClose}
-				animation={false}
-				backdrop="static"
-				centered
-				size="lg"
-			>
+			<Modal show={show} onHide={handleClose} centered size="lg">
 				<Modal.Header closeButton>
 					<Modal.Title>Add Client</Modal.Title>
 				</Modal.Header>

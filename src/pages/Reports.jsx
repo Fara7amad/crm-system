@@ -1,5 +1,3 @@
-import "rsuite-table/dist/css/rsuite-table.css";
-
 import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
 import { Table, Column, HeaderCell, Cell } from "rsuite-table";
