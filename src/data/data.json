@@ -13,8 +13,8 @@
 		"email": "jbutt@gmail.com",
 		"website": "http://www.bentonjohnbjr.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "14-Jun-20"
+		"date": "14-Jun-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Josephine",
@@ -30,8 +30,8 @@
 		"email": "josephine_darakjy@darakjy.org",
 		"website": "http://www.chanayjeffreyaesq.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "23-Jun-22"
+		"date": "23-Jun-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Art",
@@ -47,8 +47,8 @@
 		"email": "art@venere.org",
 		"website": "http://www.chemeljameslcpa.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "22-Sep-20"
+		"date": "22-Sep-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Lenna",
@@ -64,8 +64,8 @@
 		"email": "lpaprocki@hotmail.com",
 		"website": "http://www.feltzprintingservice.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "13-Oct-22"
+		"date": "13-Oct-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Donette",
@@ -81,8 +81,8 @@
 		"email": "donette.foller@cox.net",
 		"website": "http://www.printingdimensions.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "13-Jul-22"
+		"date": "13-Jul-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Simona",
@@ -98,8 +98,8 @@
 		"email": "simona@morasca.com",
 		"website": "http://www.chapmanrosseesq.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "12-Jun-22"
+		"date": "12-Jun-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Mitsue",
@@ -115,8 +115,8 @@
 		"email": "mitsue_tollner@yahoo.com",
 		"website": "http://www.morlongassociates.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "28-Jul-20"
+		"date": "28-Jul-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Leota",
@@ -132,8 +132,8 @@
 		"email": "leota@hotmail.com",
 		"website": "http://www.commercialpress.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "06-Aug-20"
+		"date": "06-Aug-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Sage",
@@ -149,8 +149,8 @@
 		"email": "sage_wieser@cox.net",
 		"website": "http://www.truhlarandtruhlarattys.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "12-Oct-20"
+		"date": "12-Oct-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Kris",
@@ -166,8 +166,8 @@
 		"email": "kris@gmail.com",
 		"website": "http://www.kingchristopheraesq.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "29-Jan-21"
+		"date": "29-Jan-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Minna",
@@ -183,8 +183,8 @@
 		"email": "minna_amigon@yahoo.com",
 		"website": "http://www.dorljamesjesq.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "07-Oct-20"
+		"date": "07-Oct-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Abel",
@@ -200,8 +200,8 @@
 		"email": "amaclead@gmail.com",
 		"website": "http://www.rangoniofflorence.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "29-Aug-21"
+		"date": "29-Aug-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Kiley",
@@ -217,8 +217,8 @@
 		"email": "kiley.caldarera@aol.com",
 		"website": "http://www.feinerbros.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "15-Nov-21"
+		"date": "15-Nov-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Graciela",
@@ -234,8 +234,8 @@
 		"email": "gruta@cox.net",
 		"website": "http://www.buckleymillerwright.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "29-Sep-21"
+		"date": "29-Sep-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Cammy",
@@ -251,8 +251,8 @@
 		"email": "calbares@gmail.com",
 		"website": "http://www.rousseauxmichaelesq.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "03-Mar-20"
+		"date": "03-Mar-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Mattie",
@@ -268,8 +268,8 @@
 		"email": "mattie@aol.com",
 		"website": "http://www.centurycommunications.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "04-Dec-21"
+		"date": "04-Dec-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Meaghan",
@@ -285,8 +285,8 @@
 		"email": "meaghan@hotmail.com",
 		"website": "http://www.boltonwilburesq.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "03-Feb-21"
+		"date": "03-Feb-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Gladys",
@@ -302,8 +302,8 @@
 		"email": "gladys.rim@rim.org",
 		"website": "http://www.tmbyxbeecompanypc.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "25-Jul-22"
+		"date": "25-Jul-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Yuki",
@@ -319,8 +319,8 @@
 		"email": "yuki_whobrey@aol.com",
 		"website": "http://www.farmersinsurancegroup.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "24-Apr-20"
+		"date": "24-Apr-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Fletcher",
@@ -336,8 +336,8 @@
 		"email": "fletcher.flosi@yahoo.com",
 		"website": "http://www.postboxservicesplus.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "29-Jul-21"
+		"date": "29-Jul-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Bette",
@@ -353,8 +353,8 @@
 		"email": "bette_nicka@cox.net",
 		"website": "http://www.sportenart.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "16-Jan-20"
+		"date": "16-Jan-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Veronika",
@@ -370,8 +370,8 @@
 		"email": "vinouye@aol.com",
 		"website": "http://www.cnetworkinc.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "11-Sep-21"
+		"date": "11-Sep-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Willard",
@@ -387,8 +387,8 @@
 		"email": "willard@hotmail.com",
 		"website": "http://www.ingallsdonaldresq.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "21-Jun-22"
+		"date": "21-Jun-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Maryann",
@@ -404,8 +404,8 @@
 		"email": "mroyster@royster.com",
 		"website": "http://www.franklinpeterlesq.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "06-Nov-21"
+		"date": "06-Nov-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Alisha",
@@ -421,8 +421,8 @@
 		"email": "alisha@slusarski.com",
 		"website": "http://www.wtlzpowerfm.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "13-Dec-21"
+		"date": "13-Dec-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Allene",
@@ -438,8 +438,8 @@
 		"email": "allene_iturbide@cox.net",
 		"website": "http://www.ledeckydavidesq.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "25-Sep-21"
+		"date": "25-Sep-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Chanel",
@@ -455,8 +455,8 @@
 		"email": "chanel.caudy@caudy.org",
 		"website": "http://www.professionalimageinc.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "31-Aug-20"
+		"date": "31-Aug-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Ezekiel",
@@ -472,8 +472,8 @@
 		"email": "ezekiel@chui.com",
 		"website": "http://www.siderdonaldcesq.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "31-Dec-21"
+		"date": "31-Dec-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Willow",
@@ -489,8 +489,8 @@
 		"email": "wkusko@yahoo.com",
 		"website": "http://www.upullit.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "01-Oct-20"
+		"date": "01-Oct-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Bernardo",
@@ -506,8 +506,8 @@
 		"email": "bfigeroa@aol.com",
 		"website": "http://www.clarkrichardcpa.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "31-Dec-21"
+		"date": "31-Dec-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Ammie",
@@ -523,8 +523,8 @@
 		"email": "ammie@corrio.com",
 		"website": "http://www.moskowitzbarrys.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "24-Aug-22"
+		"date": "24-Aug-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Francine",
@@ -540,8 +540,8 @@
 		"email": "francine_vocelka@vocelka.com",
 		"website": "http://www.cascaderealtyadvisorsinc.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "03-Feb-22"
+		"date": "03-Feb-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Ernie",
@@ -557,8 +557,8 @@
 		"email": "ernie_stenseth@aol.com",
 		"website": "http://www.knwznewsradio.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "11-Oct-20"
+		"date": "11-Oct-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Albina",
@@ -574,8 +574,8 @@
 		"email": "albina@glick.com",
 		"website": "http://www.giampetroanthonyd.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "19-Sep-20"
+		"date": "19-Sep-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Alishia",
@@ -591,8 +591,8 @@
 		"email": "asergi@gmail.com",
 		"website": "http://www.milfordenterprisesinc.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "19-Jul-22"
+		"date": "19-Jul-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Solange",
@@ -608,8 +608,8 @@
 		"email": "solange@shinko.com",
 		"website": "http://www.mosoccoronalda.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "23-Jul-22"
+		"date": "23-Jul-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Jose",
@@ -625,8 +625,8 @@
 		"email": "jose@yahoo.com",
 		"website": "http://www.tristaterefuelerco.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "04-Jul-20"
+		"date": "04-Jul-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Rozella",
@@ -642,8 +642,8 @@
 		"email": "rozella.ostrosky@ostrosky.com",
 		"website": "http://www.parkwaycompany.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "14-May-22"
+		"date": "14-May-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Valentine",
@@ -659,8 +659,8 @@
 		"email": "valentine_gillian@gmail.com",
 		"website": "http://www.fbsbusinessfinance.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "17-Aug-20"
+		"date": "17-Aug-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Kati",
@@ -676,8 +676,8 @@
 		"email": "kati.rulapaugh@hotmail.com",
 		"website": "http://www.ederassocsconsltngengrspc.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "13-Oct-22"
+		"date": "13-Oct-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Youlanda",
@@ -693,8 +693,8 @@
 		"email": "youlanda@aol.com",
 		"website": "http://www.trimtoolinc.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "11-May-20"
+		"date": "11-May-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Dyan",
@@ -710,8 +710,8 @@
 		"email": "doldroyd@aol.com",
 		"website": "http://www.internationaleyeletsinc.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "30-Oct-22"
+		"date": "30-Oct-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Roxane",
@@ -727,8 +727,8 @@
 		"email": "roxane@hotmail.com",
 		"website": "http://www.rapidtradingintl.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "26-Jan-22"
+		"date": "26-Jan-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Lavera",
@@ -744,8 +744,8 @@
 		"email": "lperin@perin.org",
 		"website": "http://www.abcenterprisesinc.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "13-Nov-20"
+		"date": "13-Nov-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Erick",
@@ -761,8 +761,8 @@
 		"email": "erick.ferencz@aol.com",
 		"website": "http://www.cindyturnerassociates.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "14-Mar-20"
+		"date": "14-Mar-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Fatima",
@@ -778,8 +778,8 @@
 		"email": "fsaylors@saylors.org",
 		"website": "http://www.stantonjamesdesq.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "18-Apr-22"
+		"date": "18-Apr-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Jina",
@@ -795,8 +795,8 @@
 		"email": "jina_briddick@briddick.com",
 		"website": "http://www.gracepastriesinc.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "25-May-21"
+		"date": "25-May-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Kanisha",
@@ -812,8 +812,8 @@
 		"email": "kanisha_waycott@yahoo.com",
 		"website": "http://www.schroergeneeesq.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "26-Jul-21"
+		"date": "26-Jul-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Emerson",
@@ -829,8 +829,8 @@
 		"email": "emerson.bowley@bowley.org",
 		"website": "http://www.knightsinn.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "23-Oct-20"
+		"date": "23-Oct-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Blair",
@@ -846,8 +846,8 @@
 		"email": "bmalet@yahoo.com",
 		"website": "http://www.bollingermachshpshipyard.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "18-Mar-22"
+		"date": "18-Mar-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Brock",
@@ -863,8 +863,8 @@
 		"email": "bbolognia@yahoo.com",
 		"website": "http://www.orindanews.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "26-Jul-20"
+		"date": "26-Jul-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lorrie",
@@ -880,8 +880,8 @@
 		"email": "lnestle@hotmail.com",
 		"website": "http://www.ballardspahrandrews.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "24-Feb-21"
+		"date": "24-Feb-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Sabra",
@@ -897,8 +897,8 @@
 		"email": "sabra@uyetake.org",
 		"website": "http://www.lowylimousineservice.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "24-Jun-22"
+		"date": "24-Jun-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Marjory",
@@ -914,8 +914,8 @@
 		"email": "mmastella@mastella.com",
 		"website": "http://www.viconcorporation.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "02-Dec-21"
+		"date": "02-Dec-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Karl",
@@ -931,8 +931,8 @@
 		"email": "karl_klonowski@yahoo.com",
 		"website": "http://www.rossimichaelm.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "05-Mar-20"
+		"date": "05-Mar-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Tonette",
@@ -948,8 +948,8 @@
 		"email": "twenner@aol.com",
 		"website": "http://www.northwestpublishing.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "14-Jan-22"
+		"date": "14-Jan-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Amber",
@@ -965,8 +965,8 @@
 		"email": "amber_monarrez@monarrez.org",
 		"website": "http://www.branfordwiremfgco.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "22-Apr-21"
+		"date": "22-Apr-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Shenika",
@@ -982,8 +982,8 @@
 		"email": "shenika@gmail.com",
 		"website": "http://www.eastcoastmarketing.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "11-May-21"
+		"date": "11-May-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Delmy",
@@ -999,8 +999,8 @@
 		"email": "delmy.ahle@hotmail.com",
 		"website": "http://www.wyetechnologiesinc.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "23-Nov-21"
+		"date": "23-Nov-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Deeanna",
@@ -1016,8 +1016,8 @@
 		"email": "deeanna_juhas@gmail.com",
 		"website": "http://www.healygeorgewiv.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "11-Jan-20"
+		"date": "11-Jan-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Blondell",
@@ -1033,8 +1033,8 @@
 		"email": "bpugh@aol.com",
 		"website": "http://www.alpenliteinc.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "28-Feb-20"
+		"date": "28-Feb-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Jamal",
@@ -1050,8 +1050,8 @@
 		"email": "jamal@vanausdal.org",
 		"website": "http://www.hubbardbruceesq.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "10-Aug-21"
+		"date": "10-Aug-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Cecily",
@@ -1067,8 +1067,8 @@
 		"email": "cecily@hollack.org",
 		"website": "http://www.arthuraoliversoninc.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "31-Mar-20"
+		"date": "31-Mar-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Carmelina",
@@ -1084,8 +1084,8 @@
 		"email": "carmelina_lindall@lindall.com",
 		"website": "http://www.georgejessopcarterjewelers.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "09-Oct-22"
+		"date": "09-Oct-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Maurine",
@@ -1101,8 +1101,8 @@
 		"email": "maurine_yglesias@yglesias.com",
 		"website": "http://www.schultzthomascmd.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "10-Aug-22"
+		"date": "10-Aug-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Tawna",
@@ -1118,8 +1118,8 @@
 		"email": "tawna@gmail.com",
 		"website": "http://www.hhhenterprisesinc.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "20-Apr-21"
+		"date": "20-Apr-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Penney",
@@ -1135,8 +1135,8 @@
 		"email": "penney_weight@aol.com",
 		"website": "http://www.hawaiiankinghotel.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "15-Mar-20"
+		"date": "15-Mar-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Elly",
@@ -1152,8 +1152,8 @@
 		"email": "elly_morocco@gmail.com",
 		"website": "http://www.killionindustries.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "08-Sep-21"
+		"date": "08-Sep-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Ilene",
@@ -1169,8 +1169,8 @@
 		"email": "ilene.eroman@hotmail.com",
 		"website": "http://www.robinsonwilliamjesq.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "27-Jul-21"
+		"date": "27-Jul-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Vallie",
@@ -1186,8 +1186,8 @@
 		"email": "vmondella@mondella.com",
 		"website": "http://www.privateproperties.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "18-Apr-21"
+		"date": "18-Apr-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Kallie",
@@ -1203,8 +1203,8 @@
 		"email": "kallie.blackwood@gmail.com",
 		"website": "http://www.rowleyschlimgeninc.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "09-Dec-20"
+		"date": "09-Dec-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Johnetta",
@@ -1220,8 +1220,8 @@
 		"email": "johnetta_abdallah@aol.com",
 		"website": "http://www.forgingspecialties.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "09-Mar-21"
+		"date": "09-Mar-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Bobbye",
@@ -1237,8 +1237,8 @@
 		"email": "brhym@rhym.com",
 		"website": "http://www.smitspatriciagarity.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "30-Sep-20"
+		"date": "30-Sep-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Micaela",
@@ -1254,8 +1254,8 @@
 		"email": "micaela_rhymes@gmail.com",
 		"website": "http://www.hleeleonardattorneyatlaw.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "15-Nov-21"
+		"date": "15-Nov-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Tamar",
@@ -1271,8 +1271,8 @@
 		"email": "tamar@hotmail.com",
 		"website": "http://www.akconstructionco.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "17-Sep-20"
+		"date": "17-Sep-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Moon",
@@ -1288,8 +1288,8 @@
 		"email": "moon@yahoo.com",
 		"website": "http://www.ambelangjessicammd.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "05-May-21"
+		"date": "05-May-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Laurel",
@@ -1305,8 +1305,8 @@
 		"email": "laurel_reitler@reitler.com",
 		"website": "http://www.qaservice.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "14-Aug-22"
+		"date": "14-Aug-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Delisa",
@@ -1322,8 +1322,8 @@
 		"email": "delisa.crupi@crupi.com",
 		"website": "http://www.woodwhitacrecontractors.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "11-Jul-21"
+		"date": "11-Jul-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Viva",
@@ -1339,8 +1339,8 @@
 		"email": "viva.toelkes@gmail.com",
 		"website": "http://www.markivpressltd.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "21-Sep-21"
+		"date": "21-Sep-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Elza",
@@ -1356,8 +1356,8 @@
 		"email": "elza@yahoo.com",
 		"website": "http://www.museumofscienceindustry.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "21-Jan-21"
+		"date": "21-Jan-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Devorah",
@@ -1373,8 +1373,8 @@
 		"email": "devorah@hotmail.com",
 		"website": "http://www.garrisonind.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "03-Jan-20"
+		"date": "03-Jan-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Timothy",
@@ -1390,8 +1390,8 @@
 		"email": "timothy_mulqueen@mulqueen.org",
 		"website": "http://www.saronixnymphproducts.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "09-Sep-22"
+		"date": "09-Sep-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Arlette",
@@ -1407,8 +1407,8 @@
 		"email": "ahoneywell@honeywell.com",
 		"website": "http://www.smcinc.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "12-Apr-21"
+		"date": "12-Apr-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Dominque",
@@ -1424,8 +1424,8 @@
 		"email": "dominque.dickerson@dickerson.org",
 		"website": "http://www.eaielectronicassocsinc.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "06-Jan-22"
+		"date": "06-Jan-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Lettie",
@@ -1441,8 +1441,8 @@
 		"email": "lettie_isenhower@yahoo.com",
 		"website": "http://www.contechristopheraesq.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "05-Feb-20"
+		"date": "05-Feb-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Myra",
@@ -1458,8 +1458,8 @@
 		"email": "mmunns@cox.net",
 		"website": "http://www.ankerlawoffice.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "30-May-21"
+		"date": "30-May-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Stephaine",
@@ -1475,8 +1475,8 @@
 		"email": "stephaine@barfield.com",
 		"website": "http://www.beutelschiescompany.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "11-May-20"
+		"date": "11-May-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Lai",
@@ -1492,8 +1492,8 @@
 		"email": "lai.gato@gato.org",
 		"website": "http://www.fliggkennethijr.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "13-Aug-21"
+		"date": "13-Aug-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Stephen",
@@ -1509,8 +1509,8 @@
 		"email": "stephen_emigh@hotmail.com",
 		"website": "http://www.sharpjdanielesq.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "12-Sep-22"
+		"date": "12-Sep-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Tyra",
@@ -1526,8 +1526,8 @@
 		"email": "tshields@gmail.com",
 		"website": "http://www.assinkannehesq.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "04-Jan-20"
+		"date": "04-Jan-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Tammara",
@@ -1543,8 +1543,8 @@
 		"email": "twardrip@cox.net",
 		"website": "http://www.jewelmyshopinc.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "28-Jun-22"
+		"date": "28-Jun-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Cory",
@@ -1560,8 +1560,8 @@
 		"email": "cory.gibes@gmail.com",
 		"website": "http://www.chinesetranslationresources.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "19-May-21"
+		"date": "19-May-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Danica",
@@ -1577,8 +1577,8 @@
 		"email": "danica_bruschke@gmail.com",
 		"website": "http://www.stevenscharlest.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "01-Dec-21"
+		"date": "01-Dec-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Wilda",
@@ -1594,8 +1594,8 @@
 		"email": "wilda@cox.net",
 		"website": "http://www.mclaughlinlutherwcpa.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "24-Dec-21"
+		"date": "24-Dec-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Elvera",
@@ -1611,8 +1611,8 @@
 		"email": "elvera.benimadho@cox.net",
 		"website": "http://www.treemusketeers.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "10-Sep-20"
+		"date": "10-Sep-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Carma",
@@ -1628,8 +1628,8 @@
 		"email": "carma@cox.net",
 		"website": "http://www.springfielddivohedisonco.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "04-Dec-21"
+		"date": "04-Dec-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Malinda",
@@ -1645,8 +1645,8 @@
 		"email": "malinda.hochard@yahoo.com",
 		"website": "http://www.loganmemorialhospital.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "01-Apr-22"
+		"date": "01-Apr-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Natalie",
@@ -1662,8 +1662,8 @@
 		"email": "natalie.fern@hotmail.com",
 		"website": "http://www.kellycharlesgesq.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "21-Feb-22"
+		"date": "21-Feb-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Lisha",
@@ -1679,8 +1679,8 @@
 		"email": "lisha@centini.org",
 		"website": "http://www.industrialpapershreddersinc.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "25-Apr-20"
+		"date": "25-Apr-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Arlene",
@@ -1696,8 +1696,8 @@
 		"email": "arlene_klusman@gmail.com",
 		"website": "http://www.beckhorizonbuilders.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "10-Apr-21"
+		"date": "10-Apr-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Alease",
@@ -1713,8 +1713,8 @@
 		"email": "alease@buemi.com",
 		"website": "http://www.portocayoathawkscay.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "31-May-21"
+		"date": "31-May-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Louisa",
@@ -1730,8 +1730,8 @@
 		"email": "louisa@cronauer.com",
 		"website": "http://www.pacificgrovemuseumntrlhist.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "08-Apr-22"
+		"date": "08-Apr-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Angella",
@@ -1747,8 +1747,8 @@
 		"email": "angella.cetta@hotmail.com",
 		"website": "http://www.benderhatleypc.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "20-May-20"
+		"date": "20-May-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Cyndy",
@@ -1764,8 +1764,8 @@
 		"email": "cgoldammer@cox.net",
 		"website": "http://www.dicristinajson.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "04-Sep-22"
+		"date": "04-Sep-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Rosio",
@@ -1781,8 +1781,8 @@
 		"email": "rosio.cork@gmail.com",
 		"website": "http://www.greengoddess.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "23-Apr-20"
+		"date": "23-Apr-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Celeste",
@@ -1798,8 +1798,8 @@
 		"email": "ckorando@hotmail.com",
 		"website": "http://www.americanartsgraphics.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "09-Aug-20"
+		"date": "09-Aug-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Twana",
@@ -1815,8 +1815,8 @@
 		"email": "twana.felger@felger.org",
 		"website": "http://www.oprylandhotel.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "22-Jan-22"
+		"date": "22-Jan-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Estrella",
@@ -1832,8 +1832,8 @@
 		"email": "estrella@aol.com",
 		"website": "http://www.markingdevicespubgco.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "13-Jun-21"
+		"date": "13-Jun-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Donte",
@@ -1849,8 +1849,8 @@
 		"email": "dkines@hotmail.com",
 		"website": "http://www.wtcindustriesinc.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "27-Jan-22"
+		"date": "27-Jan-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Tiffiny",
@@ -1866,8 +1866,8 @@
 		"email": "tiffiny_steffensmeier@cox.net",
 		"website": "http://www.whitehallrobbinslabsdivsn.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "18-Dec-21"
+		"date": "18-Dec-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Edna",
@@ -1883,8 +1883,8 @@
 		"email": "emiceli@miceli.org",
 		"website": "http://www.sampler.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "12-Sep-20"
+		"date": "12-Sep-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Sue",
@@ -1900,8 +1900,8 @@
 		"email": "sue@aol.com",
 		"website": "http://www.junochefsincorporated.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "17-May-21"
+		"date": "17-May-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Jesusa",
@@ -1917,8 +1917,8 @@
 		"email": "jshin@shin.com",
 		"website": "http://www.carroccioathomasesq.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "10-Aug-20"
+		"date": "10-Aug-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Rolland",
@@ -1934,8 +1934,8 @@
 		"email": "rolland@cox.net",
 		"website": "http://www.stanleyrichardlesq.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "01-Sep-20"
+		"date": "01-Sep-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Pamella",
@@ -1951,8 +1951,8 @@
 		"email": "pamella.schmierer@schmierer.org",
 		"website": "http://www.kcscstmmouldingswindows.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "17-Oct-21"
+		"date": "17-Oct-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Glory",
@@ -1968,8 +1968,8 @@
 		"email": "gkulzer@kulzer.org",
 		"website": "http://www.comfortinn.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "22-Dec-20"
+		"date": "22-Dec-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Shawna",
@@ -1985,8 +1985,8 @@
 		"email": "shawna_palaspas@palaspas.org",
 		"website": "http://www.windsorjameslesq.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "07-Sep-20"
+		"date": "07-Sep-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Brandon",
@@ -2002,8 +2002,8 @@
 		"email": "brandon_callaro@hotmail.com",
 		"website": "http://www.jacksonshieldsyeiser.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "08-Apr-22"
+		"date": "08-Apr-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Scarlet",
@@ -2019,8 +2019,8 @@
 		"email": "scarlet.cartan@yahoo.com",
 		"website": "http://www.boxjcalvinesq.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "27-Jul-20"
+		"date": "27-Jul-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Oretha",
@@ -2036,8 +2036,8 @@
 		"email": "oretha_menter@yahoo.com",
 		"website": "http://www.customengineeringinc.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "04-Feb-20"
+		"date": "04-Feb-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Ty",
@@ -2053,8 +2053,8 @@
 		"email": "tsmith@aol.com",
 		"website": "http://www.breslereitelframggllryltd.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "21-Jun-22"
+		"date": "21-Jun-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Xuan",
@@ -2070,8 +2070,8 @@
 		"email": "xuan@gmail.com",
 		"website": "http://www.caroldrakesparksesq.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "27-Jul-22"
+		"date": "27-Jul-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Lindsey",
@@ -2087,8 +2087,8 @@
 		"email": "lindsey.dilello@hotmail.com",
 		"website": "http://www.biltmoreinvestorsbank.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "10-Jun-20"
+		"date": "10-Jun-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Devora",
@@ -2104,8 +2104,8 @@
 		"email": "devora_perez@perez.org",
 		"website": "http://www.descoequipmentcorp.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "29-Feb-20"
+		"date": "29-Feb-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Herman",
@@ -2121,8 +2121,8 @@
 		"email": "hdemesa@cox.net",
 		"website": "http://www.merlinelectricco.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "14-Apr-20"
+		"date": "14-Apr-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Rory",
@@ -2138,8 +2138,8 @@
 		"email": "rpapasergi@cox.net",
 		"website": "http://www.baileycntlcodivbabcock.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "15-Aug-21"
+		"date": "15-Aug-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Talia",
@@ -2155,8 +2155,8 @@
 		"email": "talia_riopelle@aol.com",
 		"website": "http://www.fordbrotherswholesaleinc.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "12-Apr-22"
+		"date": "12-Apr-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Van",
@@ -2172,8 +2172,8 @@
 		"email": "van.shire@shire.com",
 		"website": "http://www.cambridgeinn.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "01-Feb-20"
+		"date": "01-Feb-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lucina",
@@ -2189,8 +2189,8 @@
 		"email": "lucina_lary@cox.net",
 		"website": "http://www.matriccianialbertjjr.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "21-May-21"
+		"date": "21-May-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Bok",
@@ -2206,8 +2206,8 @@
 		"email": "bok.isaacs@aol.com",
 		"website": "http://www.nelsonhawaiianltd.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "23-Jul-20"
+		"date": "23-Jul-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Rolande",
@@ -2223,8 +2223,8 @@
 		"email": "rolande.spickerman@spickerman.com",
 		"website": "http://www.nelandtravelagency.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "11-Jul-22"
+		"date": "11-Jul-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Howard",
@@ -2240,8 +2240,8 @@
 		"email": "hpaulas@gmail.com",
 		"website": "http://www.asendorfjalanesq.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "15-Sep-22"
+		"date": "15-Sep-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Kimbery",
@@ -2257,8 +2257,8 @@
 		"email": "kimbery_madarang@cox.net",
 		"website": "http://www.silbermanarthurlesq.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "31-Mar-21"
+		"date": "31-Mar-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Thurman",
@@ -2274,8 +2274,8 @@
 		"email": "thurman.manno@yahoo.com",
 		"website": "http://www.honeybeebreedinggenetics.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "06-May-21"
+		"date": "06-May-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Becky",
@@ -2291,8 +2291,8 @@
 		"email": "becky.mirafuentes@mirafuentes.com",
 		"website": "http://www.wellskravitzschnitzer.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "05-May-21"
+		"date": "05-May-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Beatriz",
@@ -2308,8 +2308,8 @@
 		"email": "beatriz@yahoo.com",
 		"website": "http://www.prohabrehabilitationservs.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "03-Nov-21"
+		"date": "03-Nov-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Marti",
@@ -2325,8 +2325,8 @@
 		"email": "marti.maybury@yahoo.com",
 		"website": "http://www.eldridgekristinkesq.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "29-Jul-21"
+		"date": "29-Jul-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Nieves",
@@ -2342,8 +2342,8 @@
 		"email": "nieves_gotter@gmail.com",
 		"website": "http://www.vlahosjohnjesq.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "20-May-22"
+		"date": "20-May-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Leatha",
@@ -2359,8 +2359,8 @@
 		"email": "lhagele@cox.net",
 		"website": "http://www.ninasindiangrsvideos.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "22-Jul-20"
+		"date": "22-Jul-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Valentin",
@@ -2376,8 +2376,8 @@
 		"email": "vklimek@klimek.org",
 		"website": "http://www.schmidgayannekesq.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "29-May-20"
+		"date": "29-May-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Melissa",
@@ -2393,8 +2393,8 @@
 		"email": "melissa@cox.net",
 		"website": "http://www.moapavalleyfederalcreditun.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "31-Jan-20"
+		"date": "31-Jan-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Sheridan",
@@ -2410,8 +2410,8 @@
 		"email": "sheridan.zane@zane.com",
 		"website": "http://www.kentuckytennesseeclayco.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "28-Jan-20"
+		"date": "28-Jan-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Bulah",
@@ -2427,8 +2427,8 @@
 		"email": "bulah_padilla@hotmail.com",
 		"website": "http://www.admiralpartyrentalssales.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "20-Aug-20"
+		"date": "20-Aug-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Audra",
@@ -2444,8 +2444,8 @@
 		"email": "audra@kohnert.com",
 		"website": "http://www.nelsonkarolynkingesq.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "12-Jan-21"
+		"date": "12-Jan-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Daren",
@@ -2461,8 +2461,8 @@
 		"email": "dweirather@aol.com",
 		"website": "http://www.panasystems.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "03-May-21"
+		"date": "03-May-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Fernanda",
@@ -2478,8 +2478,8 @@
 		"email": "fjillson@aol.com",
 		"website": "http://www.shankedwardlesq.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "24-Dec-21"
+		"date": "24-Dec-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Gearldine",
@@ -2495,8 +2495,8 @@
 		"email": "gearldine_gellinger@gellinger.com",
 		"website": "http://www.megibowedwards.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "21-Mar-20"
+		"date": "21-Mar-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Chau",
@@ -2512,8 +2512,8 @@
 		"email": "chau@gmail.com",
 		"website": "http://www.benoffedwardesq.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "20-Sep-20"
+		"date": "20-Sep-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Theola",
@@ -2529,8 +2529,8 @@
 		"email": "theola_frey@frey.com",
 		"website": "http://www.woodbridgefreepubliclibrary.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "24-Apr-22"
+		"date": "24-Apr-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Cheryl",
@@ -2546,8 +2546,8 @@
 		"email": "cheryl@haroldson.org",
 		"website": "http://www.newyorklifejohnthune.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "12-Feb-21"
+		"date": "12-Feb-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Laticia",
@@ -2563,8 +2563,8 @@
 		"email": "lmerced@gmail.com",
 		"website": "http://www.alinabalinc.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "02-Feb-20"
+		"date": "02-Feb-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Carissa",
@@ -2580,8 +2580,8 @@
 		"email": "carissa.batman@yahoo.com",
 		"website": "http://www.polettokimdavidesq.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "01-Mar-20"
+		"date": "01-Mar-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lezlie",
@@ -2597,8 +2597,8 @@
 		"email": "lezlie.craghead@craghead.org",
 		"website": "http://www.changcarolynesq.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "01-Jun-20"
+		"date": "01-Jun-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Ozell",
@@ -2614,8 +2614,8 @@
 		"email": "oshealy@hotmail.com",
 		"website": "http://www.silverbrosinc.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "01-May-22"
+		"date": "01-May-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Arminda",
@@ -2631,8 +2631,8 @@
 		"email": "arminda@parvis.com",
 		"website": "http://www.newtecinc.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "16-Mar-22"
+		"date": "16-Mar-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Reita",
@@ -2648,8 +2648,8 @@
 		"email": "reita.leto@gmail.com",
 		"website": "http://www.creativebusinesssystems.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "05-Dec-20"
+		"date": "05-Dec-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Yolando",
@@ -2665,8 +2665,8 @@
 		"email": "yolando@cox.net",
 		"website": "http://www.daltilecorporation.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "22-Jul-22"
+		"date": "22-Jul-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Lizette",
@@ -2682,8 +2682,8 @@
 		"email": "lizette.stem@aol.com",
 		"website": "http://www.edwardskatz.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "27-Jun-21"
+		"date": "27-Jun-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Gregoria",
@@ -2699,8 +2699,8 @@
 		"email": "gpawlowicz@yahoo.com",
 		"website": "http://www.ohmygoodknitsinc.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "25-Sep-20"
+		"date": "25-Sep-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Carin",
@@ -2716,8 +2716,8 @@
 		"email": "cdeleo@deleo.com",
 		"website": "http://www.redekerdebbie.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "04-Mar-21"
+		"date": "04-Mar-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Chantell",
@@ -2733,8 +2733,8 @@
 		"email": "chantell@yahoo.com",
 		"website": "http://www.desertsandsmotel.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "06-Jul-22"
+		"date": "06-Jul-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Dierdre",
@@ -2750,8 +2750,8 @@
 		"email": "dyum@yahoo.com",
 		"website": "http://www.cumminssouthernplainsinc.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "20-Jul-22"
+		"date": "20-Jul-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Larae",
@@ -2767,8 +2767,8 @@
 		"email": "larae_gudroe@gmail.com",
 		"website": "http://www.lehighfurndivsnlehigh.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "19-Jan-20"
+		"date": "19-Jan-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Latrice",
@@ -2784,8 +2784,8 @@
 		"email": "latrice.tolfree@hotmail.com",
 		"website": "http://www.unitedvanlinesagent.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "28-Jul-22"
+		"date": "28-Jul-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Kerry",
@@ -2801,8 +2801,8 @@
 		"email": "kerry.theodorov@gmail.com",
 		"website": "http://www.capitolreporters.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "05-Oct-21"
+		"date": "05-Oct-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Dorthy",
@@ -2818,8 +2818,8 @@
 		"email": "dhidvegi@yahoo.com",
 		"website": "http://www.kwikkopyprinting.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "31-Dec-21"
+		"date": "31-Dec-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Fannie",
@@ -2835,8 +2835,8 @@
 		"email": "fannie.lungren@yahoo.com",
 		"website": "http://www.centroinc.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "12-Aug-22"
+		"date": "12-Aug-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Evangelina",
@@ -2852,8 +2852,8 @@
 		"email": "evangelina@aol.com",
 		"website": "http://www.campbelljanesq.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "08-Nov-21"
+		"date": "08-Nov-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Novella",
@@ -2869,8 +2869,8 @@
 		"email": "novella_degroot@degroot.org",
 		"website": "http://www.evansckellyesq.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "06-Jan-20"
+		"date": "06-Jan-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Clay",
@@ -2886,8 +2886,8 @@
 		"email": "choa@hoa.org",
 		"website": "http://www.scatenterprises.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "14-Apr-21"
+		"date": "14-Apr-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Jennifer",
@@ -2903,8 +2903,8 @@
 		"email": "jfallick@yahoo.com",
 		"website": "http://www.nagledanieljesq.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "05-Jun-21"
+		"date": "05-Jun-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Irma",
@@ -2920,8 +2920,8 @@
 		"email": "irma.wolfgramm@hotmail.com",
 		"website": "http://www.serendiquitybedbreakfast.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "27-Dec-21"
+		"date": "27-Dec-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Eun",
@@ -2937,8 +2937,8 @@
 		"email": "eun@yahoo.com",
 		"website": "http://www.raycarolynerealty.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "17-Sep-21"
+		"date": "17-Sep-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Sylvia",
@@ -2954,8 +2954,8 @@
 		"email": "sylvia_cousey@cousey.org",
 		"website": "http://www.bergcharlese.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "08-Oct-22"
+		"date": "08-Oct-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Nana",
@@ -2971,8 +2971,8 @@
 		"email": "nana@aol.com",
 		"website": "http://www.raymilbernd.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "17-Jul-21"
+		"date": "17-Jul-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Layla",
@@ -2988,8 +2988,8 @@
 		"email": "layla.springe@cox.net",
 		"website": "http://www.chaddsfordwinery.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "17-Jul-21"
+		"date": "17-Jul-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Joesph",
@@ -3005,8 +3005,8 @@
 		"email": "joesph_degonia@degonia.org",
 		"website": "http://www.arpackaging.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "19-Jan-22"
+		"date": "19-Jan-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Annabelle",
@@ -3022,8 +3022,8 @@
 		"email": "annabelle.boord@cox.net",
 		"website": "http://www.cornpopper.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "19-May-20"
+		"date": "19-May-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Stephaine",
@@ -3039,8 +3039,8 @@
 		"email": "stephaine@cox.net",
 		"website": "http://www.biritefoodservicedistr.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "25-Jan-22"
+		"date": "25-Jan-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Nelida",
@@ -3056,8 +3056,8 @@
 		"email": "nelida@gmail.com",
 		"website": "http://www.anchoragemuseumofhistart.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "04-Nov-20"
+		"date": "04-Nov-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Marguerita",
@@ -3073,8 +3073,8 @@
 		"email": "marguerita.hiatt@gmail.com",
 		"website": "http://www.habergeorgedmd.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "18-Jan-21"
+		"date": "18-Jan-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Carmela",
@@ -3090,8 +3090,8 @@
 		"email": "ccookey@cookey.org",
 		"website": "http://www.royalpontiacoldsinc.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "05-Dec-21"
+		"date": "05-Dec-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Junita",
@@ -3107,8 +3107,8 @@
 		"email": "jbrideau@aol.com",
 		"website": "http://www.leonardsantiquesinc.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "29-Dec-20"
+		"date": "29-Dec-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Claribel",
@@ -3124,8 +3124,8 @@
 		"email": "claribel_varriano@cox.net",
 		"website": "http://www.meca.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "04-Nov-20"
+		"date": "04-Nov-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Benton",
@@ -3141,8 +3141,8 @@
 		"email": "benton.skursky@aol.com",
 		"website": "http://www.nerconengineeringmfginc.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "12-Sep-21"
+		"date": "12-Sep-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Hillary",
@@ -3158,8 +3158,8 @@
 		"email": "hillary.skulski@aol.com",
 		"website": "http://www.replicai.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "26-Apr-21"
+		"date": "26-Apr-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Merilyn",
@@ -3175,8 +3175,8 @@
 		"email": "merilyn_bayless@cox.net",
 		"website": "http://www.printinginc.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "23-Jan-21"
+		"date": "23-Jan-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Teri",
@@ -3192,8 +3192,8 @@
 		"email": "tennaco@gmail.com",
 		"website": "http://www.publishersgroupwest.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "28-Jun-20"
+		"date": "28-Jun-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Merlyn",
@@ -3209,8 +3209,8 @@
 		"email": "merlyn_lawler@hotmail.com",
 		"website": "http://www.nischwitzjeffreylesq.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "24-Sep-20"
+		"date": "24-Sep-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Georgene",
@@ -3226,8 +3226,8 @@
 		"email": "gmontezuma@cox.net",
 		"website": "http://www.paynebladeswellbornpa.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "16-Dec-21"
+		"date": "16-Dec-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Jettie",
@@ -3243,8 +3243,8 @@
 		"email": "jmconnell@hotmail.com",
 		"website": "http://www.coldwellbnkrwrightrealest.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "16-May-21"
+		"date": "16-May-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Lemuel",
@@ -3260,8 +3260,8 @@
 		"email": "lemuel.latzke@gmail.com",
 		"website": "http://www.computerrepairservice.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "18-Aug-21"
+		"date": "18-Aug-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Melodie",
@@ -3277,8 +3277,8 @@
 		"email": "mknipp@gmail.com",
 		"website": "http://www.fleetwoodbuildingblockinc.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "16-Jul-21"
+		"date": "16-Jul-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Candida",
@@ -3294,8 +3294,8 @@
 		"email": "candida_corbley@hotmail.com",
 		"website": "http://www.coltsneckmedicalassocsinc.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "12-Apr-21"
+		"date": "12-Apr-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Karan",
@@ -3311,8 +3311,8 @@
 		"email": "karan_karpin@gmail.com",
 		"website": "http://www.newenglandtaxidermy.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "13-Oct-21"
+		"date": "13-Oct-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Andra",
@@ -3328,8 +3328,8 @@
 		"email": "andra@gmail.com",
 		"website": "http://www.ludckegeorgeoesq.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "22-Apr-22"
+		"date": "22-Apr-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Felicidad",
@@ -3345,8 +3345,8 @@
 		"email": "fpoullion@poullion.com",
 		"website": "http://www.mccorkletomsesq.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "09-Dec-21"
+		"date": "09-Dec-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Belen",
@@ -3362,8 +3362,8 @@
 		"email": "belen_strassner@aol.com",
 		"website": "http://www.eaglesoftwareinc.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "08-Apr-21"
+		"date": "08-Apr-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Gracia",
@@ -3379,8 +3379,8 @@
 		"email": "gracia@melnyk.com",
 		"website": "http://www.juvenileadultsuper.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "18-Apr-20"
+		"date": "18-Apr-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Jolanda",
@@ -3396,8 +3396,8 @@
 		"email": "jhanafan@gmail.com",
 		"website": "http://www.perezjosephjesq.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "20-Mar-21"
+		"date": "20-Mar-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Barrett",
@@ -3413,8 +3413,8 @@
 		"email": "barrett.toyama@toyama.org",
 		"website": "http://www.casefoundationco.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "30-Nov-20"
+		"date": "30-Nov-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Helga",
@@ -3430,8 +3430,8 @@
 		"email": "helga_fredicks@yahoo.com",
 		"website": "http://www.eisenvironmentalengrsinc.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "20-Apr-20"
+		"date": "20-Apr-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Ashlyn",
@@ -3447,8 +3447,8 @@
 		"email": "apinilla@cox.net",
 		"website": "http://www.artcrafters.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "23-Feb-21"
+		"date": "23-Feb-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Fausto",
@@ -3464,8 +3464,8 @@
 		"email": "fausto_agramonte@yahoo.com",
 		"website": "http://www.marriotthotelsresortssuites.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "14-Feb-22"
+		"date": "14-Feb-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Ronny",
@@ -3481,8 +3481,8 @@
 		"email": "ronny.caiafa@caiafa.org",
 		"website": "http://www.remacoinc.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "08-Mar-22"
+		"date": "08-Mar-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Marge",
@@ -3498,8 +3498,8 @@
 		"email": "marge@gmail.com",
 		"website": "http://www.bjorkrobertdjr.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "05-Aug-22"
+		"date": "05-Aug-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Norah",
@@ -3515,8 +3515,8 @@
 		"email": "norah.waymire@gmail.com",
 		"website": "http://www.carmichaeljefferylesq.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "03-Jan-22"
+		"date": "03-Jan-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Aliza",
@@ -3532,8 +3532,8 @@
 		"email": "aliza@aol.com",
 		"website": "http://www.andrewsjrobertesq.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "21-Jul-22"
+		"date": "21-Jul-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Mozell",
@@ -3549,8 +3549,8 @@
 		"email": "mpelkowski@pelkowski.org",
 		"website": "http://www.winshipbyrne.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "18-Oct-22"
+		"date": "18-Oct-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Viola",
@@ -3566,8 +3566,8 @@
 		"email": "viola@gmail.com",
 		"website": "http://www.burtondavis.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "23-Jan-21"
+		"date": "23-Jan-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Franklyn",
@@ -3583,8 +3583,8 @@
 		"email": "femard@emard.com",
 		"website": "http://www.olympicgraphicarts.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "03-Mar-22"
+		"date": "03-Mar-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Willodean",
@@ -3600,8 +3600,8 @@
 		"email": "willodean_konopacki@konopacki.org",
 		"website": "http://www.magnuson.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "06-Jun-21"
+		"date": "06-Jun-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Beckie",
@@ -3617,8 +3617,8 @@
 		"email": "beckie.silvestrini@silvestrini.com",
 		"website": "http://www.aallamericantravelinc.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "30-Sep-20"
+		"date": "30-Sep-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Rebecka",
@@ -3634,8 +3634,8 @@
 		"email": "rgesick@gesick.org",
 		"website": "http://www.polykoteinc.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "12-Mar-20"
+		"date": "12-Mar-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Frederica",
@@ -3651,8 +3651,8 @@
 		"email": "frederica_blunk@gmail.com",
 		"website": "http://www.jetscybernetics.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "26-Jun-20"
+		"date": "26-Jun-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Glen",
@@ -3668,8 +3668,8 @@
 		"email": "glen_bartolet@hotmail.com",
 		"website": "http://www.metlabtestingservices.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "29-Aug-21"
+		"date": "29-Aug-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Freeman",
@@ -3685,8 +3685,8 @@
 		"email": "freeman_gochal@aol.com",
 		"website": "http://www.kellermannwilliamtesq.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "24-May-21"
+		"date": "24-May-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Vincent",
@@ -3702,8 +3702,8 @@
 		"email": "vincent.meinerding@hotmail.com",
 		"website": "http://www.arturipeterdesq.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "22-Apr-20"
+		"date": "22-Apr-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Rima",
@@ -3719,8 +3719,8 @@
 		"email": "rima@cox.net",
 		"website": "http://www.mcauleymfgco.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "27-Feb-22"
+		"date": "27-Feb-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Glendora",
@@ -3736,8 +3736,8 @@
 		"email": "gsarbacher@gmail.com",
 		"website": "http://www.defurvoranhanleyradcliff.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "09-Dec-20"
+		"date": "09-Dec-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Avery",
@@ -3753,8 +3753,8 @@
 		"email": "avery@cox.net",
 		"website": "http://www.dilldillcarrstonbrakerpc.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "13-Jan-22"
+		"date": "13-Jan-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Cristy",
@@ -3770,8 +3770,8 @@
 		"email": "cristy@lother.com",
 		"website": "http://www.kleensteel.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "15-Feb-22"
+		"date": "15-Feb-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Nicolette",
@@ -3787,8 +3787,8 @@
 		"email": "nicolette_brossart@brossart.com",
 		"website": "http://www.gouldspumpsincslurrypump.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "16-Feb-22"
+		"date": "16-Feb-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Tracey",
@@ -3804,8 +3804,8 @@
 		"email": "tracey@hotmail.com",
 		"website": "http://www.kansascityinsurancereport.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "30-Jan-21"
+		"date": "30-Jan-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Virgina",
@@ -3821,8 +3821,8 @@
 		"email": "virgina_tegarden@tegarden.com",
 		"website": "http://www.berhanuinternationalfoods.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "01-Jun-21"
+		"date": "01-Jun-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Tiera",
@@ -3838,8 +3838,8 @@
 		"email": "tfrankel@aol.com",
 		"website": "http://www.rolandashcroft.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "26-Jun-21"
+		"date": "26-Jun-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Alaine",
@@ -3855,8 +3855,8 @@
 		"email": "alaine_bergesen@cox.net",
 		"website": "http://www.hispanicmagazine.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "05-Jun-21"
+		"date": "05-Jun-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Earleen",
@@ -3872,8 +3872,8 @@
 		"email": "earleen_mai@cox.net",
 		"website": "http://www.littlesheetmetalco.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "27-Aug-22"
+		"date": "27-Aug-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Leonida",
@@ -3889,8 +3889,8 @@
 		"email": "leonida@gobern.org",
 		"website": "http://www.holmesarmsteadjesq.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "11-Feb-22"
+		"date": "11-Feb-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Ressie",
@@ -3906,8 +3906,8 @@
 		"email": "ressie.auffrey@yahoo.com",
 		"website": "http://www.fawjamesccpa.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "30-Mar-21"
+		"date": "30-Mar-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Justine",
@@ -3923,8 +3923,8 @@
 		"email": "jmugnolo@yahoo.com",
 		"website": "http://www.evansrulecompany.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "17-Jan-21"
+		"date": "17-Jan-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Eladia",
@@ -3940,8 +3940,8 @@
 		"email": "eladia@saulter.com",
 		"website": "http://www.tyeeproductionsinc.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "21-Jan-21"
+		"date": "21-Jan-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Chaya",
@@ -3957,8 +3957,8 @@
 		"email": "chaya@malvin.com",
 		"website": "http://www.dunnellsduvall.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "27-Sep-20"
+		"date": "27-Sep-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Gwenn",
@@ -3974,8 +3974,8 @@
 		"email": "gwenn_suffield@suffield.org",
 		"website": "http://www.deltamsystemsinc.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "15-Feb-21"
+		"date": "15-Feb-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Salena",
@@ -3991,8 +3991,8 @@
 		"email": "skarpel@cox.net",
 		"website": "http://www.hammillmfgco.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "19-Apr-21"
+		"date": "19-Apr-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Yoko",
@@ -4008,8 +4008,8 @@
 		"email": "yoko@fishburne.com",
 		"website": "http://www.samscornerstore.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "04-Aug-20"
+		"date": "04-Aug-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Taryn",
@@ -4025,8 +4025,8 @@
 		"email": "taryn.moyd@hotmail.com",
 		"website": "http://www.siskinmarkjesq.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "14-Oct-22"
+		"date": "14-Oct-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Katina",
@@ -4042,8 +4042,8 @@
 		"email": "katina_polidori@aol.com",
 		"website": "http://www.capeassociatesrealestate.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "13-Feb-21"
+		"date": "13-Feb-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Rickie",
@@ -4059,8 +4059,8 @@
 		"email": "rickie.plumer@aol.com",
 		"website": "http://www.merrilllynch.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "07-Sep-20"
+		"date": "07-Sep-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Alex",
@@ -4076,8 +4076,8 @@
 		"email": "alex@loader.com",
 		"website": "http://www.sublettscottesq.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "22-Jan-20"
+		"date": "22-Jan-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Lashon",
@@ -4093,8 +4093,8 @@
 		"email": "lashon@aol.com",
 		"website": "http://www.sentrysigns.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "03-Sep-21"
+		"date": "03-Sep-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Lauran",
@@ -4110,8 +4110,8 @@
 		"email": "lburnard@burnard.com",
 		"website": "http://www.professionalsunlimited.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "23-May-21"
+		"date": "23-May-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Ceola",
@@ -4127,8 +4127,8 @@
 		"email": "ceola.setter@setter.org",
 		"website": "http://www.southernsteelshelvingco.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "02-Jun-21"
+		"date": "02-Jun-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "My",
@@ -4144,8 +4144,8 @@
 		"email": "my@hotmail.com",
 		"website": "http://www.boscopaulj.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "14-Feb-21"
+		"date": "14-Feb-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Lorrine",
@@ -4161,8 +4161,8 @@
 		"email": "lorrine.worlds@worlds.com",
 		"website": "http://www.longonicholasjesq.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "10-Nov-20"
+		"date": "10-Nov-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Peggie",
@@ -4178,8 +4178,8 @@
 		"email": "peggie@cox.net",
 		"website": "http://www.henrycountymiddleschool.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "06-Jul-20"
+		"date": "06-Jul-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Marvel",
@@ -4195,8 +4195,8 @@
 		"email": "mraymo@yahoo.com",
 		"website": "http://www.edisonsupplyequipmentco.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "20-Aug-20"
+		"date": "20-Aug-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Daron",
@@ -4212,8 +4212,8 @@
 		"email": "daron_dinos@cox.net",
 		"website": "http://www.wolfwarrenresq.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "18-Jul-20"
+		"date": "18-Jul-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "An",
@@ -4229,8 +4229,8 @@
 		"email": "an_fritz@hotmail.com",
 		"website": "http://www.linguisticsystemsinc.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "09-Feb-20"
+		"date": "09-Feb-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Portia",
@@ -4246,8 +4246,8 @@
 		"email": "portia.stimmel@aol.com",
 		"website": "http://www.peacechristiancenter.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "13-Jul-21"
+		"date": "13-Jul-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Rhea",
@@ -4263,8 +4263,8 @@
 		"email": "rhea_aredondo@cox.net",
 		"website": "http://www.doublebfoodsinc.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "06-Mar-21"
+		"date": "06-Mar-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Benedict",
@@ -4280,8 +4280,8 @@
 		"email": "bsama@cox.net",
 		"website": "http://www.alexanderalexanderinc.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "18-Apr-22"
+		"date": "18-Apr-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Alyce",
@@ -4297,8 +4297,8 @@
 		"email": "alyce@arias.org",
 		"website": "http://www.fairbanksscales.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "18-Feb-20"
+		"date": "18-Feb-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Heike",
@@ -4314,8 +4314,8 @@
 		"email": "heike@gmail.com",
 		"website": "http://www.calisportswearcuttingdept.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "03-Mar-20"
+		"date": "03-Mar-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Carey",
@@ -4331,8 +4331,8 @@
 		"email": "carey_dopico@dopico.org",
 		"website": "http://www.garofanijohnesq.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "08-Jul-21"
+		"date": "08-Jul-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Dottie",
@@ -4348,8 +4348,8 @@
 		"email": "dottie@hellickson.org",
 		"website": "http://www.thompsonfabricatingco.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "10-Jul-21"
+		"date": "10-Jul-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Deandrea",
@@ -4365,8 +4365,8 @@
 		"email": "deandrea@yahoo.com",
 		"website": "http://www.centurykrallrealestate.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "11-Aug-21"
+		"date": "11-Aug-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Kimberlie",
@@ -4382,8 +4382,8 @@
 		"email": "kimberlie_duenas@yahoo.com",
 		"website": "http://www.midcontntlrltypropmgmt.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "20-Jul-21"
+		"date": "20-Jul-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Martina",
@@ -4399,8 +4399,8 @@
 		"email": "martina_staback@staback.com",
 		"website": "http://www.acesignsinc.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "25-Jun-21"
+		"date": "25-Jun-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Skye",
@@ -4416,8 +4416,8 @@
 		"email": "skye_fillingim@yahoo.com",
 		"website": "http://www.rodewayinn.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "04-Apr-20"
+		"date": "04-Apr-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Jade",
@@ -4433,8 +4433,8 @@
 		"email": "jade.farrar@yahoo.com",
 		"website": "http://www.bonnetdaughter.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "11-Feb-20"
+		"date": "11-Feb-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Charlene",
@@ -4450,8 +4450,8 @@
 		"email": "charlene.hamilton@hotmail.com",
 		"website": "http://www.oshinsgibbons.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "07-Apr-20"
+		"date": "07-Apr-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Geoffrey",
@@ -4467,8 +4467,8 @@
 		"email": "geoffrey@gmail.com",
 		"website": "http://www.pricebusinessservices.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "19-Mar-22"
+		"date": "19-Mar-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Stevie",
@@ -4484,8 +4484,8 @@
 		"email": "stevie.westerbeck@yahoo.com",
 		"website": "http://www.wisedenniswmd.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "01-Aug-20"
+		"date": "01-Aug-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Pamella",
@@ -4501,8 +4501,8 @@
 		"email": "pamella@fortino.com",
 		"website": "http://www.supermotel.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "27-Feb-20"
+		"date": "27-Feb-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Harrison",
@@ -4518,8 +4518,8 @@
 		"email": "hhaufler@hotmail.com",
 		"website": "http://www.johnwagnerassociates.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "22-Dec-20"
+		"date": "22-Dec-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Johnna",
@@ -4535,8 +4535,8 @@
 		"email": "jengelberg@engelberg.org",
 		"website": "http://www.thriftyoilco.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "23-Sep-20"
+		"date": "23-Sep-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Buddy",
@@ -4552,8 +4552,8 @@
 		"email": "buddy.cloney@yahoo.com",
 		"website": "http://www.larkfieldphoto.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "29-May-22"
+		"date": "29-May-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Dalene",
@@ -4569,8 +4569,8 @@
 		"email": "dalene.riden@aol.com",
 		"website": "http://www.silvermanplanetarium.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "07-Nov-22"
+		"date": "07-Nov-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Jerry",
@@ -4586,8 +4586,8 @@
 		"email": "jzurcher@zurcher.org",
 		"website": "http://www.jflumber.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "28-Jan-21"
+		"date": "28-Jan-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Haydee",
@@ -4603,8 +4603,8 @@
 		"email": "hdenooyer@denooyer.org",
 		"website": "http://www.cleaningstationinc.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "25-May-21"
+		"date": "25-May-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Joseph",
@@ -4620,8 +4620,8 @@
 		"email": "joseph_cryer@cox.net",
 		"website": "http://www.amesstationers.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "11-Nov-20"
+		"date": "11-Nov-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Deonna",
@@ -4637,8 +4637,8 @@
 		"email": "deonna_kippley@hotmail.com",
 		"website": "http://www.midasmufflershops.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "01-Mar-20"
+		"date": "01-Mar-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Raymon",
@@ -4654,8 +4654,8 @@
 		"email": "raymon.calvaresi@gmail.com",
 		"website": "http://www.seaboardsecuritiesinc.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "17-Aug-20"
+		"date": "17-Aug-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Alecia",
@@ -4671,8 +4671,8 @@
 		"email": "alecia@aol.com",
 		"website": "http://www.petersenjameseesq.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "18-Jun-20"
+		"date": "18-Jun-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Ma",
@@ -4688,8 +4688,8 @@
 		"email": "mlayous@hotmail.com",
 		"website": "http://www.developmentauthority.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "18-Apr-21"
+		"date": "18-Apr-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Detra",
@@ -4705,8 +4705,8 @@
 		"email": "detra@aol.com",
 		"website": "http://www.schottfiberopticsinc.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "27-Jun-22"
+		"date": "27-Jun-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Terrilyn",
@@ -4722,8 +4722,8 @@
 		"email": "terrilyn.rodeigues@cox.net",
 		"website": "http://www.stuartjagins.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "09-Jun-22"
+		"date": "09-Jun-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Salome",
@@ -4739,8 +4739,8 @@
 		"email": "slacovara@gmail.com",
 		"website": "http://www.mitsumielectronicscorp.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "18-May-22"
+		"date": "18-May-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Garry",
@@ -4756,8 +4756,8 @@
 		"email": "garry_keetch@hotmail.com",
 		"website": "http://www.italianexpressfranchisecorp.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "11-Jun-21"
+		"date": "11-Jun-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Matthew",
@@ -4773,8 +4773,8 @@
 		"email": "mneither@yahoo.com",
 		"website": "http://www.americancouncilonscihlth.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "25-Jun-22"
+		"date": "25-Jun-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Theodora",
@@ -4790,8 +4790,8 @@
 		"email": "theodora.restrepo@restrepo.com",
 		"website": "http://www.kleripatriciasesq.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "08-Jan-22"
+		"date": "08-Jan-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Noah",
@@ -4807,8 +4807,8 @@
 		"email": "noah.kalafatis@aol.com",
 		"website": "http://www.twiggsabramsblanchard.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "19-Jun-21"
+		"date": "19-Jun-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Carmen",
@@ -4824,8 +4824,8 @@
 		"email": "csweigard@sweigard.com",
 		"website": "http://www.mauiresearchtechnologypk.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "25-May-20"
+		"date": "25-May-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lavonda",
@@ -4841,8 +4841,8 @@
 		"email": "lavonda@cox.net",
 		"website": "http://www.bradleynameplatecorp.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "17-Sep-22"
+		"date": "17-Sep-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Junita",
@@ -4858,8 +4858,8 @@
 		"email": "junita@aol.com",
 		"website": "http://www.geonexmartelinc.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "05-Oct-21"
+		"date": "05-Oct-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Herminia",
@@ -4875,8 +4875,8 @@
 		"email": "herminia@nicolozakes.org",
 		"website": "http://www.seaislanddivoffstrindinc.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "17-Nov-21"
+		"date": "17-Nov-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Casie",
@@ -4892,8 +4892,8 @@
 		"email": "casie.good@aol.com",
 		"website": "http://www.papaydebbiejesq.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "22-Jan-21"
+		"date": "22-Jan-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Reena",
@@ -4909,8 +4909,8 @@
 		"email": "reena@hotmail.com",
 		"website": "http://www.lanepromotions.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "10-Jul-22"
+		"date": "10-Jul-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Mirta",
@@ -4926,8 +4926,8 @@
 		"email": "mirta_mallett@gmail.com",
 		"website": "http://www.stephenkennerlyarchtsincpc.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "11-Feb-20"
+		"date": "11-Feb-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Cathrine",
@@ -4943,8 +4943,8 @@
 		"email": "cathrine.pontoriero@pontoriero.com",
 		"website": "http://www.businesssystemsofwisinc.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "17-Jan-20"
+		"date": "17-Jan-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Filiberto",
@@ -4960,8 +4960,8 @@
 		"email": "ftawil@hotmail.com",
 		"website": "http://www.flashelenasalernoesq.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "01-Feb-22"
+		"date": "01-Feb-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Raul",
@@ -4977,8 +4977,8 @@
 		"email": "rupthegrove@yahoo.com",
 		"website": "http://www.neeleygregorywesq.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "26-Jun-20"
+		"date": "26-Jun-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Sarah",
@@ -4994,8 +4994,8 @@
 		"email": "sarah.candlish@gmail.com",
 		"website": "http://www.alabamaeducationaltvcomm.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "19-Nov-21"
+		"date": "19-Nov-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lucy",
@@ -5011,8 +5011,8 @@
 		"email": "lucy@cox.net",
 		"website": "http://www.franzinc.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "10-May-22"
+		"date": "10-May-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Judy",
@@ -5028,8 +5028,8 @@
 		"email": "jaquas@aquas.com",
 		"website": "http://www.plantationrestaurant.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "13-Jul-22"
+		"date": "13-Jul-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Yvonne",
@@ -5045,8 +5045,8 @@
 		"email": "yvonne.tjepkema@hotmail.com",
 		"website": "http://www.radiocommunicationsco.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "29-Mar-22"
+		"date": "29-Mar-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Kayleigh",
@@ -5062,8 +5062,8 @@
 		"email": "kayleigh.lace@yahoo.com",
 		"website": "http://www.dentalawdivsnhlthcare.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "04-Jul-22"
+		"date": "04-Jul-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Felix",
@@ -5079,8 +5079,8 @@
 		"email": "felix_hirpara@cox.net",
 		"website": "http://www.americanspeedyprintingctrs.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "14-Aug-20"
+		"date": "14-Aug-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Tresa",
@@ -5096,8 +5096,8 @@
 		"email": "tresa_sweely@hotmail.com",
 		"website": "http://www.graysongrantsesq.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "07-Sep-21"
+		"date": "07-Sep-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Kristeen",
@@ -5113,8 +5113,8 @@
 		"email": "kristeen@gmail.com",
 		"website": "http://www.jeanerettemiddleschool.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "07-Oct-22"
+		"date": "07-Oct-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Jenelle",
@@ -5130,8 +5130,8 @@
 		"email": "jregusters@regusters.com",
 		"website": "http://www.haavistobrianfesq.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "04-Feb-20"
+		"date": "04-Feb-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Renea",
@@ -5147,8 +5147,8 @@
 		"email": "renea@hotmail.com",
 		"website": "http://www.wmmtradiostation.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "29-Oct-20"
+		"date": "29-Oct-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Olive",
@@ -5164,8 +5164,8 @@
 		"email": "olive@aol.com",
 		"website": "http://www.colonypaintssalesofcplnt.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "05-Jun-21"
+		"date": "05-Jun-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Ligia",
@@ -5181,8 +5181,8 @@
 		"email": "lreiber@cox.net",
 		"website": "http://www.floralexpressions.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "07-Oct-21"
+		"date": "07-Oct-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Christiane",
@@ -5198,8 +5198,8 @@
 		"email": "christiane.eschberger@yahoo.com",
 		"website": "http://www.cascoservicesinc.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "12-Feb-20"
+		"date": "12-Feb-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Goldie",
@@ -5215,8 +5215,8 @@
 		"email": "goldie.schirpke@yahoo.com",
 		"website": "http://www.reuterarthurcjr.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "28-Mar-22"
+		"date": "28-Mar-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Loreta",
@@ -5232,8 +5232,8 @@
 		"email": "loreta.timenez@hotmail.com",
 		"website": "http://www.kaminskikatherineandritsaki.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "13-Aug-20"
+		"date": "13-Aug-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Fabiola",
@@ -5249,8 +5249,8 @@
 		"email": "fabiola.hauenstein@hauenstein.org",
 		"website": "http://www.sidewinderproductscorp.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "11-Sep-21"
+		"date": "11-Sep-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Amie",
@@ -5266,8 +5266,8 @@
 		"email": "amie.perigo@yahoo.com",
 		"website": "http://www.generalfoamcorporation.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "26-Mar-21"
+		"date": "26-Mar-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Raina",
@@ -5283,8 +5283,8 @@
 		"email": "raina.brachle@brachle.org",
 		"website": "http://www.ikgbordendivsnharscocorp.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "09-Jan-21"
+		"date": "09-Jan-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Erinn",
@@ -5300,8 +5300,8 @@
 		"email": "erinn.canlas@canlas.com",
 		"website": "http://www.anchorcomputerinc.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "20-Jan-20"
+		"date": "20-Jan-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Cherry",
@@ -5317,8 +5317,8 @@
 		"email": "cherry@lietz.com",
 		"website": "http://www.sebringco.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "08-Oct-22"
+		"date": "08-Oct-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Kattie",
@@ -5334,8 +5334,8 @@
 		"email": "kattie@vonasek.org",
 		"website": "http://www.hacfarmlinescooptvassoc.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "09-Jun-21"
+		"date": "09-Jun-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Lilli",
@@ -5351,8 +5351,8 @@
 		"email": "lilli@aol.com",
 		"website": "http://www.hunterjohnjesq.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "01-Jul-22"
+		"date": "01-Jul-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Whitley",
@@ -5368,8 +5368,8 @@
 		"email": "whitley.tomasulo@aol.com",
 		"website": "http://www.freeholdfenceco.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "04-Feb-21"
+		"date": "04-Feb-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Barbra",
@@ -5385,8 +5385,8 @@
 		"email": "badkin@hotmail.com",
 		"website": "http://www.binswanger.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "10-May-21"
+		"date": "10-May-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Hermila",
@@ -5402,8 +5402,8 @@
 		"email": "hermila_thyberg@hotmail.com",
 		"website": "http://www.chiltonmaltingco.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "06-Apr-22"
+		"date": "06-Apr-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Jesusita",
@@ -5419,8 +5419,8 @@
 		"email": "jesusita.flister@hotmail.com",
 		"website": "http://www.schoenedwardjjr.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "20-Nov-20"
+		"date": "20-Nov-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Caitlin",
@@ -5436,8 +5436,8 @@
 		"email": "caitlin.julia@julia.org",
 		"website": "http://www.heldermanseymourcpa.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "12-Sep-22"
+		"date": "12-Sep-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Roosevelt",
@@ -5453,8 +5453,8 @@
 		"email": "roosevelt.hoffis@aol.com",
 		"website": "http://www.denbrookmyron.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "02-Mar-22"
+		"date": "02-Mar-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Helaine",
@@ -5470,8 +5470,8 @@
 		"email": "hhalter@yahoo.com",
 		"website": "http://www.lippittmike.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "19-Jul-21"
+		"date": "19-Jul-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lorean",
@@ -5487,8 +5487,8 @@
 		"email": "lorean.martabano@hotmail.com",
 		"website": "http://www.hiramhoggpesq.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "03-Jun-22"
+		"date": "03-Jun-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "France",
@@ -5504,8 +5504,8 @@
 		"email": "france.buzick@yahoo.com",
 		"website": "http://www.intravelagency.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "06-Apr-20"
+		"date": "06-Apr-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Justine",
@@ -5521,8 +5521,8 @@
 		"email": "jferrario@hotmail.com",
 		"website": "http://www.newhartfoodsinc.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "10-Aug-22"
+		"date": "10-Aug-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Adelina",
@@ -5538,8 +5538,8 @@
 		"email": "adelina_nabours@gmail.com",
 		"website": "http://www.courtyardbymarriott.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "05-Feb-21"
+		"date": "05-Feb-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Derick",
@@ -5555,8 +5555,8 @@
 		"email": "ddhamer@cox.net",
 		"website": "http://www.studereugeneaesq.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "20-Aug-20"
+		"date": "20-Aug-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Jerry",
@@ -5572,8 +5572,8 @@
 		"email": "jerry.dallen@yahoo.com",
 		"website": "http://www.seashoresupplycowaretown.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "10-Jan-22"
+		"date": "10-Jan-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Leota",
@@ -5589,8 +5589,8 @@
 		"email": "leota.ragel@gmail.com",
 		"website": "http://www.mayarsilkinc.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "12-Aug-22"
+		"date": "12-Aug-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Jutta",
@@ -5606,8 +5606,8 @@
 		"email": "jamyot@hotmail.com",
 		"website": "http://www.nationalmedicalexcesscorp.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "07-Mar-22"
+		"date": "07-Mar-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Aja",
@@ -5623,8 +5623,8 @@
 		"email": "aja_gehrett@hotmail.com",
 		"website": "http://www.sterocompany.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "12-Feb-21"
+		"date": "12-Feb-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Kirk",
@@ -5640,8 +5640,8 @@
 		"email": "kirk.herritt@aol.com",
 		"website": "http://www.hastinghduaneesq.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "27-Sep-21"
+		"date": "27-Sep-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Leonora",
@@ -5657,8 +5657,8 @@
 		"email": "leonora@yahoo.com",
 		"website": "http://www.instyprints.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "09-Jun-21"
+		"date": "09-Jun-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Winfred",
@@ -5674,8 +5674,8 @@
 		"email": "winfred_brucato@hotmail.com",
 		"website": "http://www.glenridgemanormobilehomepk.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "06-Jul-21"
+		"date": "06-Jul-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Tarra",
@@ -5691,8 +5691,8 @@
 		"email": "tarra.nachor@cox.net",
 		"website": "http://www.circuitsolutioninc.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "26-Dec-21"
+		"date": "26-Dec-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Corinne",
@@ -5708,8 +5708,8 @@
 		"email": "corinne@loder.org",
 		"website": "http://www.localoffice.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "22-Feb-22"
+		"date": "22-Feb-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Dulce",
@@ -5725,8 +5725,8 @@
 		"email": "dulce_labreche@yahoo.com",
 		"website": "http://www.leekilkellypaulsonkabaker.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "13-Jan-20"
+		"date": "13-Jan-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Kate",
@@ -5742,8 +5742,8 @@
 		"email": "kate_keneipp@yahoo.com",
 		"website": "http://www.davismaxonresq.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "05-Jan-21"
+		"date": "05-Jan-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Kaitlyn",
@@ -5759,8 +5759,8 @@
 		"email": "kaitlyn.ogg@gmail.com",
 		"website": "http://www.garrisonpauleesq.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "28-Oct-21"
+		"date": "28-Oct-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Sherita",
@@ -5776,8 +5776,8 @@
 		"email": "sherita.saras@cox.net",
 		"website": "http://www.blackhistoryresourcecenter.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "15-May-20"
+		"date": "15-May-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Lashawnda",
@@ -5793,8 +5793,8 @@
 		"email": "lstuer@cox.net",
 		"website": "http://www.rodriguezjchristopheresq.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "19-Aug-21"
+		"date": "19-Aug-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Ernest",
@@ -5810,8 +5810,8 @@
 		"email": "ernest@cox.net",
 		"website": "http://www.grantfamilyhealthcenter.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "03-Mar-22"
+		"date": "03-Mar-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Nobuko",
@@ -5827,8 +5827,8 @@
 		"email": "nobuko.halsey@yahoo.com",
 		"website": "http://www.goemanwoodproductsinc.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "07-Jun-21"
+		"date": "07-Jun-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Lavonna",
@@ -5844,8 +5844,8 @@
 		"email": "lavonna.wolny@hotmail.com",
 		"website": "http://www.linhareskennethaesq.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "15-May-21"
+		"date": "15-May-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lashaunda",
@@ -5861,8 +5861,8 @@
 		"email": "llizama@cox.net",
 		"website": "http://www.earnhardtprinting.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "09-Sep-21"
+		"date": "09-Sep-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Mariann",
@@ -5878,8 +5878,8 @@
 		"email": "mariann.bilden@aol.com",
 		"website": "http://www.hpgindustrysinc.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "16-Jun-22"
+		"date": "16-Jun-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Helene",
@@ -5895,8 +5895,8 @@
 		"email": "helene@aol.com",
 		"website": "http://www.baileytransportationprodinc.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "12-Apr-20"
+		"date": "12-Apr-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Roselle",
@@ -5912,8 +5912,8 @@
 		"email": "roselle.estell@hotmail.com",
 		"website": "http://www.mcglynnblisspc.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "27-Dec-21"
+		"date": "27-Dec-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Samira",
@@ -5929,8 +5929,8 @@
 		"email": "sheintzman@hotmail.com",
 		"website": "http://www.mutualfishco.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "18-Oct-20"
+		"date": "18-Oct-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Margart",
@@ -5946,8 +5946,8 @@
 		"email": "margart_meisel@yahoo.com",
 		"website": "http://www.yeatesarthurlaia.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "25-Nov-21"
+		"date": "25-Nov-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Kristofer",
@@ -5963,8 +5963,8 @@
 		"email": "kristofer.bennick@yahoo.com",
 		"website": "http://www.loganronaldjesq.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "26-Mar-20"
+		"date": "26-Mar-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Weldon",
@@ -5980,8 +5980,8 @@
 		"email": "wacuff@gmail.com",
 		"website": "http://www.advantagemartgagecompany.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "26-Aug-21"
+		"date": "26-Aug-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Shalon",
@@ -5997,8 +5997,8 @@
 		"email": "shalon@cox.net",
 		"website": "http://www.germerandgertzllp.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "02-Aug-21"
+		"date": "02-Aug-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Denise",
@@ -6014,8 +6014,8 @@
 		"email": "denise@patak.org",
 		"website": "http://www.spencelawoffices.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "10-Apr-22"
+		"date": "10-Apr-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Louvenia",
@@ -6031,8 +6031,8 @@
 		"email": "louvenia.beech@beech.com",
 		"website": "http://www.johnortizntstherapycenter.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "30-May-20"
+		"date": "30-May-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Audry",
@@ -6048,8 +6048,8 @@
 		"email": "audry.yaw@yaw.org",
 		"website": "http://www.mikeuchrinhtgaircondinc.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "27-Feb-21"
+		"date": "27-Feb-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Kristel",
@@ -6065,8 +6065,8 @@
 		"email": "kristel.ehmann@aol.com",
 		"website": "http://www.mccoyjoyreynoldsesq.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "07-May-22"
+		"date": "07-May-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Vincenza",
@@ -6082,8 +6082,8 @@
 		"email": "vzepp@gmail.com",
 		"website": "http://www.kboram.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "10-Aug-21"
+		"date": "10-Aug-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Elouise",
@@ -6099,8 +6099,8 @@
 		"email": "egwalthney@yahoo.com",
 		"website": "http://www.qualityinnnorthwest.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "22-Jun-20"
+		"date": "22-Jun-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Venita",
@@ -6116,8 +6116,8 @@
 		"email": "venita_maillard@gmail.com",
 		"website": "http://www.wallacechurchassocinc.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "21-Oct-22"
+		"date": "21-Oct-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Kasandra",
@@ -6133,8 +6133,8 @@
 		"email": "kasandra_semidey@semidey.com",
 		"website": "http://www.cantron.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "20-Oct-20"
+		"date": "20-Oct-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Xochitl",
@@ -6150,8 +6150,8 @@
 		"email": "xdiscipio@gmail.com",
 		"website": "http://www.ravaalenterprisesinc.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "01-Jun-21"
+		"date": "01-Jun-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Maile",
@@ -6167,8 +6167,8 @@
 		"email": "mlinahan@yahoo.com",
 		"website": "http://www.thompsonsteelcompanyinc.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "11-Feb-22"
+		"date": "11-Feb-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Krissy",
@@ -6184,8 +6184,8 @@
 		"email": "krauser@cox.net",
 		"website": "http://www.andersonmarkaesq.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "24-Jan-21"
+		"date": "24-Jan-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Pete",
@@ -6201,8 +6201,8 @@
 		"email": "pdubaldi@hotmail.com",
 		"website": "http://www.womackgalich.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "22-May-20"
+		"date": "22-May-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Linn",
@@ -6218,8 +6218,8 @@
 		"email": "linn_paa@paa.com",
 		"website": "http://www.valeriecompany.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "18-Jul-20"
+		"date": "18-Jul-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Paris",
@@ -6235,8 +6235,8 @@
 		"email": "paris@hotmail.com",
 		"website": "http://www.gehringpumpsinc.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "24-Sep-20"
+		"date": "24-Sep-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Wynell",
@@ -6252,8 +6252,8 @@
 		"email": "wynell_dorshorst@dorshorst.org",
 		"website": "http://www.haehnelcraigwesq.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "19-Jun-20"
+		"date": "19-Jun-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Quentin",
@@ -6269,8 +6269,8 @@
 		"email": "qbirkner@aol.com",
 		"website": "http://www.spoorbehrinscampbellyoung.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "07-Mar-22"
+		"date": "07-Mar-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Regenia",
@@ -6286,8 +6286,8 @@
 		"email": "regenia.kannady@cox.net",
 		"website": "http://www.kenjeterstoreequipmentinc.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "13-May-21"
+		"date": "13-May-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Sheron",
@@ -6303,8 +6303,8 @@
 		"email": "sheron@aol.com",
 		"website": "http://www.potterbrendajcpa.com",
 		"type": "Lead",
-		"projects_count": "5",
-		"date": "17-May-20"
+		"date": "17-May-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Izetta",
@@ -6320,8 +6320,8 @@
 		"email": "izetta.funnell@hotmail.com",
 		"website": "http://www.bairdkurtzdobson.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "21-Nov-21"
+		"date": "21-Nov-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Rodolfo",
@@ -6337,8 +6337,8 @@
 		"email": "rodolfo@hotmail.com",
 		"website": "http://www.minorcynthiaaesq.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "01-May-22"
+		"date": "01-May-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Zona",
@@ -6354,8 +6354,8 @@
 		"email": "zona@hotmail.com",
 		"website": "http://www.soloverobertaesq.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "31-May-20"
+		"date": "31-May-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Serina",
@@ -6371,8 +6371,8 @@
 		"email": "szagen@aol.com",
 		"website": "http://www.markiiimportsinc.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "09-Dec-21"
+		"date": "09-Dec-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Paz",
@@ -6388,8 +6388,8 @@
 		"email": "paz_sahagun@cox.net",
 		"website": "http://www.whitesigndivctrlequipco.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "19-Mar-20"
+		"date": "19-Mar-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Markus",
@@ -6405,8 +6405,8 @@
 		"email": "markus@yahoo.com",
 		"website": "http://www.mmstorefixturescoinc.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "30-May-21"
+		"date": "30-May-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Jaclyn",
@@ -6422,8 +6422,8 @@
 		"email": "jaclyn@aol.com",
 		"website": "http://www.judahcasterwheelco.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "07-Jul-22"
+		"date": "07-Jul-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Cyril",
@@ -6439,8 +6439,8 @@
 		"email": "cyril_daufeldt@daufeldt.com",
 		"website": "http://www.galaxyinternationalinc.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "23-Mar-21"
+		"date": "23-Mar-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Gayla",
@@ -6456,8 +6456,8 @@
 		"email": "gschnitzler@gmail.com",
 		"website": "http://www.sigmacorpofamerica.com",
 		"type": "Customer",
-		"projects_count": "16",
-		"date": "26-Aug-22"
+		"date": "26-Aug-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Erick",
@@ -6473,8 +6473,8 @@
 		"email": "erick_nievas@aol.com",
 		"website": "http://www.sowardanneesq.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "29-May-20"
+		"date": "29-May-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Jennie",
@@ -6490,8 +6490,8 @@
 		"email": "jennie@cox.net",
 		"website": "http://www.osbornemichellemesq.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "28-Jan-20"
+		"date": "28-Jan-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Mitsue",
@@ -6507,8 +6507,8 @@
 		"email": "mscipione@scipione.com",
 		"website": "http://www.studentsinfreeentrprsnatl.com",
 		"type": "Lead",
-		"projects_count": "1",
-		"date": "02-Jul-21"
+		"date": "02-Jul-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Ciara",
@@ -6524,8 +6524,8 @@
 		"email": "cventura@yahoo.com",
 		"website": "http://www.johnsonrobertmesq.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "11-Sep-21"
+		"date": "11-Sep-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Galen",
@@ -6541,8 +6541,8 @@
 		"email": "galen@yahoo.com",
 		"website": "http://www.delcharroapartments.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "13-Jan-20"
+		"date": "13-Jan-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Truman",
@@ -6558,8 +6558,8 @@
 		"email": "tfeichtner@yahoo.com",
 		"website": "http://www.legalsearchinc.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "29-Jul-20"
+		"date": "29-Jul-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Gail",
@@ -6575,8 +6575,8 @@
 		"email": "gail@kitty.com",
 		"website": "http://www.servicesupplycoinc.com",
 		"type": "Customer",
-		"projects_count": "9",
-		"date": "07-Nov-20"
+		"date": "07-Nov-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Dalene",
@@ -6592,8 +6592,8 @@
 		"email": "dalene@schoeneck.org",
 		"website": "http://www.sameshimadouglasjesq.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "28-Feb-20"
+		"date": "28-Feb-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Gertude",
@@ -6609,8 +6609,8 @@
 		"email": "gertude.witten@gmail.com",
 		"website": "http://www.thompsonjohnrandolphjr.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "11-Jun-21"
+		"date": "11-Jun-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Lizbeth",
@@ -6626,8 +6626,8 @@
 		"email": "lizbeth@yahoo.com",
 		"website": "http://www.etbalancingcoinc.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "08-Jan-22"
+		"date": "08-Jan-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Glenn",
@@ -6643,8 +6643,8 @@
 		"email": "gberray@gmail.com",
 		"website": "http://www.griswoldjohneesq.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "19-May-21"
+		"date": "19-May-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Lashandra",
@@ -6660,8 +6660,8 @@
 		"email": "lashandra@yahoo.com",
 		"website": "http://www.acquagroup.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "31-Dec-20"
+		"date": "31-Dec-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Lenna",
@@ -6677,8 +6677,8 @@
 		"email": "lnewville@newville.com",
 		"website": "http://www.brooksmorrisjjr.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "26-Aug-21"
+		"date": "26-Aug-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Laurel",
@@ -6694,8 +6694,8 @@
 		"email": "laurel@yahoo.com",
 		"website": "http://www.printingimagescorp.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "23-Oct-20"
+		"date": "23-Oct-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Mireya",
@@ -6711,8 +6711,8 @@
 		"email": "mireya.frerking@hotmail.com",
 		"website": "http://www.robertssupplycoinc.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "28-Mar-22"
+		"date": "28-Mar-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Annelle",
@@ -6728,8 +6728,8 @@
 		"email": "annelle@yahoo.com",
 		"website": "http://www.vicoproductsmfgco.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "10-Feb-22"
+		"date": "10-Feb-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Dean",
@@ -6745,8 +6745,8 @@
 		"email": "dean_ketelsen@gmail.com",
 		"website": "http://www.jmcustomdesignmillwork.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "25-Sep-22"
+		"date": "25-Sep-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Levi",
@@ -6762,8 +6762,8 @@
 		"email": "levi.munis@gmail.com",
 		"website": "http://www.farrelljohnsonofficeequip.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "14-Aug-21"
+		"date": "14-Aug-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Sylvie",
@@ -6779,8 +6779,8 @@
 		"email": "sylvie@aol.com",
 		"website": "http://www.millersmarketdeli.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "30-May-22"
+		"date": "30-May-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Sharee",
@@ -6796,8 +6796,8 @@
 		"email": "sharee_maile@aol.com",
 		"website": "http://www.holidayinnnaperville.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "30-Jul-22"
+		"date": "30-Jul-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Cordelia",
@@ -6813,8 +6813,8 @@
 		"email": "cordelia_storment@aol.com",
 		"website": "http://www.burrowsjonhesq.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "16-Aug-20"
+		"date": "16-Aug-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Mollie",
@@ -6830,8 +6830,8 @@
 		"email": "mollie_mcdoniel@yahoo.com",
 		"website": "http://www.docksealspecialty.com",
 		"type": "Lead",
-		"projects_count": "8",
-		"date": "03-Apr-20"
+		"date": "03-Apr-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Brett",
@@ -6847,8 +6847,8 @@
 		"email": "brett.mccullan@mccullan.com",
 		"website": "http://www.fivestarlimousinesoftxinc.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "27-May-22"
+		"date": "27-May-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Teddy",
@@ -6864,8 +6864,8 @@
 		"email": "teddy_pedrozo@aol.com",
 		"website": "http://www.barkannealjesq.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "13-Jul-20"
+		"date": "13-Jul-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Tasia",
@@ -6881,8 +6881,8 @@
 		"email": "tasia_andreason@yahoo.com",
 		"website": "http://www.campbellroberta.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "03-Jan-21"
+		"date": "03-Jan-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Hubert",
@@ -6898,8 +6898,8 @@
 		"email": "hubert@walthall.org",
 		"website": "http://www.deedeanna.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "10-Apr-20"
+		"date": "10-Apr-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Arthur",
@@ -6915,8 +6915,8 @@
 		"email": "arthur.farrow@yahoo.com",
 		"website": "http://www.youngtimothylesq.com",
 		"type": "Customer",
-		"projects_count": "5",
-		"date": "27-Mar-20"
+		"date": "27-Mar-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Vilma",
@@ -6932,8 +6932,8 @@
 		"email": "vberlanga@berlanga.com",
 		"website": "http://www.wellsdfredesq.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "20-Jul-21"
+		"date": "20-Jul-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Billye",
@@ -6949,8 +6949,8 @@
 		"email": "billye_miro@cox.net",
 		"website": "http://www.grayfrancinehesq.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "26-Mar-22"
+		"date": "26-Mar-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Glenna",
@@ -6966,8 +6966,8 @@
 		"email": "glenna_slayton@cox.net",
 		"website": "http://www.toledoivcare.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "11-Feb-21"
+		"date": "11-Feb-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Mitzie",
@@ -6983,8 +6983,8 @@
 		"email": "mitzie_hudnall@yahoo.com",
 		"website": "http://www.cangrotransmissionco.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "18-Mar-21"
+		"date": "18-Mar-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Bernardine",
@@ -7000,8 +7000,8 @@
 		"email": "bernardine_rodefer@yahoo.com",
 		"website": "http://www.satpolyinc.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "05-Feb-21"
+		"date": "05-Feb-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Staci",
@@ -7017,8 +7017,8 @@
 		"email": "staci_schmaltz@aol.com",
 		"website": "http://www.midwestcontractingmfginc.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "10-Jul-21"
+		"date": "10-Jul-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Nichelle",
@@ -7034,8 +7034,8 @@
 		"email": "nichelle_meteer@meteer.com",
 		"website": "http://www.printdoctor.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "27-Nov-20"
+		"date": "27-Nov-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Janine",
@@ -7051,8 +7051,8 @@
 		"email": "jrhoden@yahoo.com",
 		"website": "http://www.nordicgroupinc.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "18-Aug-21"
+		"date": "18-Aug-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Ettie",
@@ -7068,8 +7068,8 @@
 		"email": "ettie.hoopengardner@hotmail.com",
 		"website": "http://www.jacksonmillworkco.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "17-Jul-21"
+		"date": "17-Jul-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Eden",
@@ -7085,8 +7085,8 @@
 		"email": "eden_jayson@yahoo.com",
 		"website": "http://www.harriscorporation.com",
 		"type": "Customer",
-		"projects_count": "12",
-		"date": "22-Aug-20"
+		"date": "22-Aug-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Lynelle",
@@ -7102,8 +7102,8 @@
 		"email": "lynelle_auber@gmail.com",
 		"website": "http://www.unitedcerebralpalsyofnepa.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "05-Aug-22"
+		"date": "05-Aug-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Merissa",
@@ -7119,8 +7119,8 @@
 		"email": "merissa.tomblin@gmail.com",
 		"website": "http://www.onedaysurgerycenterinc.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "01-Sep-22"
+		"date": "01-Sep-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Golda",
@@ -7136,8 +7136,8 @@
 		"email": "golda_kaniecki@yahoo.com",
 		"website": "http://www.calaverasprospect.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "27-Oct-22"
+		"date": "27-Oct-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Catarina",
@@ -7153,8 +7153,8 @@
 		"email": "catarina_gleich@hotmail.com",
 		"website": "http://www.terkroberteesq.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "24-Oct-22"
+		"date": "24-Oct-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Virgie",
@@ -7170,8 +7170,8 @@
 		"email": "vkiel@hotmail.com",
 		"website": "http://www.cullenterrencepesq.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "19-Aug-22"
+		"date": "19-Aug-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Jolene",
@@ -7187,8 +7187,8 @@
 		"email": "jolene@yahoo.com",
 		"website": "http://www.centraldiecastingmfgcoinc.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "19-Jul-20"
+		"date": "19-Jul-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Keneth",
@@ -7204,8 +7204,8 @@
 		"email": "keneth@yahoo.com",
 		"website": "http://www.centerlineengineering.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "20-Aug-21"
+		"date": "20-Aug-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Rikki",
@@ -7221,8 +7221,8 @@
 		"email": "rikki@nayar.com",
 		"website": "http://www.targankievitpa.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "08-Oct-20"
+		"date": "08-Oct-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Elke",
@@ -7238,8 +7238,8 @@
 		"email": "elke_sengbusch@yahoo.com",
 		"website": "http://www.rileyriperhollincolagreco.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "08-Feb-20"
+		"date": "08-Feb-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Hoa",
@@ -7255,8 +7255,8 @@
 		"email": "hoa@sarao.org",
 		"website": "http://www.kaplanjoelsesq.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "17-Mar-22"
+		"date": "17-Mar-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Trinidad",
@@ -7272,8 +7272,8 @@
 		"email": "trinidad_mcrae@yahoo.com",
 		"website": "http://www.wateroffice.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "15-Sep-20"
+		"date": "15-Sep-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Mari",
@@ -7289,8 +7289,8 @@
 		"email": "mari_lueckenbach@yahoo.com",
 		"website": "http://www.westbrooksnelsonejr.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "25-Aug-22"
+		"date": "25-Aug-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Selma",
@@ -7306,8 +7306,8 @@
 		"email": "selma.husser@cox.net",
 		"website": "http://www.armoncommunications.com",
 		"type": "Lead",
-		"projects_count": "13",
-		"date": "13-Sep-21"
+		"date": "13-Sep-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Antione",
@@ -7323,8 +7323,8 @@
 		"email": "aonofrio@onofrio.com",
 		"website": "http://www.jacobsgerberinc.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "09-Jul-21"
+		"date": "09-Jul-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Luisa",
@@ -7340,8 +7340,8 @@
 		"email": "ljurney@hotmail.com",
 		"website": "http://www.forestfirelaboratory.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "18-May-22"
+		"date": "18-May-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Clorinda",
@@ -7357,8 +7357,8 @@
 		"email": "clorinda.heimann@hotmail.com",
 		"website": "http://www.haugheycharlesjr.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "04-Jan-21"
+		"date": "04-Jan-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Dick",
@@ -7374,8 +7374,8 @@
 		"email": "dick@yahoo.com",
 		"website": "http://www.wheatonplasticproducts.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "27-Jul-20"
+		"date": "27-Jul-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Ahmed",
@@ -7391,8 +7391,8 @@
 		"email": "ahmed.angalich@angalich.com",
 		"website": "http://www.reeseplastics.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "05-Jan-21"
+		"date": "05-Jan-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Iluminada",
@@ -7408,8 +7408,8 @@
 		"email": "iluminada.ohms@yahoo.com",
 		"website": "http://www.nazettemarnergoodwendt.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "20-Apr-22"
+		"date": "20-Apr-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Joanna",
@@ -7425,8 +7425,8 @@
 		"email": "joanna_leinenbach@hotmail.com",
 		"website": "http://www.levinsonaxelrodwheaton.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "12-Jul-20"
+		"date": "12-Jul-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Caprice",
@@ -7442,8 +7442,8 @@
 		"email": "caprice@aol.com",
 		"website": "http://www.egnorwdanesq.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "21-May-20"
+		"date": "21-May-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Stephane",
@@ -7459,8 +7459,8 @@
 		"email": "stephane_myricks@cox.net",
 		"website": "http://www.portlandcentralthriftlodge.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "27-Jan-22"
+		"date": "27-Jan-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Quentin",
@@ -7476,8 +7476,8 @@
 		"email": "quentin_swayze@yahoo.com",
 		"website": "http://www.ulbrichtrucking.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "03-Oct-22"
+		"date": "03-Oct-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Annmarie",
@@ -7493,8 +7493,8 @@
 		"email": "annmarie_castros@gmail.com",
 		"website": "http://www.tipiakinc.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "17-Sep-20"
+		"date": "17-Sep-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Shonda",
@@ -7510,8 +7510,8 @@
 		"email": "shonda_greenbush@cox.net",
 		"website": "http://www.saintgeorgewelldrilling.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "06-Mar-20"
+		"date": "06-Mar-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Cecil",
@@ -7527,8 +7527,8 @@
 		"email": "clapage@lapage.com",
 		"website": "http://www.hawkesdouglasd.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "21-Jan-20"
+		"date": "21-Jan-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Jeanice",
@@ -7544,8 +7544,8 @@
 		"email": "jeanice.claucherty@yahoo.com",
 		"website": "http://www.accurelsystemsintrntlcorp.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "03-Sep-22"
+		"date": "03-Sep-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Josphine",
@@ -7561,8 +7561,8 @@
 		"email": "josphine_villanueva@villanueva.com",
 		"website": "http://www.santacruzcommunityinternet.com",
 		"type": "Customer",
-		"projects_count": "6",
-		"date": "11-Mar-21"
+		"date": "11-Mar-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Daniel",
@@ -7578,8 +7578,8 @@
 		"email": "dperruzza@perruzza.com",
 		"website": "http://www.gershdanielson.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "01-Jun-21"
+		"date": "01-Jun-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Cassi",
@@ -7595,8 +7595,8 @@
 		"email": "cassi.wildfong@aol.com",
 		"website": "http://www.cobbjamesoesq.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "04-Jun-22"
+		"date": "04-Jun-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Britt",
@@ -7612,8 +7612,8 @@
 		"email": "britt@galam.org",
 		"website": "http://www.wheatleytruckingcompany.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "31-Oct-21"
+		"date": "31-Oct-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Adell",
@@ -7629,8 +7629,8 @@
 		"email": "adell.lipkin@lipkin.com",
 		"website": "http://www.systemsgraphincabdickdlr.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "03-Oct-22"
+		"date": "03-Oct-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Jacqueline",
@@ -7646,8 +7646,8 @@
 		"email": "jacqueline.rowling@yahoo.com",
 		"website": "http://www.johnhancockmutllifeinsco.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "23-Sep-21"
+		"date": "23-Sep-21",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Lonny",
@@ -7663,8 +7663,8 @@
 		"email": "lonny_weglarz@gmail.com",
 		"website": "http://www.historydivisionofstate.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "23-May-22"
+		"date": "23-May-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Lonna",
@@ -7680,8 +7680,8 @@
 		"email": "lonna_diestel@gmail.com",
 		"website": "http://www.dimmockthomasjesq.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "21-Jun-21"
+		"date": "21-Jun-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Cristal",
@@ -7697,8 +7697,8 @@
 		"email": "cristal@cox.net",
 		"website": "http://www.intermedinc.com",
 		"type": "Customer",
-		"projects_count": "8",
-		"date": "20-Nov-21"
+		"date": "20-Nov-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Kenneth",
@@ -7714,8 +7714,8 @@
 		"email": "kenneth.grenet@grenet.org",
 		"website": "http://www.bankofnewyork.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "26-Feb-21"
+		"date": "26-Feb-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Elli",
@@ -7731,8 +7731,8 @@
 		"email": "emclaird@mclaird.com",
 		"website": "http://www.sportmasterintrnatl.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "11-Feb-21"
+		"date": "11-Feb-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Alline",
@@ -7748,8 +7748,8 @@
 		"email": "ajeanty@gmail.com",
 		"website": "http://www.wwjohnholdeninc.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "20-Feb-22"
+		"date": "20-Feb-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Sharika",
@@ -7765,8 +7765,8 @@
 		"email": "sharika.eanes@aol.com",
 		"website": "http://www.maccanidelp.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "20-Feb-21"
+		"date": "20-Feb-21",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Nu",
@@ -7782,8 +7782,8 @@
 		"email": "nu@gmail.com",
 		"website": "http://www.amazoniafilmproject.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "17-Apr-20"
+		"date": "17-Apr-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Daniela",
@@ -7799,8 +7799,8 @@
 		"email": "dcomnick@cox.net",
 		"website": "http://www.watersewerdepartment.com",
 		"type": "Lead",
-		"projects_count": "16",
-		"date": "04-Jun-22"
+		"date": "04-Jun-22",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Cecilia",
@@ -7816,8 +7816,8 @@
 		"email": "cecilia_colaizzo@colaizzo.com",
 		"website": "http://www.switchcraftinc.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "03-May-21"
+		"date": "03-May-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Leslie",
@@ -7833,8 +7833,8 @@
 		"email": "leslie@cox.net",
 		"website": "http://www.cwdcmetalfabricators.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "26-Apr-22"
+		"date": "26-Apr-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Nan",
@@ -7850,8 +7850,8 @@
 		"email": "nan@koppinger.com",
 		"website": "http://www.shimotanigracet.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "10-Jul-21"
+		"date": "10-Jul-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Izetta",
@@ -7867,8 +7867,8 @@
 		"email": "idewar@dewar.com",
 		"website": "http://www.lisatonijeanesq.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "06-Oct-20"
+		"date": "06-Oct-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Tegan",
@@ -7884,8 +7884,8 @@
 		"email": "tegan.arceo@arceo.org",
 		"website": "http://www.ceramictilesalesinc.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "21-Jun-20"
+		"date": "21-Jun-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Ruthann",
@@ -7901,8 +7901,8 @@
 		"email": "ruthann@hotmail.com",
 		"website": "http://www.maidencraftinc.com",
 		"type": "Customer",
-		"projects_count": "10",
-		"date": "31-Jul-22"
+		"date": "31-Jul-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Joni",
@@ -7918,8 +7918,8 @@
 		"email": "joni_breland@cox.net",
 		"website": "http://www.carriagehousecllsnrprinc.com",
 		"type": "Lead",
-		"projects_count": "7",
-		"date": "16-Jun-21"
+		"date": "16-Jun-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Vi",
@@ -7935,8 +7935,8 @@
 		"email": "vrentfro@cox.net",
 		"website": "http://www.videoworkshop.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "14-Aug-22"
+		"date": "14-Aug-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Colette",
@@ -7952,8 +7952,8 @@
 		"email": "colette.kardas@yahoo.com",
 		"website": "http://www.fresnotilecenterinc.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "17-Mar-22"
+		"date": "17-Mar-22",
+		"status": "interested"
 	},
 	{
 		"firstName": "Malcolm",
@@ -7969,8 +7969,8 @@
 		"email": "malcolm_tromblay@cox.net",
 		"website": "http://www.versatilesashwoodwork.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "11-Jul-20"
+		"date": "11-Jul-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Ryan",
@@ -7986,8 +7986,8 @@
 		"email": "ryan@cox.net",
 		"website": "http://www.warnerelectricbrkcltchco.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "15-May-20"
+		"date": "15-May-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Jess",
@@ -8003,8 +8003,8 @@
 		"email": "jess.chaffins@chaffins.org",
 		"website": "http://www.newyorkpubliclibrary.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "08-Feb-22"
+		"date": "08-Feb-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Sharen",
@@ -8020,8 +8020,8 @@
 		"email": "sbourbon@yahoo.com",
 		"website": "http://www.mccalebjohnaesq.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "04-Jul-22"
+		"date": "04-Jul-22",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Nickolas",
@@ -8037,8 +8037,8 @@
 		"email": "nickolas_juvera@cox.net",
 		"website": "http://www.unitedoilcoinc.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "26-Mar-20"
+		"date": "26-Mar-20",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Gary",
@@ -8054,8 +8054,8 @@
 		"email": "gary_nunlee@nunlee.org",
 		"website": "http://www.irvingfootcenter.com",
 		"type": "Customer",
-		"projects_count": "3",
-		"date": "27-Oct-20"
+		"date": "27-Oct-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Diane",
@@ -8071,8 +8071,8 @@
 		"email": "diane@cox.net",
 		"website": "http://www.acmesupplyco.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "18-Mar-21"
+		"date": "18-Mar-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Roslyn",
@@ -8088,8 +8088,8 @@
 		"email": "roslyn.chavous@chavous.org",
 		"website": "http://www.mcraejamesl.com",
 		"type": "Customer",
-		"projects_count": "4",
-		"date": "08-Aug-22"
+		"date": "08-Aug-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Glory",
@@ -8105,8 +8105,8 @@
 		"email": "glory@yahoo.com",
 		"website": "http://www.mcgrathsseafood.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "26-Sep-21"
+		"date": "26-Sep-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Rasheeda",
@@ -8122,8 +8122,8 @@
 		"email": "rasheeda@aol.com",
 		"website": "http://www.kummererjmichaelesq.com",
 		"type": "Lead",
-		"projects_count": "9",
-		"date": "01-Sep-22"
+		"date": "01-Sep-22",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Alpha",
@@ -8139,8 +8139,8 @@
 		"email": "alpha@yahoo.com",
 		"website": "http://www.stofferjamesmjr.com",
 		"type": "Customer",
-		"projects_count": "13",
-		"date": "14-Apr-22"
+		"date": "14-Apr-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Refugia",
@@ -8156,8 +8156,8 @@
 		"email": "refugia.jacobos@jacobos.com",
 		"website": "http://www.northcentralflsftycncl.com",
 		"type": "Customer",
-		"projects_count": "7",
-		"date": "05-Feb-20"
+		"date": "05-Feb-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Shawnda",
@@ -8173,8 +8173,8 @@
 		"email": "shawnda.yori@yahoo.com",
 		"website": "http://www.fioruccifoodsusainc.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "01-May-22"
+		"date": "01-May-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Mona",
@@ -8190,8 +8190,8 @@
 		"email": "mdelasancha@hotmail.com",
 		"website": "http://www.signall.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "07-Aug-20"
+		"date": "07-Aug-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Gilma",
@@ -8207,8 +8207,8 @@
 		"email": "gilma_liukko@gmail.com",
 		"website": "http://www.sammyssteakden.com",
 		"type": "Customer",
-		"projects_count": "15",
-		"date": "03-Jul-22"
+		"date": "03-Jul-22",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Janey",
@@ -8224,8 +8224,8 @@
 		"email": "jgabisi@hotmail.com",
 		"website": "http://www.dobschastephenfesq.com",
 		"type": "Lead",
-		"projects_count": "6",
-		"date": "28-Jul-20"
+		"date": "28-Jul-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Lili",
@@ -8241,8 +8241,8 @@
 		"email": "lili.paskin@cox.net",
 		"website": "http://www.morgancustomhomes.com",
 		"type": "Lead",
-		"projects_count": "15",
-		"date": "05-Oct-21"
+		"date": "05-Oct-21",
+		"status": "interested"
 	},
 	{
 		"firstName": "Loren",
@@ -8258,8 +8258,8 @@
 		"email": "loren.asar@aol.com",
 		"website": "http://www.olsenpaynecompany.com",
 		"type": "Lead",
-		"projects_count": "2",
-		"date": "06-Oct-22"
+		"date": "06-Oct-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Dorothy",
@@ -8275,8 +8275,8 @@
 		"email": "dorothy@cox.net",
 		"website": "http://www.cowankelly.com",
 		"type": "Lead",
-		"projects_count": "17",
-		"date": "21-Aug-20"
+		"date": "21-Aug-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Gail",
@@ -8292,8 +8292,8 @@
 		"email": "gail_similton@similton.com",
 		"website": "http://www.johnsonwesesq.com",
 		"type": "Lead",
-		"projects_count": "11",
-		"date": "20-Apr-20"
+		"date": "20-Apr-20",
+		"status": "hot-lead"
 	},
 	{
 		"firstName": "Catalina",
@@ -8309,8 +8309,8 @@
 		"email": "catalina@hotmail.com",
 		"website": "http://www.icnpharmaceuticalsinc.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "15-Sep-20"
+		"date": "15-Sep-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Lawrence",
@@ -8326,8 +8326,8 @@
 		"email": "lawrence.lorens@hotmail.com",
 		"website": "http://www.newenglandsecequipcoinc.com",
 		"type": "Customer",
-		"projects_count": "14",
-		"date": "25-Mar-20"
+		"date": "25-Mar-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Carlee",
@@ -8343,8 +8343,8 @@
 		"email": "carlee.boulter@hotmail.com",
 		"website": "http://www.tippetttroymii.com",
 		"type": "Customer",
-		"projects_count": "2",
-		"date": "24-May-21"
+		"date": "24-May-21",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Thaddeus",
@@ -8360,8 +8360,8 @@
 		"email": "tankeny@ankeny.org",
 		"website": "http://www.atccontracting.com",
 		"type": "Lead",
-		"projects_count": "12",
-		"date": "25-Jul-20"
+		"date": "25-Jul-20",
+		"status": "interested"
 	},
 	{
 		"firstName": "Jovita",
@@ -8377,8 +8377,8 @@
 		"email": "joles@gmail.com",
 		"website": "http://www.paganophilipgesq.com",
 		"type": "Lead",
-		"projects_count": "3",
-		"date": "25-Nov-20"
+		"date": "25-Nov-20",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Alesia",
@@ -8394,8 +8394,8 @@
 		"email": "alesia_hixenbaugh@hixenbaugh.org",
 		"website": "http://www.kwikprint.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "26-Feb-20"
+		"date": "26-Feb-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Lai",
@@ -8411,8 +8411,8 @@
 		"email": "lai@gmail.com",
 		"website": "http://www.buergimaddenscale.com",
 		"type": "Customer",
-		"projects_count": "11",
-		"date": "15-Sep-21"
+		"date": "15-Sep-21",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Brittni",
@@ -8428,8 +8428,8 @@
 		"email": "bgillaspie@gillaspie.com",
 		"website": "http://www.innerlabel.com",
 		"type": "Lead",
-		"projects_count": "14",
-		"date": "13-Mar-20"
+		"date": "13-Mar-20",
+		"status": "not-interested"
 	},
 	{
 		"firstName": "Raylene",
@@ -8445,8 +8445,8 @@
 		"email": "rkampa@kampa.org",
 		"website": "http://www.hermarinc.com",
 		"type": "Customer",
-		"projects_count": "17",
-		"date": "26-Sep-20"
+		"date": "26-Sep-20",
+		"status": "contacted"
 	},
 	{
 		"firstName": "Flo",
@@ -8462,8 +8462,8 @@
 		"email": "flo.bookamer@cox.net",
 		"website": "http://www.simontonhoweschneiderpc.com",
 		"type": "Lead",
-		"projects_count": "4",
-		"date": "26-May-22"
+		"date": "26-May-22",
+		"status": "not-contacted"
 	},
 	{
 		"firstName": "Jani",
@@ -8479,8 +8479,8 @@
 		"email": "jbiddy@yahoo.com",
 		"website": "http://www.warehouseofficepaperprod.com",
 		"type": "Customer",
-		"projects_count": "1",
-		"date": "15-Aug-21"
+		"date": "15-Aug-21",
+		"status": "cold-lead"
 	},
 	{
 		"firstName": "Chauncey",
@@ -8496,7 +8496,7 @@
 		"email": "chauncey_motley@aol.com",
 		"website": "http://www.affiliatedwithtravelodge.com",
 		"type": "Lead",
-		"projects_count": "10",
-		"date": "14-Dec-20"
+		"date": "14-Dec-20",
+		"status": "not-interested"
 	}
 ]

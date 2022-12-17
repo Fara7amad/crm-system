@@ -1,5 +1,6 @@
 .main-container {
 	display: flex;
+	height: 100vh;
 }
 
 .sidebar {
@@ -10,23 +11,15 @@
 	width: 200px;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
 }
 .header {
 	font-size: 25px;
-	line-height: 0;
-	margin-top: 18px;
-	margin-left: -10px;
-	padding: 15px;
+	top: 30px;
+	left: 10px;
+	position: relative;
 }
 .routes {
 	color: white;
-}
-.top-section {
-	display: flex;
-
-	justify-content: space-between;
-	padding: 15px 10px;
 }
 
 .link {
@@ -35,6 +28,8 @@
 	gap: 5px;
 	padding: 3px 7px;
 	text-decoration: none;
+	align-items: center;
+	margin-bottom: 30px;
 }
 .link:hover {
 	border-right: 3px solid white;
@@ -46,22 +41,9 @@
 	font-size: 18px;
 	font-weight: 550;
 }
-.active {
+.link.active {
 	color: white;
 	border-right: 3px solid whitesmoke;
-}
-
-.toggle {
-	font-size: 25px;
-	color: #25396f;
-	margin-top: 15px;
-	margin-left: 25px;
-}
-
-.link {
-	display: flex;
-	align-items: center;
-	margin-bottom: 30px;
 }
 
 .bars:active {
@@ -71,23 +53,8 @@
 .icon {
 	font-size: 20px;
 }
-.cirlce-user {
-	margin-right: px;
-}
 
 @media (max-width: 750px) {
-	.link-text {
-		opacity: 0 !important;
-	}
-	.toggle {
-		font-size: 20px;
-		margin-right: 10px;
-		margin-top: 15px;
-	}
-
-	.sidebar {
-		width: 55px;
-	}
 	.header {
 		font-size: 15px;
 		margin-right: 20px;
@@ -99,18 +66,7 @@
 	}
 }
 
-.profile {
-	margin-left: 10px;
-	margin-bottom: 20px;
-}
 .prf {
 	font-size: 30px;
-	margin-top: 10px;
 	color: white;
-}
-.prf:hover {
-	color: #632cba;
-}
-.status {
-	display: flex;
 }

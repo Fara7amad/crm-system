@@ -14,7 +14,7 @@ import { faFileAlt, faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const Attachment = () => {
 	const [title, setTitle] = useState("");
-	const [atts, setAtts] = useState([]);
+	const [attachments, setAttachments] = useState([]);
 
 	const [statuses, setStatuses] = useLocalStorage(
 		"attachment-statuses", //key in local storage
@@ -31,20 +31,23 @@ const Attachment = () => {
 
 	const [status, setStatus] = useState(statuses[0]);
 
-	const addAtt = () => {
+	const addAttachment = () => {
 		const id = new Date().getTime().toString();
 		if (title.trim()) {
-			setAtts((prev) => [...prev, { title, date: new Date(), status, id }]);
+			setAttachments((prev) => [
+				...prev,
+				{ title, date: new Date(), status, id },
+			]);
 		}
 	};
 
-	const deleteFile = (id) => {
+	const deleteAttachment = (id) => {
 		// delete attachment
-		let newArrayAttachments = atts.filter(function (element) {
+		let newArrayAttachments = attachments.filter(function (element) {
 			return element.id != id;
 		});
 
-		setAtts(newArrayAttachments);
+		setAttachments(newArrayAttachments);
 	};
 
 	return (
@@ -63,7 +66,7 @@ const Attachment = () => {
 						<Button
 							variant="outline-secondary"
 							id="button-addon2"
-							onClick={addAtt}
+							onClick={addAttachment}
 						>
 							Add
 						</Button>
@@ -71,6 +74,7 @@ const Attachment = () => {
 
 					<div className="file-inputs">
 						<input type="file" />
+
 						<button className="btn-upload">
 							<i>
 								<FontAwesomeIcon icon={faPlus} />
@@ -92,8 +96,8 @@ const Attachment = () => {
 				</div>
 
 				<div className="items">
-					{atts.map((attachment) => (
-						<li className="attachment list-item" key={attachment.id}>
+					{attachments.map((attachment) => (
+						<li className="attachment" key={attachment.id}>
 							<FontAwesomeIcon icon={faFileAlt} className="icon" size="xs" />
 
 							<p className="attachment-title attachment-p">
@@ -102,12 +106,12 @@ const Attachment = () => {
 							<p className="attachment-p">{formatDate(attachment.date)}</p>
 							<p className="attachment-p">{attachment.status}</p>
 
-							<div className="actions">
+							<div>
 								<FontAwesomeIcon
 									icon={faTrash}
-									onClick={() => deleteFile(attachment.id)}
-									className="icon"
-									size="xs"
+									onClick={() => deleteAttachment(attachment.id)}
+									size="md"
+									className="cursor-pointer"
 								/>
 							</div>
 						</li>

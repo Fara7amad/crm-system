@@ -1,16 +1,18 @@
 import "./Sidebar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faChartSimple,
+	faCircleUser,
 	faHouse,
 	faSackDollar,
 	faUsers,
 } from "@fortawesome/free-solid-svg-icons";
+import Stack from "react-bootstrap/Stack";
 
 // functions
-const menuItem = [
+const links = [
 	{
 		path: "/",
 		name: "Dashboard",
@@ -36,14 +38,12 @@ const menuItem = [
 const Sidebar = ({ isOpen }) => {
 	const ShowAnimation = {
 		hidden: {
-			width: 0,
 			opacity: 0,
 			transition: {
 				duration: 0.1,
 			},
 		},
 		show: {
-			width: "auto",
 			opacity: 1,
 			transition: {
 				duration: 0.2,
@@ -54,30 +54,30 @@ const Sidebar = ({ isOpen }) => {
 	return (
 		<div className="main-container">
 			<motion.div
-				animate={{ width: isOpen ? "" : "60px" }}
+				animate={{ width: isOpen ? "" : "55px" }}
 				className={`sidebar ${
 					isOpen ? "justify-content-between" : "justify-content-center"
 				}`}
 			>
-				<div className="top-section">
-					{isOpen && (
-						<motion.h4
-							variants={ShowAnimation}
-							initial="hidden"
-							animate="show"
-							exit="hidden"
-							className="header"
-						>
-							CRMSYSTEM
-						</motion.h4>
-					)}
-				</div>
+				{isOpen && (
+					<motion.h4
+						variants={ShowAnimation}
+						initial="hidden"
+						animate="show"
+						exit="hidden"
+						className="header"
+					>
+						<Link to="/" className="text-white text-decoration-none">
+							CRM SYSTEM
+						</Link>
+					</motion.h4>
+				)}
 
 				<section className="routes">
-					{menuItem.map((item, index) => (
+					{links.map((item) => (
 						<NavLink
 							to={item.path}
-							key={index}
+							key={item.name}
 							className="link"
 							activeClassName="active"
 						>
@@ -101,12 +101,19 @@ const Sidebar = ({ isOpen }) => {
 				</section>
 
 				{isOpen && (
-					<div className="status">
-						<a href="#">
-							<FontAwesomeIcon icon="circle-user" className="prf" />
-						</a>
-						<p className="profile">Logged in as : CRM USER</p>
-					</div>
+					<Stack
+						direction="horizontal"
+						gap={2}
+						className="align-items-center p-2"
+					>
+						<Link to="/">
+							<FontAwesomeIcon icon={faCircleUser} className="prf" />
+						</Link>
+
+						<p className="mb-0">
+							Logged in as: <br /> <strong>CRM USER</strong>
+						</p>
+					</Stack>
 				)}
 			</motion.div>
 		</div>

@@ -12,25 +12,26 @@ import {
 import Notification from "./Notification";
 
 export default function NavigationBar({ toggleSidebar }) {
-	const location = useLocation().pathname;
+	const pathname = useLocation().pathname;
 
 	const getCurrentTitle = () => {
-		switch (location) {
+		if (pathname.includes("details")) return "Client Profile";
+
+		switch (pathname) {
 			case "/":
+				return "Dashboard";
 			case "/clients":
 				return "Clients";
 			case "/reports":
 				return "Reports";
 			case "/billings":
 				return "Billings";
-			default:
-				return "Dashboard";
 		}
 	};
 
 	return (
 		<Navbar expand="lg" variant="light" bg="light">
-			<Container>
+			<Container fluid>
 				<FontAwesomeIcon
 					size="2x"
 					icon={faBars}

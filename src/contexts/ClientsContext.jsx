@@ -2,9 +2,7 @@ import { createContext, useContext } from "react";
 import useLocalStorage from "@hooks/useLocalStorage";
 import { jsonReviver } from "@utils/jsonReviver";
 import { v4 as uuid } from "uuid";
-
 import clientsJson from "../data/data.json";
-import { DEFAULT_CLIENT_STATUSES } from "../data/client";
 
 const ClientsContext = createContext();
 
@@ -38,10 +36,7 @@ export default function ClientsProvider({ children }) {
 				clientsJson.map((ct) => ({
 					...ct,
 					id: uuid(),
-					status:
-						DEFAULT_CLIENT_STATUSES[
-							Math.floor(Math.random() * DEFAULT_CLIENT_STATUSES.length)
-						],
+					projectsCount: Math.floor(Math.random() * 30),
 				}))
 			),
 			jsonReviver

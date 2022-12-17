@@ -21,6 +21,19 @@ function usePagination(data, itemsPerPage) {
 		currentItems,
 		pageCount,
 		offset: itemOffset,
+		classes: {
+			renderOnZeroPageCount: null,
+			pageClassName: "page-item",
+			pageLinkClassName: "page-link",
+			previousClassName: "page-item",
+			previousLinkClassName: "page-link",
+			nextClassName: "page-item",
+			nextLinkClassName: "page-link",
+			breakClassName: "page-item",
+			breakLinkClassName: "page-link",
+			containerClassName: "pagination justify-content-center mt-2",
+			activeClassName: "active",
+		},
 	};
 }
 
