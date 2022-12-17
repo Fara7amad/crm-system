@@ -36,6 +36,7 @@ export default function ClientsProvider({ children }) {
 				clientsJson.map((ct) => ({
 					...ct,
 					id: uuid(),
+					projectsCount: Math.floor(Math.random() * 30),
 				}))
 			),
 			jsonReviver

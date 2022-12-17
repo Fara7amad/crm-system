@@ -46,8 +46,6 @@ function Reports() {
 				data={currentItems}
 				sortType={sortType}
 				onSortColumn={handleSortColumn}
-				// height={660}
-				expandedRowKeys={["id", "company"]}
 				autoHeight
 				virtualized
 			>

@@ -38,14 +38,12 @@ const links = [
 const Sidebar = ({ isOpen }) => {
 	const ShowAnimation = {
 		hidden: {
-			width: 0,
 			opacity: 0,
 			transition: {
 				duration: 0.1,
 			},
 		},
 		show: {
-			width: "auto",
 			opacity: 1,
 			transition: {
 				duration: 0.2,
@@ -56,7 +54,7 @@ const Sidebar = ({ isOpen }) => {
 	return (
 		<div className="main-container">
 			<motion.div
-				animate={{ width: isOpen ? "" : "60px" }}
+				animate={{ width: isOpen ? "" : "55px" }}
 				className={`sidebar ${
 					isOpen ? "justify-content-between" : "justify-content-center"
 				}`}

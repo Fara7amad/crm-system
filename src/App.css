@@ -13,10 +13,6 @@ a {
 	overflow: auto;
 }
 
-.select-menu-card {
-	min-width: 300px !important;
-}
-
 .rs-table {
 	font-size: 14px;
 }

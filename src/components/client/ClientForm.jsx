@@ -20,6 +20,7 @@ import {
 	faCity,
 	faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+
 function ClientForm() {
 	let addClient = useAddClient();
 	const handleSubmit = (client) => {
@@ -154,7 +155,7 @@ function ClientForm() {
 										onChange={onChange}
 										value={client.company}
 										required
-										pattern="^[A-Za-z ]{3,15}$"
+										pattern="^[A-z\s]{3,15}$"
 									/>
 									<Form.Control.Feedback type="invalid">
 										Please provide a valid company.
@@ -177,7 +178,7 @@ function ClientForm() {
 										name="county"
 										onChange={onChange}
 										value={client.county}
-										pattern="^[A-Za-z ]{4,15}$"
+										pattern="^[A-Za-z]{4,15}$"
 									/>
 									<Form.Control.Feedback type="invalid">
 										Please provide a valid country.
@@ -198,7 +199,7 @@ function ClientForm() {
 										name="state"
 										onChange={onChange}
 										value={client.state}
-										pattern="^[A-Za-z]{2,2}$"
+										pattern="^[A-Z]{2,2}$"
 										minLength={2}
 										maxLength={2}
 									/>
@@ -224,7 +225,7 @@ function ClientForm() {
 										onChange={onChange}
 										value={client.city}
 										minLength={3}
-										pattern="^[A-Za-z]{3,10}$"
+										pattern="^[A-z]{3,10}$"
 									/>
 									<Form.Control.Feedback type="invalid">
 										Please provide a valid city.
@@ -245,7 +246,7 @@ function ClientForm() {
 										name="address"
 										onChange={onChange}
 										value={client.address}
-										pattern="^[A-Za-z0-9 ]{3,10}$"
+										pattern="^[A-Za-z0-9]{3,10}$"
 									/>
 									<Form.Control.Feedback type="invalid">
 										Please provide a valid address.
