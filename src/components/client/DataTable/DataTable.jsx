@@ -134,7 +134,7 @@ const DataTable = () => {
 						<Cell
 							dataKey="status"
 							className="text-capitalize"
-							renderCell={(status) => status.split("-").join(" ")}
+							renderCell={(status) => status?.split("-").join(" ")}
 						/>
 					</Column>
 
