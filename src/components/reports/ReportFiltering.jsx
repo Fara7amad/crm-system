@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
-import "../reports/ReportFiltering.css";
+import "./ReportFiltering.css";
 import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";

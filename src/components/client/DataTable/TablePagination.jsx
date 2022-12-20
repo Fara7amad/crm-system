@@ -70,21 +70,20 @@ export default function TablePagination(props) {
 		<>
 			{getData()}
 			<ReactPaginate
+				breakLabel="..."
+				nextLabel=">"
 				onPageChange={handlePageClick}
-				pageRangeDisplayed={5}
+				pageRangeDisplayed={3}
 				pageCount={pageCount}
+				previousLabel="<"
 				renderOnZeroPageCount={null}
-				pageClassName="page-item"
-				pageLinkClassName="page-link"
-				previousClassName="page-item"
-				previousLinkClassName="page-link"
-				nextClassName="page-item"
-				nextLinkClassName="page-link"
-				breakClassName="page-item"
-				breakLinkClassName="page-link"
-				containerClassName="pagination justify-content-center mt-2"
-				activeClassName="active"
+				containerClassName="pagination"
+				pageLinkClassName="num-of-page"
+				previousLinkClassName="num-of-page"
+				nextLinkClassName="num-of-page"
+				activeLinkClassName="active"
 			/>
+
 			<div className="number-of-items">{numberOfItemsInEachPage()}</div>
 		</>
 	);

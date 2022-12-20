@@ -5,191 +5,165 @@ import { Link } from "react-router-dom";
 import ReactPaginate from "react-paginate";
 import { Cell, HeaderCell, Table, Column } from "rsuite-table";
 
-import { useClient, useDeleteClient } from "@contexts/ClientsContext";
+import { useClient } from "@contexts/ClientsContext";
 import ClientForm from "../ClientForm";
 import usePagination from "@hooks/usePagination";
 import { formatDate } from "@utils/helpers";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
 import Form from "react-bootstrap/Form";
-import ConfirmationModal from "@components/ui/ConfirmationModal";
 import FiltersForm from "@components/client/clientFilter/FiltersForm";
+import Dropdown from 'react-bootstrap/Dropdown'
 
 const DataTable = () => {
 	const clients = useClient();
-	const deleteClient = useDeleteClient();
 	const [filteredList, setFilteredList] = useState(clients);
-	const [selectedClients, setSelectedClients] = useState([]);
-
-	const [deleteModal, setDeleteModal] = useState({
-		open: false,
-		onConfirmed: null,
-	});
-	const onCloseModal = () => {
-		setDeleteModal({ open: false, onConfirmed: null });
-	};
+	const [rowsPerPage, setRowsPerPage] = useState(10);
 
 	useEffect(() => {
 		setFilteredList(clients);
 	}, [clients]);
 
-	const { handlePageClick, currentItems, pageCount, classes } = usePagination(
+	const { handlePageClick, currentItems, pageCount, numberOfItemsInEachPage } = usePagination(
 		filteredList,
-		25
+		rowsPerPage
 	);
 
 	const getDataFilterList = (filterL) => {
 		setFilteredList(filterL);
 	};
 
-	const toggleClient = (id) => {
-		if (selectedClients.includes(id)) {
-			setSelectedClients((prev) => prev.filter((clientId) => clientId != id));
-		} else {
-			setSelectedClients((prev) => [...prev, id]);
-		}
-	};
-	const deleteSelected = () => {
-		selectedClients.forEach((clientId) => deleteClient(clientId));
-		setSelectedClients([]);
-	};
+	// useEffect for rowsPerPage
+	useEffect(() => {
+		setFilteredList(clients);
+	}, [rowsPerPage]);
+
+
+	const handleRowsPerPage = (e) => {
+		// innerText
+		setRowsPerPage(e.target.innerText);
+	}
 
 	return (
 		<>
-			<div>
-				<Stack gap={2} direction="horizontal" className="mb-3">
-					<Form.Control type="text" placeholder="Search" />
-
-					<div className="button-holder">
-						{selectedClients.length > 0 && (
-							<Button
-								variant="danger"
-								onClick={() =>
-									setDeleteModal((prev) => ({
-										open: true,
-										onConfirmed: deleteSelected,
-									}))
-								}
-							>
-								Delete All
-							</Button>
-						)}
-
-						<FiltersForm
-							setFilterList={getDataFilterList}
-							filteredList={filteredList}
-						/>
-
-						<ClientForm />
-					</div>
-				</Stack>
-
-				<Table data={currentItems} autoHeight virtualized>
-					<Column width={50}>
-						<HeaderCell
-							renderCell={() => (
-								<Form.Check
-									checked={selectedClients.length === currentItems.length}
-									onChange={() =>
-										currentItems.forEach((client) => toggleClient(client.id))
-									}
-								/>
-							)}
-						/>
-						<Cell>
-							{(client) => {
-								return (
-									<Form.Check
-										checked={selectedClients.includes(client.id)}
-										onChange={() => toggleClient(client.id)}
-									/>
-								);
-							}}
-						</Cell>
-					</Column>
-					<Column>
-						<HeaderCell>ID</HeaderCell>
-						<Cell
-							dataKey="id"
-							renderCell={(id) =>
-								filteredList.findIndex((client) => client.id === id) + 1
-							}
-						/>
-					</Column>
-					<Column flexGrow={1} minWidth={200}>
-						<HeaderCell>Company</HeaderCell>
-						<Cell dataKey="company" />
-					</Column>
-					<Column width={120}>
-						<HeaderCell>Date Added</HeaderCell>
-						<Cell dataKey="date" renderCell={(data) => formatDate(data)} />
-					</Column>
-					<Column width={100}>
-						<HeaderCell>State</HeaderCell>
-						<Cell dataKey="state" />
-					</Column>
-
-					<Column flexGrow={1} minWidth={130}>
-						<HeaderCell>Status</HeaderCell>
-						<Cell
-							dataKey="status"
-							className="text-capitalize"
-							renderCell={(status) => status?.split("-").join(" ")}
-						/>
-					</Column>
-
-					<Column flexGrow={1} minWidth={100}>
-						<HeaderCell>Type</HeaderCell>
-						<Cell dataKey="type" />
-					</Column>
-
-					<Column width={200}>
-						<HeaderCell>Actions</HeaderCell>
-						<Cell>
-							{(client) => (
-								<div>
-									<Button
-										variant="primary"
-										size="sm"
-										className="details-button me-2"
-										as={Link}
-										to={`/details/${client.id}`}
-									>
-										Details
-									</Button>
-
-									<Button
-										variant="danger"
-										size="sm"
-										onClick={() =>
-											setDeleteModal((prev) => ({
-												open: true,
-												onConfirmed: () => deleteClient(client.id),
-											}))
-										}
-									>
-										Delete
-									</Button>
-								</div>
-							)}
-						</Cell>
-					</Column>
-				</Table>
-
-				<ReactPaginate
-					onPageChange={handlePageClick}
-					pageRangeDisplayed={5}
-					pageCount={pageCount}
-					{...classes}
+			<Stack direction="horizontal" gap={2}>
+				<Form.Control
+					type="text"
+					placeholder="Search"
 				/>
+				<div className="d-flex align-items-center gap-2 datatable-button-holder">
+					<Dropdown>
+						<Dropdown.Toggle variant="primary" id="dropdown-basic">
+							{rowsPerPage}
+						</Dropdown.Toggle>
+
+						<Dropdown.Menu>
+							<Dropdown.Item onClick={handleRowsPerPage}>5</Dropdown.Item>
+							<Dropdown.Item onClick={handleRowsPerPage}>10</Dropdown.Item>
+							<Dropdown.Item onClick={handleRowsPerPage}>15</Dropdown.Item>
+							<Dropdown.Item onClick={handleRowsPerPage}>20</Dropdown.Item>
+						</Dropdown.Menu>
+					</Dropdown>
+					<FiltersForm setFilterList={getDataFilterList} filteredList={filteredList} />
+					<ClientForm />
+				</div>
+			</Stack>
+
+			<Table className="mt-2" data={currentItems} hover autoHeight bordered>
+				<Column width={40}>
+					<HeaderCell>
+						<Form.Check
+							unchecked
+						/>
+					</HeaderCell>
+					<Cell>
+						<Form.Check
+							unchecked
+						/>
+					</Cell>
+				</Column>
+				<Column width={60}>
+					<HeaderCell flexGrow={1} className="fw-bold">ID</HeaderCell>
+					<Cell
+						dataKey="id"
+						renderCell={(id) =>
+							filteredList.findIndex((client) => client.id === id) + 1
+						}
+					/>
+				</Column>
+				<Column flexGrow={1} minWidth={200}>
+					<HeaderCell className="fw-bold">Company</HeaderCell>
+					<Cell dataKey="company" />
+				</Column>
+				<Column flexGrow={1} width={100}>
+					<HeaderCell className="fw-bold">Date Added</HeaderCell>
+					<Cell dataKey="date" renderCell={(data) => formatDate(data)} />
+				</Column>
+				<Column flexGrow={1} width={60}>
+					<HeaderCell className="fw-bold">State</HeaderCell>
+					<Cell dataKey="state" />
+				</Column>
+				<Column flexGrow={1} width={150}>
+					<HeaderCell className="fw-bold">Status</HeaderCell>
+					<Cell dataKey="status" className="text-capitalize" 
+						renderCell={(status) => (
+							<span className={`badge bg-${status === "hot-lead" ? "warning text-dark" : status === "cold-lead" ? "info" : status === "interested" ? "success" : status === 'contacted' ? "primary" : "danger"}`}>
+								{status}
+							</span>
+						)}
+					/>
+				</Column>
+				<Column flexGrow={1}  width={100}>
+					<HeaderCell className="fw-bold">Type</HeaderCell>
+					<Cell dataKey="type" />
+				</Column>
+				<Column width={200}>
+					<HeaderCell className="fw-bold text-center">Actions</HeaderCell>
+					<Cell className="text-center">
+						{(client) => (
+							<div>
+								<Button
+									variant="primary"
+									size="sm"
+									className="details-button me-1"
+									as={Link}
+									to={`/details/${client.id}`}
+								>
+									Details
+								</Button>
+
+								<Button
+									variant="danger"
+									size="sm"
+
+								>
+									Delete
+								</Button>
+							</div>
+						)}
+					</Cell>
+				</Column>
+			</Table> 
+				
+			<div className="d-flex justify-content-end mt-1">
+				{numberOfItemsInEachPage()}
 			</div>
 
-			{/* Modal */}
-			<ConfirmationModal
-				isOpen={deleteModal.open}
-				handleConfirmed={deleteModal.onConfirmed}
-				onClose={onCloseModal}
+			<ReactPaginate
+				breakLabel="..."
+				nextLabel="Next"
+				onPageChange={handlePageClick}
+				pageRangeDisplayed={3}
+				pageCount={pageCount}
+				previousLabel="Previous"
+				renderOnZeroPageCount={null}
+				containerClassName="pagination"
+				pageLinkClassName="num-of-page"
+				previousLinkClassName="num-of-page"
+				nextLinkClassName="num-of-page"
+				activeLinkClassName="active"
 			/>
+
 		</>
 	);
 };
