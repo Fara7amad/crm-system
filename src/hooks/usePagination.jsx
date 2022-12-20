@@ -5,7 +5,6 @@ function usePagination(data, itemsPerPage) {
 	const [pageCount, setPageCount] = useState(0);
 	const [itemOffset, setItemOffset] = useState(0);
 
-
 	useEffect(() => {
 		const endOffset = itemOffset + itemsPerPage;
 		setCurrentItems(data.slice(itemOffset, endOffset));
@@ -31,17 +30,16 @@ function usePagination(data, itemsPerPage) {
 		offset: itemOffset,
 		classes: {
 			renderOnZeroPageCount: null,
-			containerClassName: "pagination",
 			pageClassName: "page-item",
-			pageLinkClassName: "num-of-page",
+			pageLinkClassName: "page-link",
 			previousClassName: "page-item",
-			previousLinkClassName: "num-of-page",
+			previousLinkClassName: "page-link",
 			nextClassName: "page-item",
-			nextLinkClassName: "num-of-page",
+			nextLinkClassName: "page-link",
 			breakClassName: "page-item",
 			breakLinkClassName: "page-link",
 			containerClassName: "pagination justify-content-center mt-2",
-			activeLinkClassName: "active"
+			activeClassName: "active",
 		},
 	};
 }

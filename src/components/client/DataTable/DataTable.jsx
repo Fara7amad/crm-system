@@ -24,7 +24,7 @@ const DataTable = () => {
 		setFilteredList(clients);
 	}, [clients]);
 
-	const { handlePageClick, currentItems, pageCount, numberOfItemsInEachPage } = usePagination(
+	const { handlePageClick, currentItems, pageCount, numberOfItemsInEachPage, classes } = usePagination(
 		filteredList,
 		rowsPerPage
 	);
@@ -33,14 +33,12 @@ const DataTable = () => {
 		setFilteredList(filterL);
 	};
 
-	// useEffect for rowsPerPage
 	useEffect(() => {
 		setFilteredList(clients);
 	}, [rowsPerPage]);
 
 
 	const handleRowsPerPage = (e) => {
-		// innerText
 		setRowsPerPage(e.target.innerText);
 	}
 
@@ -150,19 +148,11 @@ const DataTable = () => {
 			</div>
 
 			<ReactPaginate
-				breakLabel="..."
-				nextLabel="Next"
-				onPageChange={handlePageClick}
-				pageRangeDisplayed={3}
-				pageCount={pageCount}
-				previousLabel="Previous"
-				renderOnZeroPageCount={null}
-				containerClassName="pagination"
-				pageLinkClassName="num-of-page"
-				previousLinkClassName="num-of-page"
-				nextLinkClassName="num-of-page"
-				activeLinkClassName="active"
-			/>
+					onPageChange={handlePageClick}
+					pageRangeDisplayed={5}
+					pageCount={pageCount}
+					{...classes}
+				/>
 
 		</>
 	);
