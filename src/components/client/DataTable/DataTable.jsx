@@ -39,7 +39,7 @@ const DataTable = () => {
 
 
 	const handleRowsPerPage = (e) => {
-		setRowsPerPage(e.target.innerText);
+		setRowsPerPage(parseInt(e.target.innerText));
 	}
 
 	return (
