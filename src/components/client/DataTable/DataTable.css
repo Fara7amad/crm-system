@@ -1,43 +1,37 @@
-/* .data-shower {
-	margin-top: 100px;
-	height: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding-bottom: 100px;
-} */
 
-.button-holder {
-	display: flex;
-	align-items: center;
-	gap: 5px;
-}
-
-.button-holder > button {
+.datatable-button-holder > button {
 	min-width: 130px;
 }
 
-.table-buttons {
-	background-color: #8456cf !important;
-	border-color: #8456cf !important;
-	margin-top: 21px;
+.pagination {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	gap: 5px;
+	margin-top: 10px;
 }
 
-.table-buttons:hover {
-	background-color: #632cba !important;
-	border-color: #632cba !important;
+.pagination .num-of-page {
+	text-decoration: none;
+	color: #000;
+	padding: 8px 15px;
+	cursor: pointer;
+	border-radius: 3px;
+	font-weight: 400;
 }
 
-.table-buttons:active {
-	background-color: #632cba !important;
-	border-color: #632cba !important;
+.pagination .num-of-page:hover {
+	background-color: #293f7a;
+	color: white;
+}
+  
+.pagination .active {
+	background-color: #1e2e59 !important;
+	color: white;
 }
 
-.table-buttons:focus {
-	background-color: #632cba !important;
-	border-color: #632cba !important;
-}
 
 .form-button {
 	background-color: #8456cf !important;
@@ -60,23 +54,23 @@
 }
 
 .details-button {
-	background-color: #8456cf !important;
-	border-color: #8456cf !important;
+	background-color: #293f7a !important;
+	border-color: #293f7a !important;
 }
 
 .details-button:hover {
-	background-color: #632cba !important;
-	border-color: #632cba !important;
+	background-color: #1e2e59 !important;
+	border-color: #1e2e59 !important;
 }
 
 .details-button:active {
-	background-color: #632cba !important;
-	border-color: #632cba !important;
+	background-color: #1e2e59 !important;
+	border-color: #1e2e59 !important;
 }
 
 .details-button:focus {
-	background-color: #632cba !important;
-	border-color: #632cba !important;
+	background-color: #1e2e59 !important;
+	border-color: #1e2e59 !important;
 }
 
 .number-of-items {
@@ -88,447 +82,4 @@
 	justify-content: end;
 	padding-bottom: 10px;
 }
-/* 
-thead {
-	display: table;
-	width: 100%;
-	table-layout: fixed;
-}
 
-thead tr {
-	display: table;
-	width: 100%;
-	table-layout: fixed;
-}
-
-tbody {
-	display: block;
-	width: 100%;
-}
-
-tbody tr {
-	display: table;
-	width: 100%;
-	table-layout: fixed;
-} */
-
-/* 
-@media all and (min-width: 1200px) {
-	.thead-values-checkbox-select {
-		width: 4%;
-	}
-	.tbody-values-checkbox-select {
-		width: 4%;
-	}
-	.thead-values-id {
-		width: 6%;
-	}
-	.tbody-values-id {
-		width: 6%;
-	}
-	.thead-values-company {
-		width: 20%;
-	}
-	.tbody-values-company {
-		width: 20%;
-	}
-	.thead-values-date {
-		width: 12%;
-	}
-	.tbody-values-date {
-		width: 12%;
-	}
-	.thead-values-state {
-		width: 7%;
-	}
-	.tbody-values-state {
-		width: 7%;
-	}
-	.thead-values-status {
-		width: 15%;
-	}
-	.tbody-values-status {
-		width: 15%;
-	}
-	.thead-values-type {
-		width: 13%;
-	}
-	.tbody-values-type {
-		width: 13%;
-	}
-	.thead-values-delete-button {
-		width: 10%;
-		text-align: center;
-	}
-	.tbody-values-delete-button {
-		width: 10%;
-		text-align: center;
-	}
-	.thead-values-details-button {
-		width: 10%;
-		text-align: center;
-	}
-	.tbody-values-details-button {
-		width: 10%;
-		text-align: center;
-	}
-	.search-bar {
-		max-width: 40%;
-		margin-top: -32.34px;
-	}
-	.number-of-items {
-		font-size: 16px;
-	}
-	.table {
-		font-size: 15px;
-	}
-}
-
-@media all and (min-width: 990px) and (max-width: 1199.99px) {
-	.thead-values-checkbox-select {
-		width: 3%;
-	}
-	.tbody-values-checkbox-select {
-		width: 3%;
-	}
-	.thead-values-id {
-		width: 5%;
-	}
-	.tbody-values-id {
-		width: 5%;
-	}
-	.thead-values-company {
-		width: 22%;
-	}
-	.tbody-values-company {
-		width: 22%;
-	}
-	.thead-values-date {
-		width: 13%;
-	}
-	.tbody-values-date {
-		width: 13%;
-	}
-	.thead-values-state {
-		width: 7%;
-	}
-	.tbody-values-state {
-		width: 7%;
-	}
-	.thead-values-status {
-		width: 15%;
-	}
-	.tbody-values-status {
-		width: 15%;
-	}
-	.thead-values-type {
-		width: 12%;
-	}
-	.tbody-values-type {
-		width: 12%;
-	}
-	.thead-values-delete-button {
-		width: 8%;
-		text-align: center;
-	}
-	.tbody-values-delete-button {
-		width: 8%;
-		text-align: center;
-	}
-	.thead-values-details-button {
-		width: 8%;
-		text-align: center;
-	}
-	.tbody-values-details-button {
-		width: 8%;
-		text-align: center;
-	}
-	.search-bar {
-		max-width: 40%;
-		margin-top: -28.34px;
-	}
-	.number-of-items {
-		font-size: 15px;
-	}
-	.table {
-		font-size: 12.8px;
-	}
-}
-
-@media all and (min-width: 770px) and (max-width: 989.99px) {
-	.thead-values-checkbox-select {
-		width: 4.5%;
-	}
-	.tbody-values-checkbox-select {
-		width: 4.5%;
-	}
-	.thead-values-id {
-		width: 6.5%;
-	}
-	.tbody-values-id {
-		width: 6.5%;
-	}
-	.thead-values-company {
-		width: 20%;
-	}
-	.tbody-values-company {
-		width: 20%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-date {
-		width: 16%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-date {
-		width: 16%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-state {
-		width: 7%;
-	}
-	.tbody-values-state {
-		width: 7%;
-	}
-	.thead-values-status {
-		width: 17%;
-	}
-	.tbody-values-status {
-		width: 17%;
-	}
-	.thead-values-type {
-		width: 10%;
-	}
-	.tbody-values-type {
-		width: 10%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-delete-button {
-		width: 15%;
-		text-align: center;
-	}
-	.tbody-values-delete-button {
-		width: 15%;
-		text-align: center;
-	}
-	.thead-values-details-button {
-		width: 15%;
-		text-align: center;
-	}
-	.tbody-values-details-button {
-		width: 15%;
-		text-align: center;
-	}
-	.search-bar {
-		max-width: 40%;
-		margin-top: -28.34px;
-	}
-	.number-of-items {
-		font-size: 14px;
-	}
-	.table {
-		font-size: 12px;
-	}
-}
-
-@media all and (min-width: 700px) and (max-width: 769.99px) {
-	.thead-values-checkbox-select {
-		width: 6.5%;
-	}
-	.tbody-values-checkbox-select {
-		width: 6.5%;
-	}
-	.thead-values-id {
-		width: 8.5%;
-	}
-	.tbody-values-id {
-		width: 8.5%;
-	}
-	.thead-values-company {
-		width: 20%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-company {
-		width: 20%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-date {
-		width: 22%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-date {
-		width: 22%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-state {
-		width: 12%;
-	}
-	.tbody-values-state {
-		width: 12%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-status {
-		width: 17%;
-	}
-	.tbody-values-status {
-		width: 17%;
-	}
-	.thead-values-type {
-		width: 14%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-type {
-		width: 14%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-delete-button {
-		width: 19%;
-		text-align: center;
-	}
-	.tbody-values-delete-button {
-		width: 19%;
-		text-align: center;
-	}
-	.thead-values-details-button {
-		width: 19%;
-		text-align: center;
-	}
-	.tbody-values-details-button {
-		width: 19%;
-		text-align: center;
-	}
-	.search-bar {
-		max-width: 40%;
-		margin-top: -28.34px;
-	}
-	.number-of-items {
-		font-size: 13px;
-	}
-	.table {
-		font-size: 11px;
-		min-width: none;
-		overflow: scroll !important;
-	}
-}
-
-@media all and (min-width: 600px) and (max-width: 699.99px) {
-	.thead-values-checkbox-select {
-		width: 7.5%;
-	}
-	.tbody-values-checkbox-select {
-		width: 7.5%;
-	}
-	.thead-values-id {
-		width: 12.5%;
-	}
-	.tbody-values-id {
-		width: 12.5%;
-	}
-	.thead-values-company {
-		width: 19%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-company {
-		width: 19%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-date {
-		width: 20%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-date {
-		width: 20%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-state {
-		width: 12%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-state {
-		width: 12%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-status {
-		width: 17%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-status {
-		width: 17%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-type {
-		width: 14%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.tbody-values-type {
-		width: 14%;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.thead-values-delete-button {
-		width: 26%;
-		text-align: center;
-	}
-	.tbody-values-delete-button {
-		width: 26%;
-		text-align: center;
-	}
-	.thead-values-details-button {
-		width: 26%;
-		text-align: center;
-	}
-	.tbody-values-details-button {
-		width: 26%;
-		text-align: center;
-	}
-	.search-bar {
-		max-width: 40%;
-		margin-top: -28.34px;
-	}
-	.number-of-items {
-		font-size: 13px;
-	}
-	.table {
-		font-size: 11px;
-	}
-} */

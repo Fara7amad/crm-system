@@ -7,6 +7,7 @@ import ReactPaginate from "react-paginate";
 import { formatDate } from "@utils/helpers";
 import { useClient } from "@contexts/ClientsContext";
 import { Link } from "react-router-dom";
+import './BillingsTable.css'
 
 const BillingsTable = () => {
 	const clients = useClient();
@@ -81,20 +82,20 @@ const BillingsTable = () => {
 			</div>
 			<ReactPaginate
 				onPageChange={handlePageClick}
-				pageRangeDisplayed={5}
+				pageRangeDisplayed={3}
 				pageCount={pageCount}
 				renderOnZeroPageCount={null}
-				pageClassName="page-item"
-				pageLinkClassName="page-link"
-				previousClassName="page-item"
-				previousLinkClassName="page-link"
-				nextClassName="page-item"
-				nextLinkClassName="page-link"
-				breakClassName="page-item"
-				breakLinkClassName="page-link"
+				breakLabel="..."
+				nextLabel="Next"
+				previousLabel="Previous"
 				containerClassName="pagination justify-content-center mt-2"
-				activeClassName="active"
+				pageClassName="page-item"
+				pageLinkClassName="num-of-page"
+				previousLinkClassName="num-of-page"
+				nextLinkClassName="num-of-page"
+				activeLinkClassName="active"
 			/>
+
 			<div className="small-header">{numberOfItemsInEachPage()}</div>
 		</>
 	);
