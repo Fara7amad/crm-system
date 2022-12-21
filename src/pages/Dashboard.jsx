@@ -1,86 +1,53 @@
-import "react-calendar/dist/Calendar.css";
+import "./DashboardPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHandshake, faPeopleGroup, faSackDollar } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import {
-	faHandshake,
-	faPeopleGroup,
-	faSackDollar,
-} from "@fortawesome/free-solid-svg-icons";
-import BarChart from "@components/dashboard/BarChart";
+import BarChart from "../components/dashboard/Barchart"
 import LineChart from "@components/dashboard/LineChart";
 import PieChart from "@components/dashboard/PieChart";
 import Calendar from "react-calendar";
+//import "react-calendar/dist/Calendar.css";
 
 function Dashboard() {
+	let Total_customers = 500;
+    let Total_project  = 183;
+    let Ernings = 13840;
+	let new_comments = -21;
+	let new_clients = -15 ;
+	let income = 307 ;
 	return (
 		<Row>
 			<Col xs={12} lg={9}>
 				<Row xs={1} md={2} className="g-4">
+					
 					<Col xs={12} md={4} lg={4}>
-						<Card body style={{ width: "80%", height: "70%" }}>
+						<Card body style={{ width: "100%", height: "80%"  , backgroundColor:"#25396f"}} className="cardth3">
 							<Row>
-								<FontAwesomeIcon
-									icon={faPeopleGroup}
-									transform="grow-30 down-50 right-100"
-								/>
-							</Row>
-							<Row>
-								<div className="clients">
-									<div className="middle">
-										<div className="left">
-											<h3>Total Clients</h3>
-											<h1>500</h1>
-										</div>
-									</div>
-								</div>
+							<i> <FontAwesomeIcon icon={faPeopleGroup} className="iconn"/> <b className="iconn"> Total customers  {Total_customers} </b> </i> 
 							</Row>
 						</Card>
 					</Col>
 
 					<Col xs={12} md={4} lg={4}>
-						<Card body style={{ width: "80%", height: "70%" }}>
+						<Card body style={{ width: "100%", height: "80%", backgroundColor:"#25396f" }} className="cardth3">
 							<Row>
-								<FontAwesomeIcon
-									icon={faHandshake}
-									transform="grow-30 down-50 right-100"
-								/>
-							</Row>
-							<Row>
-								<div className="projects">
-									<div className="middle">
-										<div className="left">
-											<h3>Total Projects</h3>
-											<h1>183</h1>
-										</div>
-									</div>
-								</div>
+							<i> <FontAwesomeIcon icon={faHandshake} className="iconn" /> <b className="iconn"> Total projects  {Total_project} </b> </i> 
 							</Row>
 						</Card>
 					</Col>
 
 					<Col xs={12} md={4} lg={4}>
-						<Card body style={{ width: "80%", height: "70%" }}>
+						<Card body style={{ width: "100%", height: "80%" , backgroundColor:"#25396f"}} className="cardth3">
 							<Row>
-								<FontAwesomeIcon
-									icon={faSackDollar}
-									transform="grow-30 down-50 right-100"
-								/>
-							</Row>
-							<Row>
-								<div className="earnings">
-									<div className="middle">
-										<div className="left">
-											<h3>Total Earnings</h3>
-											<h1>$13840</h1>
-										</div>
-									</div>
-								</div>
+							<i> <FontAwesomeIcon icon={faSackDollar} className="iconn" /> <b className="iconn"> Ernings {Ernings} </b>  </i> 
 							</Row>
 						</Card>
 					</Col>
+
 				</Row>
+
 				<Row>
 					<Col lg={6}>
 						<Card body>
@@ -93,35 +60,28 @@ function Dashboard() {
 						</Card>
 					</Col>
 				</Row>
+				
 			</Col>
-
+			
 			<Col xs={12} md={4} lg={3}>
 				<Row>
 					<div>
 						<Card style={{ width: "99%" }}>
-							<Card.Header>
-								<h3>Since your last login:</h3>
-							</Card.Header>
 							<Card.Body>
+							<Card.Header style={{ color:"white" , backgroundColor:"#25396f" }}>Since your last login:</Card.Header>
+							<b style={{ color:"red" }}> {new_comments} new comments</b><br/>
+							<b style={{ color:"red" }}> {new_clients} new clients</b><br/>
+							<b style={{ color:"green" }}>{income}$ income</b><br/>
 								<blockquote className="blockquote mb-0">
-									<p>
-										-21 new comments. <br></br>- 15 new clients. <br></br>
-										- +307$ income.
-										<Calendar />
-									</p>
+									<Calendar />
 								</blockquote>
 							</Card.Body>
 						</Card>
 					</div>
 				</Row>
-				<br></br>
-				<div>
-					<Row>
-						<Card style={{ width: "95%" }}>
-							<PieChart />
-						</Card>
-					</Row>
-				</div>
+				<Row>
+					<PieChart/>
+				</Row>
 			</Col>
 		</Row>
 	);
