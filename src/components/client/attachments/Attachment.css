@@ -23,7 +23,7 @@
 	opacity: 0;
 }
 #button-addon2:hover {
-	background-color: #632cba !important;
+	background-color: #1e2e59 !important;
 }
 .btn-upload {
 	position: absolute;
@@ -37,7 +37,7 @@
 	align-items: center;
 
 	color: #fff;
-	background-color: #632cba;
+	background-color: #25396f;
 	font-size: 1.1rem;
 	cursor: pointer;
 	border-radius: 4px;
@@ -81,7 +81,7 @@ i {
 }
 
 .attachment svg {
-	color: #632cba;
+	color: #293f7a;
 }
 .attachment svg :hover {
 	color: white;
