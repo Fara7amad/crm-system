@@ -1,72 +1,66 @@
-.main-container {
-	display: flex;
-	height: 100vh;
-}
 
-.sidebar {
-	background-color: var(--bs-primary);
-	color: white;
-	height: 100%;
-	overflow: hidden;
-	width: 200px;
-	display: flex;
-	flex-direction: column;
-}
-.header {
-	font-size: 25px;
-	top: 30px;
-	left: 10px;
-	position: relative;
-}
-.routes {
-	color: white;
-}
-
-.link {
-	display: flex;
-	color: rgb(147, 143, 143);
-	gap: 5px;
-	padding: 3px 7px;
-	text-decoration: none;
-	align-items: center;
-	margin-bottom: 30px;
-}
-.link:hover {
-	border-right: 3px solid white;
-	color: white;
-	transition: 0.2s;
-}
-.link-text {
-	margin-left: 10px;
-	font-size: 18px;
-	font-weight: 550;
-}
-.link.active {
-	color: white;
-	border-right: 3px solid whitesmoke;
-}
-
-.bars:active {
-	transform: translateY(2px);
-	transition: 0.1s;
-}
-.icon {
-	font-size: 20px;
-}
-
-@media (max-width: 750px) {
-	.header {
-		font-size: 15px;
-		margin-right: 20px;
-		opacity: 0 !important;
-	}
-	.link {
-		margin-bottom: 40px;
-		margin-top: 30px;
-	}
-}
-
-.prf {
-	font-size: 30px;
-	color: white;
-}
+ .sidebar{
+  background-color: #25396f;
+  color: white;
+  height: 100%;
+  overflow: hidden;
+  width: 200px;
+ }
+ .header{
+  font-size: 25px;
+  line-height: 0;
+  margin-top:18px;
+  margin-left: -10px;
+  padding:15px;
+ }
+ .routes{
+  color:white;
+ }
+ .top-section{
+   display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+ }
+ .link{
+  display:flex;
+  color:rgb(147, 143, 143);
+  gap:5px;
+  padding:3px 7px;
+  text-decoration: none;
+ }
+ .link:hover{
+  border-right: 3px solid white;
+  color: white;
+  transition: 0.2s;
+ }
+ .link-text{
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 5px;
+ }
+ .active{
+  color: white;
+  border-right: 3px solid whitesmoke;
+ }
+ .link{
+  margin-top: 50px;
+ }
+ .icon{
+  font-size: 20px;
+ }
+ @media(max-width:750px)
+ {
+  .link-text{
+    opacity: 0 !important;
+  }
+  .sidebar{
+    width: 55px;
+  }
+  .header{
+    opacity: 0 !important;
+  }
+  .link{
+    margin-top: 50px;
+  }
+ }

@@ -16,6 +16,9 @@ a {
 .rs-table {
 	font-size: 14px;
 }
+.bars{
+	cursor: pointer;
+}
 
 @media (width >= 700px) {
 	.select-menu-card {
