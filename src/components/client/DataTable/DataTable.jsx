@@ -32,6 +32,7 @@ const DataTable = () => {
 	useEffect(() => {
 		setFilteredList(clients);
 		setarrayOfID([]);
+		setindex(0);
 	}, [clients]);
 
 	const [search, setSearch] = useState("");
