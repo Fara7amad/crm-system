@@ -60,7 +60,7 @@ export const confirmationMessage = (index, countOfDelete,arrayOfID) => {
                 type="button"
                 className="btn btn-danger"
                 data-bs-dismiss="modal"
-                onClick={() => deleteClient(data[index].id);}
+                onClick={() => deleteClient(data[index].id)}
               >
                 Delete
               </button>
