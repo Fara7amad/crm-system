@@ -1,5 +1,5 @@
 .CardNotification{
-    background-color: #632cba;
+    background-color: white;
     position:fixed; 
     width: 260px;
     right: 3%;
@@ -7,31 +7,32 @@
     border-radius: 15px;
     overflow: auto;
     height: 300px;
-    z-index: 1000;
+    z-index: 100;
+    border: 2px solid #1e2e59;
 }
-.CardNotification h3{
-    color:white;
+
+.CardNotification h3 {
+    color: black;
     font-size: 25px;
 }
-.CardNotification p{
-color: white;
+
+.CardNotification p {
+    color: black;
 }
+
 .CardNotification p:hover{
     color: rgb(210, 210, 210);
     cursor: default;
- }
+}
   
 .CardNotification label{
     color:#000000;
     font-size: 20px;
 }
+
 .check{
-    
-    background-color: #00cf37;
+    background-color: #3c5aae;
     border-radius: 10px;
     height: 30px;
     cursor: pointer;
 }
-
-
-
