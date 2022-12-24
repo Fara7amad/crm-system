@@ -54,8 +54,6 @@ const BillingsTable = () => {
               variant="primary"
               size="sm"
               className="details-button"
-              as={Link}
-              to={`/details/${client.id}`}
             >
               Details
             </Button>
