@@ -12,13 +12,12 @@ function Reports() {
 	const [filteredList, setFilteredList] = useState(clients);
 	const [sortType, setSortType] = useState("asc");
 
-	console.log(clients);
-
 	const { handlePageClick, currentItems, pageCount, classes } = usePagination(
 		filteredList,
 		15
 	);
 
+	console.log(clients);
 	const handleSortColumn = (key, sortType) => {
 		if (key != "date")
 			setFilteredList((prev) => [
@@ -60,6 +59,7 @@ function Reports() {
 						}
 					/>
 				</Column>
+
 				<Column sortable flexGrow={1} minWidth={200}>
 					<HeaderCell>Company</HeaderCell>
 					<Cell dataKey="company" />

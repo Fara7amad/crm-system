@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 import Comments from "@components/client/comments/Comments";
 import Attachment from "@components/client/attachments/Attachment";
 import Update from "@components/client/update/Update";
-// import '@components/client/update/Update.css'
+import "@components/client/update/Update.css";
+import ClientInfo from "@components/client/clientProfile/ClientInfo";
 
 const ClientDetails = () => {
 	return (
@@ -23,7 +24,7 @@ const ClientDetails = () => {
 
 			<Row>
 				<Col xs={12} lg={6} xxl={4}>
-					<p>Client info</p>
+					<ClientInfo />
 				</Col>
 
 				<Col xs={12} lg={6} xxl={4}>

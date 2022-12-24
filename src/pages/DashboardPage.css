@@ -1,7 +1,27 @@
 .iconn {
 	color: white;
-	font-size: larger;
 }
+.cardth3 {
+	background-color: #25396f;
+	height: 100%;
+	width: 100%;
+}
+.fonSiz {
+	font-size: large;
+}
+
+.cardHeaderCelender {
+	color: white;
+	background-color: #25396f;
+}
+.newComments {
+	color: red;
+}
+.income {
+	color: green;
+}
+
+/* react celender css */
 .react-calendar--doubleView {
 	width: 700px;
 }
