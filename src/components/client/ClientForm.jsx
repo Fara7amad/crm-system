@@ -84,7 +84,7 @@ function ClientForm({ initialValue, modify }) {
 								onChange={onChange}
 								required
 								// value={client.firstName}
-								pattern="^[A-Za-z\s]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
 								defaultValue={client.firstName}
 								disabled={!modify}
 							/>
@@ -107,7 +107,7 @@ function ClientForm({ initialValue, modify }) {
 								name="lastName"
 								onChange={onChange}
 								// value={client.lastName}
-								pattern="^[A-Za-z\s]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
 								defaultValue={client.lastName}
 								disabled={!modify}
 							/>
@@ -156,7 +156,7 @@ function ClientForm({ initialValue, modify }) {
 								onChange={onChange}
 								// value={client.company}
 								required
-								pattern="^[A-Za-z\s]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
 								defaultValue={client.company}
 								disabled={!modify}
 							/>
@@ -181,7 +181,7 @@ function ClientForm({ initialValue, modify }) {
 								name="country"
 								onChange={onChange}
 								// value={client.county}
-								pattern="^[A-Za-z\s]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
 								defaultValue={client.county}
 								disabled={!modify}
 							/>
@@ -232,7 +232,7 @@ function ClientForm({ initialValue, modify }) {
 								onChange={onChange}
 								// value={client.city}
 								minLength={3}
-								pattern="^[A-Za-z\s]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
 								defaultValue={client.city}
 								disabled={!modify}
 							/>
@@ -255,7 +255,7 @@ function ClientForm({ initialValue, modify }) {
 								name="address"
 								onChange={onChange}
 								// value={client.address}
-								pattern="^[A-Za-z\s0-9]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z\s0-9]{3,}$"
 								defaultValue={client.address}
 								disabled={!modify}
 							/>
