@@ -84,7 +84,7 @@ function ClientForm({ initialValue, modify }) {
 								onChange={onChange}
 								required
 								// value={client.firstName}
-								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]"
 								defaultValue={client.firstName}
 								disabled={!modify}
 							/>
@@ -107,7 +107,7 @@ function ClientForm({ initialValue, modify }) {
 								name="lastName"
 								onChange={onChange}
 								// value={client.lastName}
-								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]"
 								defaultValue={client.lastName}
 								disabled={!modify}
 							/>
@@ -156,7 +156,7 @@ function ClientForm({ initialValue, modify }) {
 								onChange={onChange}
 								// value={client.company}
 								required
-								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]"
 								defaultValue={client.company}
 								disabled={!modify}
 							/>
@@ -181,7 +181,7 @@ function ClientForm({ initialValue, modify }) {
 								name="country"
 								onChange={onChange}
 								// value={client.county}
-								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]"
 								defaultValue={client.county}
 								disabled={!modify}
 							/>
@@ -232,7 +232,7 @@ function ClientForm({ initialValue, modify }) {
 								onChange={onChange}
 								// value={client.city}
 								minLength={3}
-								pattern="^([a-zA-Z]+\s)*[a-zA-Z]{3,}$"
+								pattern="^([a-zA-Z]+\s)*[a-zA-Z]"
 								defaultValue={client.city}
 								disabled={!modify}
 							/>
@@ -255,7 +255,7 @@ function ClientForm({ initialValue, modify }) {
 								name="address"
 								onChange={onChange}
 								// value={client.address}
-								pattern="^([a-zA-Z]+\s)*[a-zA-Z\s0-9]{3,}$"
+								pattern="^[A-Za-z0-9 _]*[A-Za-z0-9][A-Za-z0-9 _]*$"
 								defaultValue={client.address}
 								disabled={!modify}
 							/>
@@ -300,7 +300,6 @@ function ClientForm({ initialValue, modify }) {
 							<Form.Control
 								type="text"
 								placeholder="Phone2"
-								required
 								name="phone2"
 								onChange={onChange}
 								// value={client.phone}
