@@ -1,21 +1,12 @@
-// ./components/PieChart.js
 import React from "react";
-import Chart from "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
 
 const data = {
-    labels: [
-      'Leads',
-      'Customers',
-      
-    ],
+    labels: [ 'Leads', 'Customers', ],
     datasets: [{
       label: 'Clients',
       data: [30, 70],
-      backgroundColor: [
-        'rgb(255, 99, 132)',
-        'rgb(182, 99, 255)',
-      ],
+      backgroundColor: [ "black",  "#25396f"  ],
       hoverOffset: 2
     }]
   };
