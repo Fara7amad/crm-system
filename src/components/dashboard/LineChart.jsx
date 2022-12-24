@@ -9,14 +9,14 @@ const data = {
   datasets: [
     {
       label: "Profits in thousands",
-      backgroundColor: "rgb(255, 99, 132)",
-      borderColor: "rgb(255, 99, 132)",
+      backgroundColor: "black",
+      borderColor: "black",
       data: [4,11,27],
     },
     {
-        label: "Expensess in thousands",
-      backgroundColor: "rgb(182, 99, 255)",
-      borderColor: "rgb(182, 99, 255)",
+      label: "Expensess in thousands",
+      backgroundColor: "#25396f",
+      borderColor: "#25396f",
       data: [3.5,3,7],
     }
   ],

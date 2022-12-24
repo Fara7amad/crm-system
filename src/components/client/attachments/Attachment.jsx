@@ -9,8 +9,12 @@ import { useState } from "react";
 import MagicSelect from "@components/ui/MagicSelect";
 import useLocalStorage from "@hooks/useLocalStorage";
 import { formatDate } from "@utils/helpers";
-
 import { faFileAlt, faTrash } from "@fortawesome/free-solid-svg-icons";
+
+import Datalist from "./Datalist"
+import {get_delete} from "./Datalist"
+import {delete_list} from "./Datalist"
+
 
 const Attachment = () => {
 	const [title, setTitle] = useState("");
@@ -66,7 +70,12 @@ const Attachment = () => {
 						<Button
 							variant="outline-secondary"
 							id="button-addon2"
-							onClick={addAttachment}
+							
+							onClick= {  () =>{
+								addAttachment()
+								Datalist(status,title, new Date())
+							  }}
+
 						>
 							Add
 						</Button>
@@ -109,7 +118,11 @@ const Attachment = () => {
 							<div>
 								<FontAwesomeIcon
 									icon={faTrash}
-									onClick={() => deleteAttachment(attachment.id)}
+									onClick={() =>{
+										deleteAttachment(attachment.id)
+										get_delete(attachment.title)
+										delete_list()
+									  }}
 									size="md"
 									className="cursor-pointer"
 								/>
@@ -118,6 +131,7 @@ const Attachment = () => {
 					))}
 				</div>
 			</div>
+			<Datalist/>
 		</>
 	);
 };

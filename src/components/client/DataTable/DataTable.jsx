@@ -14,6 +14,7 @@ import Stack from "react-bootstrap/Stack";
 import Form from "react-bootstrap/Form";
 import FiltersForm from "@components/client/clientFilter/FiltersForm";
 import Dropdown from 'react-bootstrap/Dropdown'
+import { get_index } from "../attachments/Datalist";
 
 const DataTable = () => {
 	const clients = useClient();
@@ -148,6 +149,7 @@ const DataTable = () => {
 									className="details-button me-1"
 									as={Link}
 									to={`/details/${client.id}`}
+									onClick= { ()=> {get_index(client.id)}}
 								>
 									Details
 								</Button>
