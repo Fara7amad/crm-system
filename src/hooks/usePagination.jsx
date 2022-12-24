@@ -17,9 +17,9 @@ function usePagination(data, itemsPerPage) {
 	};
 
 	const numberOfItemsInEachPage = () => {
-		return `Showing ${itemOffset + 1} to ${itemOffset + currentItems.length} of ${
-			data.length
-		} entries`;
+		return `Showing ${itemOffset + 1} to ${
+			itemOffset + currentItems.length
+		} of ${data.length} Entries`;
 	};
 
 	return {

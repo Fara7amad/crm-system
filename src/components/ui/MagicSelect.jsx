@@ -47,7 +47,7 @@ const ListOption = ({ option, setList, onSelect, selected }) => {
 	let content;
 	if (editView) {
 		content = (
-			<Form onSubmit={handleUpdate} className="mt-1">
+			<Form onSubmit={handleUpdate} className="mt-1 p-2">
 				<InputGroup>
 					<Form.Control
 						value={optionInput}
@@ -69,16 +69,18 @@ const ListOption = ({ option, setList, onSelect, selected }) => {
 				direction="horizontal"
 				className={[
 					styles.option,
-					"justify-content-between align-items-center border-bottom cursor-pointer p-2",
+					"align-items-stretch border-bottom cursor-pointer p-2",
 					isSelected && styles.selected,
 				]}
 			>
-				<h5
-					className="m-0 text-capitalize flex-grow-1 fs-6"
+				<button
+					className={[
+						"d-flex align-items-center m-0 text-capitalize flex-grow-1 fs-6 bg-transparent border-0",
+					].join(" ")}
 					onClick={() => onSelect(optionInput)}
 				>
-					{option}
-				</h5>
+					{option.split("-").join(" ")}
+				</button>
 
 				{option != "none" && (
 					<Stack direction="horizontal">
@@ -110,7 +112,7 @@ const AddOptionForm = ({ setList }) => {
 		e.preventDefault();
 
 		setList((prev) =>
-			prev.find((item) => item == option.toLowerCase())
+			prev.find((item) => item === option.toLowerCase())
 				? prev
 				: [...prev, option.toLowerCase()]
 		);
@@ -140,7 +142,14 @@ const AddOptionForm = ({ setList }) => {
 	);
 };
 
-function MagicSelect({ options, setList, selected, setSelected }) {
+function MagicSelect({
+	options,
+	setList,
+	selected,
+	setSelected,
+	disabled = false,
+	iconOnRight = false,
+}) {
 	const [show, setShow] = useState(false);
 
 	const handleSelect = (value) => {
@@ -150,70 +159,66 @@ function MagicSelect({ options, setList, selected, setSelected }) {
 	};
 
 	const handleReset = () => {
-		setSelected(initial);
+		setSelected("");
 	};
 
 	return (
-		<>
-			<OverlayTrigger
-				show={show}
-				onToggle={(nextShow) => setShow(nextShow)}
-				trigger="click"
-				placement="bottom-start"
-				flip
-				rootClose
-				overlay={(props) => (
-					<Card className={["shadow", styles["list-card"]]} {...props}>
-						{options.map((option) => (
-							<ListOption
-								key={option}
-								option={option}
-								setList={setList}
-								onSelect={handleSelect}
-								selected={selected}
-							/>
-						))}
-						<Card.Body className="">
-							<AddOptionForm setList={setList} />
-						</Card.Body>
-					</Card>
-				)}
-			>
-				{({ ref }) => (
-					<InputGroup ref={ref}>
-						<div
-							className={[
-								"flex-grow-1 border p-1 cursor-pointer text-capitalize",
-								styles["option-label"],
-							]}
-							onClick={() => setShow(true)}
-						>
-							{selected ? selected : "No Select"}
-						</div>
+		<OverlayTrigger
+			show={show}
+			onToggle={(nextShow) => setShow(nextShow)}
+			trigger="click"
+			placement="bottom-start"
+			flip
+			rootClose
+			overlay={(props) => (
+				<Card className={["shadow", styles["list-card"]]} {...props}>
+					{options.map((option) => (
+						<ListOption
+							key={option}
+							option={option}
+							setList={setList}
+							onSelect={handleSelect}
+							selected={selected}
+						/>
+					))}
 
-						<Button variant="outline-primary" size="sm" onClick={handleReset}>
-							<FontAwesomeIcon icon={faRefresh} />
-						</Button>
-					</InputGroup>
-				)}
-			</OverlayTrigger>
-		</>
+					<Card.Body className="">
+						<AddOptionForm setList={setList} />
+					</Card.Body>
+				</Card>
+			)}
+		>
+			{({ ref }) => (
+				<Stack direction="horizontal" className="align-items-stretch" ref={ref}>
+					<Button
+						className={[
+							"rounded-0 d-flex align-items-center",
+							iconOnRight ? "rounded-end order-2" : "rounded-start",
+						]}
+						variant="secondary"
+						size="sm"
+						onClick={handleReset}
+						disabled={disabled}
+					>
+						<FontAwesomeIcon icon={faRefresh} fontSize={13} />
+					</Button>
+
+					<Button
+						onClick={() => setShow(true)}
+						disabled={disabled}
+						variant="default"
+						className={[
+							"d-flex flex-grow-1 align-items-center  p-1 m-0 text-capitalize rounded-0",
+							iconOnRight ? "rounded-start" : "rounded-end",
+							styles.toggle,
+						].join(" ")}
+					>
+						{selected ? selected : "No Select"}
+					</Button>
+				</Stack>
+			)}
+		</OverlayTrigger>
 	);
 }
 
 export default MagicSelect;
-
-{
-	/* <FormSelect
-	value={selected}
-	onChange={handleSelect}
-	className="text-capitalize"
->
-	<option value="">Select an option</option>
-	{options.map((option) => (
-		<option key={option} value={option}>
-			{option}
-		</option>
-	))}
-</FormSelect>; */
-}

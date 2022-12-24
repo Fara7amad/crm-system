@@ -4,19 +4,36 @@
 	overflow: hidden;
 }
 
-.option-label {
-	min-width: 200px;
+.menu {
+	min-width: 400px;
+}
+
+.toggle {
+	background-color: #fff;
+	border-color: #ced4da !important;
+}
+.toggle:hover {
+	background-color: #fff;
+}
+
+.toggle.disabled {
+	background-color: #e9ecef;
+	opacity: 1;
+	cursor: default;
 }
 
 .option {
 	height: 100%;
 	transition: all 250ms;
+	outline: none;
 }
-
 .option.selected {
 	background-color: #f7f7f7;
 }
-
 .option:hover {
 	background-color: #f7f7f7;
+}
+.option > button:focus {
+	outline: none;
+	background-color: #f7f7f7 !important;
 }

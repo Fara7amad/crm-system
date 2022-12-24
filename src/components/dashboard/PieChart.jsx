@@ -6,7 +6,14 @@ const data = {
     datasets: [{
       label: 'Clients',
       data: [30, 70],
+<<<<<<< HEAD
+      backgroundColor: [
+       "#25396f",
+        "black",
+      ],
+=======
       backgroundColor: [ "black",  "#25396f"  ],
+>>>>>>> a5eab28cbae1dad0919bfc7cda8c9ed29d8651ca
       hoverOffset: 2
     }]
   };

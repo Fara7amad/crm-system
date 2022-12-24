@@ -13,9 +13,13 @@ import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
 import Form from "react-bootstrap/Form";
 import FiltersForm from "@components/client/clientFilter/FiltersForm";
+<<<<<<< HEAD
+import Dropdown from "react-bootstrap/Dropdown";
+=======
 import Dropdown from 'react-bootstrap/Dropdown'
 import { get_index } from "../attachments/Datalist";
 import confirmationMessage from "../Delete/delete"
+>>>>>>> a5eab28cbae1dad0919bfc7cda8c9ed29d8651ca
 
 const DataTable = () => {
 	const clients = useClient();
@@ -51,10 +55,13 @@ const DataTable = () => {
 		setFilteredList(clients);
 	}, [clients]);
 
-	const { handlePageClick, currentItems, pageCount, numberOfItemsInEachPage, classes } = usePagination(
-		filteredList,
-		rowsPerPage
-	);
+	const {
+		handlePageClick,
+		currentItems,
+		pageCount,
+		numberOfItemsInEachPage,
+		classes,
+	} = usePagination(filteredList, rowsPerPage);
 
 	const getDataFilterList = (filterL) => {
 		setFilteredList(filterL);
@@ -64,10 +71,13 @@ const DataTable = () => {
 		setFilteredList(clients);
 	}, [rowsPerPage]);
 
-
 	const handleRowsPerPage = (e) => {
 		setRowsPerPage(parseInt(e.target.innerText));
+<<<<<<< HEAD
+	};
+=======
 	}
+>>>>>>> a5eab28cbae1dad0919bfc7cda8c9ed29d8651ca
 
 	const toggleClient = (id) => {
 		if (arrayOfID.includes(id)) {
@@ -82,6 +92,9 @@ const DataTable = () => {
 			{confirmationMessage(index_, countOfDelete,arrayOfID)}
       		<confirmationMessage />
 			<Stack direction="horizontal" gap={2}>
+<<<<<<< HEAD
+				<Form.Control type="text" placeholder="Search" />
+=======
 			<Form.Control
 				type="text"
 				id="search-bar"
@@ -90,6 +103,7 @@ const DataTable = () => {
 				value={search}
 				onChange={searchData}
 			/>
+>>>>>>> a5eab28cbae1dad0919bfc7cda8c9ed29d8651ca
 				<div className="d-flex align-items-center gap-2 datatable-button-holder">
 				<button
 					type="button"
@@ -116,14 +130,28 @@ const DataTable = () => {
 							<Dropdown.Item onClick={handleRowsPerPage}>20</Dropdown.Item>
 						</Dropdown.Menu>
 					</Dropdown>
+<<<<<<< HEAD
+					<FiltersForm
+						setFilterList={getDataFilterList}
+						filteredList={filteredList}
+					/>
+					<ClientForm />
+=======
 					<FiltersForm setFilterList={getDataFilterList} filteredList={filteredList} />
 					<ClientAdd/>
+>>>>>>> a5eab28cbae1dad0919bfc7cda8c9ed29d8651ca
 				</div>
 			</Stack>
 
 			<Table className="mt-2" data={currentItems} hover autoHeight bordered>
 				<Column width={40}>
 					<HeaderCell>
+<<<<<<< HEAD
+						<Form.Check unchecked />
+					</HeaderCell>
+					<Cell>
+						<Form.Check unchecked />
+=======
 					<Form.Check
 						checked={arrayOfID.length === currentItems.length}
 
@@ -150,10 +178,13 @@ const DataTable = () => {
 							/>
 						);
 					}}
+>>>>>>> a5eab28cbae1dad0919bfc7cda8c9ed29d8651ca
 					</Cell>
 				</Column>
 				<Column width={60}>
-					<HeaderCell flexGrow={1} className="fw-bold">ID</HeaderCell>
+					<HeaderCell flexGrow={1} className="fw-bold">
+						ID
+					</HeaderCell>
 					<Cell
 						dataKey="id"
 						renderCell={(id) =>
@@ -175,15 +206,29 @@ const DataTable = () => {
 				</Column>
 				<Column flexGrow={1} width={150}>
 					<HeaderCell className="fw-bold">Status</HeaderCell>
-					<Cell dataKey="status" className="text-capitalize" 
+					<Cell
+						dataKey="status"
+						className="text-capitalize"
 						renderCell={(status) => (
-							<span className={`badge bg-${status === "hot-lead" ? "warning text-dark" : status === "cold-lead" ? "info" : status === "interested" ? "success" : status === 'contacted' ? "primary" : "danger"}`}>
+							<span
+								className={`badge bg-${
+									status === "hot-lead"
+										? "warning text-dark"
+										: status === "cold-lead"
+										? "info"
+										: status === "interested"
+										? "success"
+										: status === "contacted"
+										? "primary"
+										: "danger"
+								}`}
+							>
 								{status}
 							</span>
 						)}
 					/>
 				</Column>
-				<Column flexGrow={1}  width={100}>
+				<Column flexGrow={1} width={100}>
 					<HeaderCell className="fw-bold">Type</HeaderCell>
 					<Cell dataKey="type" />
 				</Column>
@@ -203,6 +248,9 @@ const DataTable = () => {
 									Details
 								</Button>
 
+<<<<<<< HEAD
+								<Button variant="danger" size="sm">
+=======
 								<Button
 								onClick={() => setindex(filteredList.indexOf(client))}
 								variant="danger"
@@ -211,25 +259,25 @@ const DataTable = () => {
 								data-bs-toggle="modal"
 								data-bs-target="#staticBackdrop"
 								>
+>>>>>>> a5eab28cbae1dad0919bfc7cda8c9ed29d8651ca
 									Delete
 								</Button>
 							</div>
 						)}
 					</Cell>
 				</Column>
-			</Table> 
-				
-			<div className="d-flex justify-content-end mt-1">
+			</Table>
+
+			<div className="d-flex fw-semibold justify-content-end mt-1">
 				{numberOfItemsInEachPage()}
 			</div>
 
 			<ReactPaginate
-					onPageChange={handlePageClick}
-					pageRangeDisplayed={5}
-					pageCount={pageCount}
-					{...classes}
-				/>
-
+				onPageChange={handlePageClick}
+				pageRangeDisplayed={5}
+				pageCount={pageCount}
+				{...classes}
+			/>
 		</>
 	);
 };
