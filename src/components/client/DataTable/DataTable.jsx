@@ -15,16 +15,23 @@ import Form from "react-bootstrap/Form";
 import FiltersForm from "@components/client/clientFilter/FiltersForm";
 import Dropdown from 'react-bootstrap/Dropdown'
 import { get_index } from "../attachments/Datalist";
+import confirmationMessage from "../Delete/delete"
 
 const DataTable = () => {
 	const clients = useClient();
 	const [filteredList, setFilteredList] = useState(clients);
 	const [rowsPerPage, setRowsPerPage] = useState(10);
 
+	const [arrayOfID,setarrayOfID] = useState([]);
+	const [countOfDelete, setcountOfDelete] = useState("one client");
+	const [index_, setindex] = useState(0);
+	  
+
 	//---------------------------Searching-------------------------------------
 
 	useEffect(() => {
-	setFilteredList(clients);
+		setFilteredList(clients);
+		setarrayOfID([]);
 	}, [clients]);
 
 	const [search, setSearch] = useState("");
@@ -61,8 +68,18 @@ const DataTable = () => {
 		setRowsPerPage(parseInt(e.target.innerText));
 	}
 
+	const toggleClient = (id) => {
+		if (arrayOfID.includes(id)) {
+			setarrayOfID((prev) => prev.filter((clientId) => clientId != id));
+		} else {
+			setarrayOfID((prev) => [...prev, id]);
+		}
+	};
+
 	return (
 		<>
+			{confirmationMessage(index_, countOfDelete,arrayOfID)}
+      		<confirmationMessage />
 			<Stack direction="horizontal" gap={2}>
 			<Form.Control
 				type="text"
@@ -73,6 +90,19 @@ const DataTable = () => {
 				onChange={searchData}
 			/>
 				<div className="d-flex align-items-center gap-2 datatable-button-holder">
+				<button
+					type="button"
+					class="btn btn-danger"
+					style={{ display: arrayOfID.length > 0 ? "inline" : "none" }}
+					data-bs-toggle="modal"
+					data-bs-target="#staticBackdrop2"
+					onClick={() => {
+					if (arrayOfID.length == 1) setcountOfDelete("one client");
+					else setcountOfDelete(arrayOfID.length + " clients");
+					}}
+				>
+					Delete All
+				</button>
 					<Dropdown>
 						<Dropdown.Toggle variant="primary" id="dropdown-basic">
 							{rowsPerPage}
@@ -93,14 +123,32 @@ const DataTable = () => {
 			<Table className="mt-2" data={currentItems} hover autoHeight bordered>
 				<Column width={40}>
 					<HeaderCell>
-						<Form.Check
-							unchecked
-						/>
+					<Form.Check
+						checked={arrayOfID.length === currentItems.length}
+
+              			onChange={() => {
+							currentItems.forEach((client) => toggleClient(client.id))
+              			}}
+            		/>{" "}
 					</HeaderCell>
 					<Cell>
-						<Form.Check
-							unchecked
-						/>
+					{(client) => {
+						return (
+							<Form.Check
+							checked={arrayOfID.includes(client.id)}
+
+							onChange={() => {
+								if (arrayOfID.includes(client.id)) {
+									setarrayOfID((prev) => prev.filter((clientId) => clientId != client.id));
+								} else {
+									setarrayOfID((prev) => [...prev, client.id]);
+								}
+						
+								
+							}}
+							/>
+						);
+					}}
 					</Cell>
 				</Column>
 				<Column width={60}>
@@ -155,9 +203,12 @@ const DataTable = () => {
 								</Button>
 
 								<Button
-									variant="danger"
-									size="sm"
-
+								onClick={() => setindex(filteredList.indexOf(client))}
+								variant="danger"
+								size="sm"
+								style={{ display: arrayOfID.length > 0 ? "none" : "inline" }}
+								data-bs-toggle="modal"
+								data-bs-target="#staticBackdrop"
 								>
 									Delete
 								</Button>
