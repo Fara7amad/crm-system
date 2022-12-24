@@ -6,7 +6,7 @@ import ReactPaginate from "react-paginate";
 import { Cell, HeaderCell, Table, Column } from "rsuite-table";
 
 import { useClient } from "@contexts/ClientsContext";
-import ClientForm from "../ClientForm";
+import ClientAdd from './ClientAdd'
 import usePagination from "@hooks/usePagination";
 import { formatDate } from "@utils/helpers";
 import Button from "react-bootstrap/Button";
@@ -63,7 +63,7 @@ const DataTable = () => {
 						</Dropdown.Menu>
 					</Dropdown>
 					<FiltersForm setFilterList={getDataFilterList} filteredList={filteredList} />
-					<ClientForm />
+					<ClientAdd/>
 				</div>
 			</Stack>
 
