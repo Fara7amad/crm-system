@@ -12,6 +12,8 @@ function Reports() {
 	const [filteredList, setFilteredList] = useState(clients);
 	const [sortType, setSortType] = useState("asc");
 
+	console.log(clients);
+
 	const { handlePageClick, currentItems, pageCount, classes } = usePagination(
 		filteredList,
 		15

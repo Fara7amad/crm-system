@@ -1,17 +1,16 @@
 import { useState } from "react";
 import { useClient } from "@contexts/ClientsContext";
-import "./ReportFiltering.css";
-import Stack from "react-bootstrap/Stack";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Form from "react-bootstrap/Form";
 import { DEFAULT_CLIENT_STATUSES } from "@data/client";
 import useLocalStorage from "@hooks/useLocalStorage";
-import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
-import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import TextField from "@mui/material/TextField";
+import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import Row from "react-bootstrap/Row";
+import Stack from "react-bootstrap/Stack";
 
 const ReportFiltering = ({ setFilteredList, filteredList }) => {
 	const clients = useClient();

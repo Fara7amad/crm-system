@@ -19,14 +19,14 @@ const Attachment = () => {
 	const [statuses, setStatuses] = useLocalStorage(
 		"attachment-statuses", //key in local storage
 		[
-			"Rejected",
-			"Accepted",
-			"Negotiation",
-			"Pending",
-			"Sent",
-			"Not Sent",
-			"Approved",
-		] //
+			"rejected",
+			"accepted",
+			"negotiation",
+			"pending",
+			"sent",
+			"not-sent",
+			"approved",
+		]
 	);
 
 	const [status, setStatus] = useState(statuses[0]);
