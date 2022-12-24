@@ -24,7 +24,7 @@ const menuItem = [
   },
   {
     path: "/reports",
-    name: "Analytics",
+    name: "Reports",
     icon: <FontAwesomeIcon icon={faChartArea} />,
   },
   {
