@@ -20,6 +20,24 @@ const DataTable = () => {
 	const [filteredList, setFilteredList] = useState(clients);
 	const [rowsPerPage, setRowsPerPage] = useState(10);
 
+	//---------------------------Searching-------------------------------------
+
+	useEffect(() => {
+	setFilteredList(clients);
+	}, [clients]);
+
+	const [search, setSearch] = useState("");
+	const searchData = (e) => {
+		setFilteredList(
+			clients.filter((user) =>
+			user.company.toLowerCase().includes(e.target.value.trim().toLowerCase())
+			)
+		);
+
+		setSearch(e.target.value);
+	};
+	//----------------------------------------------------------------
+
 	useEffect(() => {
 		setFilteredList(clients);
 	}, [clients]);
@@ -45,10 +63,14 @@ const DataTable = () => {
 	return (
 		<>
 			<Stack direction="horizontal" gap={2}>
-				<Form.Control
-					type="text"
-					placeholder="Search"
-				/>
+			<Form.Control
+				type="text"
+				id="search-bar"
+				placeholder="Search"
+				className="search-bar"
+				value={search}
+				onChange={searchData}
+			/>
 				<div className="d-flex align-items-center gap-2 datatable-button-holder">
 					<Dropdown>
 						<Dropdown.Toggle variant="primary" id="dropdown-basic">
