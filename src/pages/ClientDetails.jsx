@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 import Comments from "@components/client/comments/Comments";
 import Attachment from "@components/client/attachments/Attachment";
-import Update from "@components/client/update/Update";
-import "@components/client/update/Update.css";
+import Update from '@components/client/update/Update'
+import '@components/client/update/Update.css'
 import ClientInfo from "@components/client/clientProfile/ClientInfo";
 
 const ClientDetails = () => {
@@ -33,19 +33,10 @@ const ClientDetails = () => {
 
 				<Col xs={12} xxl={4}>
 					<div className="updates-holder">
-						<Update
-							head="Note"
-							desc="Remember to checkout the leads and customers."
-						/>
-						<Update head="Payment" desc="Remember to remove the 5% discount." />
-						<Update
-							head="Payment"
-							desc="Remember to contact the marketing team for the 20% discount."
-						/>
-						<Update
-							head="Note"
-							desc="Remember to checkout the comment section."
-						/>
+						<Update head="Note" desc="Remember to checkout the leads and customers."/>
+						<Update head="Payment" desc="Remember to remove the 5% discount."/>
+						<Update head="Payment" desc="Remember to contact the marketing team for the 20% discount."/>
+						<Update head="Note" desc="Remember to checkout the comment section."/>
 					</div>
 					<Comments />
 				</Col>
